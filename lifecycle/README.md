@@ -37,17 +37,17 @@ These stages are simply used for helping organising and presenting the process, 
 
 - **Tools**
 
-#### Communication Level 4
+#### Communication - Level 4
 
 - **Guidelines**
 - **Tools**
 
-#### Communication Level 5
+#### Communication - Level 5
 
 - **Guidelines**
 - **Tools**
 
-#### Communication Level 6
+#### Communication - Level 6
 
 - **Guidelines**
 - **Tools**
@@ -58,17 +58,17 @@ These stages are simply used for helping organising and presenting the process, 
 
 - **Tools**
 
-#### Planning Level 4
+#### Planning - Level 4
 
 - **Guidelines**
 - **Tools**
 
-#### Planning Level 5
+#### Planning - Level 5
 
 - **Guidelines**
 - **Tools**
 
-#### Planning Level 6
+#### Planning - Level 6
 
 - **Guidelines**
 - **Tools**
@@ -100,17 +100,17 @@ These stages are simply used for helping organising and presenting the process, 
 
 - **Tools**
 
-#### Analysis Level 4
+#### Analysis - Level 4
 
 - **Guidelines**
 - **Tools**
 
-#### Analysis Level 5
+#### Analysis - Level 5
 
 - **Guidelines**
 - **Tools**
 
-#### Analysis Level 6
+#### Analysis - Level 6
 
 - **Guidelines**
 - **Tools**
@@ -134,17 +134,17 @@ These stages are simply used for helping organising and presenting the process, 
 
 - **Tools**
 
-#### Design Level 4
+#### Design - Level 4
 
 - **Guidelines**
 - **Tools**
 
-#### Design Level 5
+#### Design - Level 5
 
 - **Guidelines**
 - **Tools**
 
-#### Design Level 6
+#### Design - Level 6
 
 - **Guidelines**
 - **Tools**
@@ -175,17 +175,17 @@ These stages are simply used for helping organising and presenting the process, 
 
 - **Tools**
 
-#### Code Level 4
+#### Code - Level 4
 
 - **Guidelines**
 - **Tools**
 
-#### Code Level 5
+#### Code - Level 5
 
 - **Guidelines**
 - **Tools**
 
-#### Code Level 6
+#### Code - Level 6
 
 - **Guidelines**
 - **Tools**
@@ -204,17 +204,17 @@ These stages are simply used for helping organising and presenting the process, 
 
 - **Tools**
 
-#### Testing Level 4
+#### Testing - Level 4
 
 - **Guidelines**
 - **Tools**
 
-#### Testing Level 5
+#### Testing - Level 5
 
 - **Guidelines**
 - **Tools**
 
-#### Testing Level 6
+#### Testing - Level 6
 
 - **Guidelines**
 - **Tools**
@@ -244,17 +244,17 @@ These stages are simply used for helping organising and presenting the process, 
 
 - **Tools**
 
-#### Delivery Level 4
+#### Delivery - Level 4
 
 - **Guidelines**
 - **Tools**
 
-#### Delivery Level 5
+#### Delivery - Level 5
 
 - **Guidelines**
 - **Tools**
 
-#### Delivery Level 6
+#### Delivery - Level 6
 
 - **Guidelines**
 - **Tools**
