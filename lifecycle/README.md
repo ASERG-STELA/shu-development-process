@@ -54,7 +54,7 @@ These stages are simply used for helping organising and presenting the process, 
 
 ### Planning
 
-- **Guidelines**
+- [**Guidelines**](planning/README.md)
 
 - **Tools**
 
