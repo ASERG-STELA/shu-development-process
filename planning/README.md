@@ -26,14 +26,15 @@ These are some points to be considered as a general guidance when planning your 
   - Version control
   - IDE and frameworks
   - Testing
-- Team roles
+- Team roles: In a group, determine who will play each role
   - Project Manager
   - Leading on Design
   - Overseeing coding
   - Leading Testing
   - Talking to the client
   - any other role
-- Resource Management
+- Feature points
+- Resource Management: What do you need to conduct the project? What do you already have?
   - Hardware
   - Software
   - Expertise
@@ -52,27 +53,6 @@ When planning your work you should try to adopt SMART planning:
 - **A**: Achievable
 - **R**: Realistic/Relevant
 - **T**: Time-related
-
-
-
-- In a group, determine who will play each role
-  - Project Manager  
-  - Leading on Design  
-  - Overseeing the coding  
-  - Leading Testing  
-  - Talking to the client  
-- Planning your work
-  - Deadlines  
-  - Doing SMART planning  
-  - Feature Points  
-  - Availability of team members  
-  - Impediments/risks
-    - What are they?
-    - Prioritising
-    - Can you mitigate them?  
-- Resources
-  - What do you need?
-  - What do you have?  
 
 ## Level Specific Guidance
 
