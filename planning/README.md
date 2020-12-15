@@ -53,6 +53,27 @@ When planning your work you should try to adopt SMART planning:
 - **R**: Realistic/Relevant
 - **T**: Time-related
 
+
+
+- In a group, determine who will play each role
+  - Project Manager  
+  - Leading on Design  
+  - Overseeing the coding  
+  - Leading Testing  
+  - Talking to the client  
+- Planning your work
+  - Deadlines  
+  - Doing SMART planning  
+  - Feature Points  
+  - Availability of team members  
+  - Impediments/risks
+    - What are they?
+    - Prioritising
+    - Can you mitigate them?  
+- Resources
+  - What do you need?
+  - What do you have?  
+
 ## Level Specific Guidance
 
 ### Level 4 (TBD)

@@ -1,0 +1,14 @@
+
+- Refer back to
+  - Specification
+  - The requirements that have been identified  
+- The Solution
+  - How complete is it?  
+  - Does it work?  
+  - Is it maintainable?  
+  - Are you pleased with it?  
+  - Did you work well?  
+  - What problems did you encounter?  
+- Your team
+  - Did you work well
+  - what problems did you encounter

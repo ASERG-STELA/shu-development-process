@@ -1,0 +1,17 @@
+
+- What should you test
+- Why do you test
+- Different approaches depending on level
+  - Level 4
+    - Unit Testing
+      - Databases
+      - Code  
+    - Within the IDE
+      - IntelliJ
+        - Java
+        - Web Development
+          - PHP
+          - Node  
+      - Visual Studio
+        - C++
+        - C#

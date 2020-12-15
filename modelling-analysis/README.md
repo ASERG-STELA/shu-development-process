@@ -1,0 +1,13 @@
+
+- Reading an assignment specification  
+- Talking to a client  
+- Documenting your Understanding  
+- Sharing Ideas  
+  - Group Work  
+  - Individual Work
+- Getting Clarification
+- What is a requirement?
+  - MoSCoW
+  - Identifying them
+  - Documenting
+  - Prioritising  

@@ -1,0 +1,18 @@
+
+- Techniques
+  - Formal Diagrams
+    - Class
+    - Interaction/Sequence
+  - Wireframes
+  - Ad Hoc Drawing
+  - Mindmaps
+  - Lists  
+- Finding what works for you
+  - Capturing Ideas
+  - Communicating
+  - Revising
+  - Tracking History
+- Designing the
+  - Architecture
+  - Database
+  - User Interface (UI)  
