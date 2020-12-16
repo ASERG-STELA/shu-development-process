@@ -7,6 +7,7 @@
   - [2.3. Modelling](#23-modelling)
   - [2.4. Construction](#24-construction)
   - [2.5. Deployment](#25-deployment)
+- [Tools view](#tools-view)
 - [Development Team](#development-team)
 
 ## 1. Introduction
@@ -18,7 +19,8 @@ We also want to develop a process that simplifes the management and assessment o
 
 ## 2. The Reference Process
 
-We use the general framework from Pressman and Maxim to organise the activities, as presented in the figure below.
+In order to structure the SHU Development process we choose to follow the generic process framework described by Pressman and Maxim [REF], which comprises five methodological stages: communication, planning, modelling, construction and deployment. These main stages encompass a set of support steps: analysis and design related to modelling; code and test related to construction; and delivery, support and feedback for deployment.
+
 Each level of study has an specific set of guidelines, techniques and tools with appropriate depthness for the level.
 
 ![Reference Process](./Process.png)
@@ -70,6 +72,19 @@ We also consider evaluation, reporting and reflection as part of this last step.
 
 - [**Delivery guidelines**](deployment-delivery/README.md)
 - [**Support and feedback guidelines**](deployment-support-feedback/README.md)
+
+## Tools view
+
+- **Project Planning:** Trello, MS Project, MS Excel
+- **Communication:** Team, Slack
+- **Version Control:** Git, CVS or similar
+- **Design:** STARUML, Visio or similar
+- **Coding:** Visual Studio/ Intelli J  or similar
+- **Unit Testing:** Junit/Nunit or similar. Coverage tools
+- **Code Review:** SonarQube
+- **Integration Testing:** Azure DevOps or similar
+- **User Acceptance Testing:** Selenium
+- **Deployment/Release:** Azure DevOps or similar
 
 ## Development Team
 
