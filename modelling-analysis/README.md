@@ -2,9 +2,9 @@
 
 - [1. Introduction](#1-introduction)
 - [Level Specific Guidance](#level-specific-guidance)
-  - [Level 4 (TBD)](#level-4-tbd)
-  - [Level 5 (TBD)](#level-5-tbd)
-  - [Level 6 (TBD)](#level-6-tbd)
+  - [Level 4 ](#level-4)
+  - [Level 5 ](#level-5)
+  - [Level 6 ](#level-6)
 
 ## 1. Introduction
 
@@ -24,19 +24,22 @@ It will involve artefacts like user stories and use cases.
 
 ## Level Specific Guidance
 
-### Level 4 (TBD)
+### Level 4
 
+[Level 4 User Stories Templates](level4/guidelines.md)
 - Basic user stories identifying “the actor”, “the narrative”, and “the goal”.
 
-### Level 5 (TBD)
+### Level 5
 
+[Level 5 User Stories Templates](level5/analysis-guidelines.md)
 - User stories should include basic indications of acceptance criteria.
 - Use Case or User Story or Requirement Specification.
 - Persona and User scenario.
 - Requirements should be SMART.
 
-### Level 6 (TBD)
+### Level 6
 
+[Level 6 User Stories Template](level6/analysis-guidelines.md)
 - Well defined user stories with clear acceptance criteria, and evidence of traceability.
 - end to end traceability (Requirement Traceability Verification Matrix) need to be maintained.
 
