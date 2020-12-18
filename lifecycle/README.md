@@ -96,7 +96,7 @@ These stages are simply used for helping organising and presenting the process, 
 
 #### Analysis
 
-- **Guidelines**
+- [**Guidelines**](modelling-analysis/README.md)
 
 - **Tools**
 
