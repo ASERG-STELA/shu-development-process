@@ -59,7 +59,7 @@ A description of each phase is presented below.
 - Planning
   - Git version control
 - Modelling - Analysis
-  - [User stories](modelling-analysis/level4/guidelines.md)
+  - [User stories](modelling-analysis/level4/user-stories.md)
 - Construction - Code
   - Code commenting
   
@@ -68,7 +68,7 @@ A description of each phase is presented below.
 - Planning
   - Git version control
 - Modelling - Analysis
-  - [User stories](modelling-analysis/level5/analysis-guidelines.md)
+  - [User stories](modelling-analysis/level5/user-stories.md)
 - Modelling - Design
   - UML Class diagrams
 - Construction - Code
@@ -79,7 +79,7 @@ A description of each phase is presented below.
 - Planning
   - Git version control
 - Modelling - Analysis
-  - [User stories](modelling-analysis/level6/analysis-guidelines.md)
+  - [User stories](modelling-analysis/level6/user-stories.md)
 - Modelling - Design
   - UML Class diagrams
 - Construction - Code
