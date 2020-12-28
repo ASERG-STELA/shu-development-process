@@ -12,8 +12,9 @@ The code step concerns the implementation of the structures modeled in the desig
 
 ## Level Specific Guidance
 
-### Level 4 (TBD)
+### Level 4
 
+[Level 4 Code Commenting](level4/commenting.md)
 - Code should have basic comments.
 
 ### Level 5 (TBD)
