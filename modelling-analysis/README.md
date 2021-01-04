@@ -26,12 +26,12 @@ It will involve artefacts like user stories and use cases.
 
 ### Level 4
 
-[Level 4 User Stories Templates](level4/guidelines.md)
+[Level 4 User Stories Templates](level4/user-stories.md)
 - Basic user stories identifying “the actor”, “the narrative”, and “the goal”.
 
 ### Level 5
 
-[Level 5 User Stories Templates](level5/analysis-guidelines.md)
+[Level 5 User Stories Templates](level5/user-stories.md)
 - User stories should include basic indications of acceptance criteria.
 - Use Case or User Story or Requirement Specification.
 - Persona and User scenario.
@@ -39,7 +39,7 @@ It will involve artefacts like user stories and use cases.
 
 ### Level 6
 
-[Level 6 User Stories Template](level6/analysis-guidelines.md)
+[Level 6 User Stories Template](level6/user-stories.md)
 - Well defined user stories with clear acceptance criteria, and evidence of traceability.
 - end to end traceability (Requirement Traceability Verification Matrix) need to be maintained.
 

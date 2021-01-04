@@ -2,7 +2,7 @@
 
 - [1. Introduction](#1-introduction)
 - [Level Specific Guidance](#level-specific-guidance)
-  - [Level 4 (TBD)](#level-4-tbd)
+  - [Level 4](#level-4)
   - [Level 5 (TBD)](#level-5-tbd)
   - [Level 6 (TBD)](#level-6-tbd)
 
@@ -12,8 +12,9 @@ The code step concerns the implementation of the structures modeled in the desig
 
 ## Level Specific Guidance
 
-### Level 4 (TBD)
+### Level 4
 
+[Level 4 Code Commenting](level4/commenting.md)
 - Code should have basic comments.
 
 ### Level 5 (TBD)
