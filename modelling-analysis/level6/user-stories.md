@@ -104,6 +104,3 @@ It is the ability to connect your requirements to other artefacts, such as diffe
 
 ## 3. References
 [RubyGarage - Clear Acceptance Criteria and Why it's Important](https://rubygarage.org/blog/clear-acceptance-criteria-and-why-its-important)
-![](https://github.com/ASERG-STELA/shu-dev-process-internal/blob/main/lifecycle/modelling/level6/Level_6_UserStoryTemplate.PNG)
-
-
