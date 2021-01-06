@@ -12,15 +12,6 @@
       - [2.3.2. Persona and User Scenario](#232-persona-and-user-scenario) 
 - [3. References](#3-references)
 
-## 2.2. Requirement Traceability Matrix
-## 2.3. Use Case Diagrams
-
-
-### 2.3.1. Requirement Specification
-
-
-### 2.3.2 Persona and User Scenario
-
 ## 2. User Stories
 
 A User Story is an informal, natural language description of one or more features of a software system. We write these under the perspective of a potential end user of our system.  
