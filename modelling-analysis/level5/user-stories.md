@@ -2,10 +2,9 @@
 
 ## 1. Table of Contents
 - [2. User Stories](#2-user-stories)
-- [3. Acceptance Criteria](#3-acceptance-criteria)
->  - [3.1. ](#31-)
+- [2.1. Acceptance Criteria](#21-acceptance-criteria)
 
-- [4. References](#4-references)
+- [3. References](#3-references)
 
 
 ## 2. User Stories
@@ -21,7 +20,7 @@ Which enable us to identify "the actor", "the narrative" and "the goal".
 They are a useful tool to help us organise our understanding of the system and it's context.  
 At Level 5, basic indications of **Acceptance Criteria** are required as well.
 
-### 3. Acceptance Criteria
+### 2.1. Acceptance Criteria
 
 Aceeptance Criteria is defined as 'what the story needs to do before it can be considered satisfactory'.
 These follow the typical agile format of;
@@ -36,5 +35,5 @@ You can also write your acceptance criteria in the form of bullet points, but co
 
 ![](Level_5_UserStoryTemplate.PNG)
 
-## 4. References
+## 3. References
 [RubyGarage - Clear Acceptance Criteria and Why it's Important](https://rubygarage.org/blog/clear-acceptance-criteria-and-why-its-important)
