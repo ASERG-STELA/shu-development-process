@@ -2,8 +2,7 @@
 
 ## 1. Table of Contents
 - [2. User Stories](#2-user-stories)
-- [2.1. Acceptance Criteria](#21-acceptance-criteria)
-
+  - [2.1. Acceptance Criteria](#21-acceptance-criteria)
 - [3. References](#3-references)
 
 
