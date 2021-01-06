@@ -4,20 +4,21 @@
 
 This document will serve as a follow up to both 'Git Instructions for Level 4 Students' and 'Git Instructions for Level 5 Students' and will be the final document in the series. This document is aimed at Level 6 students, and including both other documents, provides a full set of Git instructions that you will need throughout your time at University and beyond.
 
-Included here are advanced features and strategies that you should be using during the software development lifecycle. 
-If you need a refresher on the basics or other advanced features of Git, head over to [level_4_git_instructions.md](https://github.com/ASERG-STELA/shu-dev-process-internal/blob/main/lifecycle/planning/version%20control/level_4_git_instructions.md) and [level_5_git_instructions.md](https://github.com/ASERG-STELA/shu-dev-process-internal/blob/main/lifecycle/planning/version%20control/level_5_git_instructions.md) which are both available in the planning/version control folder.
+Included here are advanced features and strategies that you should be using during the software development lifecycle.
+If you need a refresher on the basics or other advanced features of Git, head over to [level_4_git_instructions.md](level_4_git_instructions.md) and [level_5_git_instructions.md](level_5_git_instructions.md) which are both available in the planning/version control folder.
 
 ## 2. Table of Contents
 
-- [1. Abstract](#1-abstract)
-- [2. Table of Contents](#2-table-of-contents)
-- [3. Issues](#3-issues)
-- [4. Projects](#4-projects)
-- [5. Milestones](#5-milestones)
-- [6. Workflow](#6-workflow)
-- [7. Merging Strategy](#7-merging-strategy)
-- [8. DevOps Automation](#8-devops-automation)
-- [9. References](#9-references)
+- [Git Instructions for Level 6 Students](#git-instructions-for-level-6-students)
+  - [1. Abstract](#1-abstract)
+  - [2. Table of Contents](#2-table-of-contents)
+  - [3. Issues](#3-issues)
+  - [4. Projects](#4-projects)
+  - [5. Milestones](#5-milestones)
+  - [6. Workflow](#6-workflow)
+  - [7. Merging Strategy](#7-merging-strategy)
+  - [8. DevOps Automation](#8-devops-automation)
+  - [9. References](#9-references)
 
 ## 3. Issues
 
@@ -26,16 +27,16 @@ Issues are great for collaborative work. They are essentially tasks which need t
 Issues help to keep track of what needs doing in your projects, they can be used in conjunction with 'Projects' (more on this later) to create a Kanban style, Agile methodology.
 Follow the following instructions to create an Issue in your repository, assign yourself to it, and add labels:
 
-1. Go to your repository
-2. On the navigation bar, click **Issues**
-3. Click **New Issue**
-4. Fill out the fields, including the title (what the task is) and a short description in the comment section
-5. Once you are satisfied, click **Submit new issue**
-6. You should now see the Issue, scroll down to **Assignees** and assign yourself or someone else to the issue
-7. Click on **Labels** and then select one from the list or create your own using **Edit labels**
-8. If you want to create your own label, click **New label**. Fill out the fields and click **Create label**
-9. Go back to your Issue and then **Labels** and select the label you just created
-10. You can also assign this Issue to a Project by clicking **Projects** if you have already created one
+1. Go to your repository;
+2. On the navigation bar, click **Issues**;
+3. Click **New Issue**;
+4. Fill out the fields, including the title (what the task is) and a short description in the comment section;
+5. Once you are satisfied, click **Submit new issue**;
+6. You should now see the Issue, scroll down to **Assignees** and assign yourself or someone else to the issue;
+7. Click on **Labels** and then select one from the list or create your own using **Edit labels**;
+8. If you want to create your own label, click **New label**. Fill out the fields and click **Create label**;
+9. Go back to your Issue and then **Labels** and select the label you just created;
+10. You can also assign this Issue to a Project by clicking **Projects** if you have already created one.
 
 ## 4. Projects
 
@@ -55,20 +56,20 @@ Follow these instructions to create a project and add the issue you just created
 
 Milestones are used in conjunction with issues and pull requests. When you create a milestone, you can associate it with issues and pull requests to track the progress of your project. From the milestone page, you can see:
 
-* A user-provided description of the milestone, which can include a project overview, relevant teams, and projected due dates
-* The milestone's due date
-* The milestone's completion percentage
-* The number and a list of open and closed issues and pull requests associated with the milestone
+- A user-provided description of the milestone, which can include a project overview, relevant teams, and projected due dates
+- The milestone's due date
+- The milestone's completion percentage
+- The number and a list of open and closed issues and pull requests associated with the milestone
 
 Follow these instructions to create a milestone:
 
-1. Go to your repository and select **Issues**
-2. Click **Milestones** then **New milestone**
-3. Fill in the fields and select a due date
-4. Click **Create milestone** once you are satisfied
-5. Navigate back to the issue you created previously, click it
-6. Like before with labels and projects, click on **Milestone**
-7. You should see your milestone, assign the issue to it. 
+1. Go to your repository and select **Issues**;
+2. Click **Milestones** then **New milestone**;
+3. Fill in the fields and select a due date;
+4. Click **Create milestone** once you are satisfied;
+5. Navigate back to the issue you created previously, click it;
+6. Like before with labels and projects, click on **Milestone**;
+7. You should see your milestone, assign the issue to it.
 
 If you have followed all steps to this point, you should now have an issue assigned to a Label, Project and Milestone. You can assign multiple issues to a Label, Project or Milestone. You should do this everytime you create an issue to greatly improve the organisation and tracking of your project.
 
@@ -76,10 +77,10 @@ If you have followed all steps to this point, you should now have an issue assig
 
 At Level 6, you should now have some experience with Basic Flow and Gitflow. You are likely to be working on larger projects at L6. so a full Gitflow workflow should be used, with main, development and feature branching being used. The structure of your repository should look something like this:
 
-![Gitflow. By Buddy](/lifecycle/planning/version-control/images/Gitflow.PNG)
+![Gitflow. By Buddy](images/Gitflow.PNG)
 
 *Fig. 1: Structure for gitflow.*
-<span>Image by <a href="https://buddy.works/blog/5-types-of-git-workflows">Buddy</a> on <a href="https://buddy.works/blog/5-types-of-git-workflows">Buddy Works</a></span>
+<span>Image from <a href="https://buddy.works/blog/5-types-of-git-workflows">Buddy Works</a></span>
 
 This structure is based on reference [1]
 
@@ -89,7 +90,7 @@ Developers should work off the development branch, pushing code changes onto fea
 
 It is important to employ a concrete merging strategy for your development lifecycle to go along with your workflow. This will result in fewer merging mistakes such as code being removed when it shouldn't have been, code conflicts on both branches or code being merged when it shouldn't have been.  
 
-To start with, a project lead or dedicated code reviewer should be chosen from your team. This developer will be responsible for reviewing the merge requests made by other developers on the feature and development branches. They will need to make sure no code is removed that shouldn't be and any code added is appropriate and fully functional. They should first look at the code on the feature branches, check that they are ok with no errors or conflicts, then merge the changes with the development branch. 
+To start with, a project lead or dedicated code reviewer should be chosen from your team. This developer will be responsible for reviewing the merge requests made by other developers on the feature and development branches. They will need to make sure no code is removed that shouldn't be and any code added is appropriate and fully functional. They should first look at the code on the feature branches, check that they are ok with no errors or conflicts, then merge the changes with the development branch.
 
 When you are wanting to push a new release version, the code reviewer will then need to test and review the development branch thoroughly. As the main branch is always live and ready to run, any changes to it should be made with caution, after a thorough code review and testing. When the reviewer/project lead is happy, the development branch may be merged with main, making sure to add a tag to show the new release version.
 
