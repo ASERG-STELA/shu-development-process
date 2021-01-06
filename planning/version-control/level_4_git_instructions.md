@@ -11,8 +11,8 @@ For Level 4 students and for future reference for other Levels, this document wi
 - [2. Table of Contents](#2-table-of-contents)
 - [3. Creating an Account](#3-creating-an-account)
 - [4. Repositories](#4-repositories)
-- [4.1. Creating a Repository](#41-creating-a-repository)
-- [4.2. README File](#42-readme-file)
+  - [4.1. Creating a Repository](#41-creating-a-repository)
+  - [4.2. README File](#42-readme-file)
 - [5. Adding Files and Folders](#5-adding-files-and-folders)
 - [6. Editing and Committing Changes](#6-editing-and-committing-changes)
 - [7. Push and Pull](#7-push-and-pull)
@@ -108,15 +108,9 @@ Cloning is another way to retrieve your files from Github, this is done through 
 
 Building on the sections above, it is important to be able to integrate them all together in one project. To do this, you will need to follow a workflow, essentially a strategy you will adopt to work on your project. There are many different workflows you can use, although the best workflow will often be the one you and your team find the most useful, which you may find you create yourselves.
 
-For Level 4, we recommend you follow a basic flow for your projects, with two branches, **main/master** and **development**. This is shown by the following image:
+For Level 4, we recommend you follow a basic flow for your projects, using just the one branch, **Main/Master**, as you are likely to be working as an individual on most of your projects at L4. You will be introduced to branching and merging at L5 but for L4, this will suffice. You should try to use Github for all of your projects, even if it is just you working on them as they can be used to build a portfolio of work to bring to interviews after graduation or for placements.
 
-![Basic flow. By Buddy](images/Basic_flow.PNG)
-*Fig. 1: Structure for basic flow.*
-<span>Image from <a href="https://buddy.works/blog/5-types-of-git-workflows">Buddy Works</a></span>
-
-This structure is based on reference [2].
-
-This figure shows the structure of basic flow that you should follow for Level 4. Everyone should work on the development branch, with the main branch always ready to run with the most up to date version of your code. You should also use **tags** on the main branch to identify the release version; once a change from the development branch is merged with the master branch. This will ensure a simple, clean structure for your project with a clear history of your release versions. This workflow is most suitable for small projects, once you start to work on larger projects, you will need to build on this workflow (more on this at Level 5 and 6).
+The main branch should always ready to run with the most up to date version of your code, using **tags** to identify the release version. This workflow is very basic but will ensure a simple, structure for your project with a clear history of your release versions at Level 4. This workflow is most suitable for small projects, once you start to work on larger projects, you will need to build on this workflow (more on this at Level 5 and 6).
 
 ## 10. Tools
 
@@ -127,5 +121,3 @@ This step is optional. GitKraken is a free Git GUI that should be available on a
 ## 12. References
 
 [1] Hello World. Getting started with github. <https://guides.github.com/activities/hello-world/>.
-
-[2] Basic Flow. 5 types of Git workflows that will help you deliver a better code. <https://buddy.works/blog/5-types-of-git-workflows>.
