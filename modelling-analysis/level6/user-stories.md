@@ -27,11 +27,12 @@ At Level 6, Acceptance Criteria is required.
 
 ### 2.1. Acceptance Criteria
 
-![](Level_6_UserStoryTemplate.PNG)
 In the perfect world, people would understand each other at a glance and nothing could create confusion among them. But in the real world we have to come up with ways to communicate our ideas clearly so that our peers don’t misunderstand us.  
 In software development, Acceptance Criteria help to properly set a client’s expectations for a product. Criteria for an app such as “I want my app to be awesome and popular with as many people as possible” don’t really tell us much; we eliminate misunderstandings between a client and a development team by referring to clearly defined Acceptance Criteria for user stories.  
 
 When writing Acceptance Criteria, it is not only important for elciting the vision of a product from your client, but for the development process as well. It's natural that different people see the same problem from different angles. Clearly written criteria introduct a single solution to the functionality you intend to implement.  
+
+![](Level_6_UserStoryTemplate.PNG)
 
 #### 2.1.1. What are Acceptance Criteria used for?
 
