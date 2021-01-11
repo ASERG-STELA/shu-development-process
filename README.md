@@ -57,7 +57,7 @@ A description of each phase is presented below.
 ### 3.1. Level 4
 
 - Planning
-  - Git version control
+  - [Git version control](planning/version-control/level_4_git_instructions.md)
 - Modelling - Analysis
   - [User stories](modelling-analysis/level4/user-stories.md)
 - Construction - Code
@@ -66,9 +66,10 @@ A description of each phase is presented below.
 ### 3.2. Level 5
 
 - Planning
-  - Git version control
+  - [Git version control](planning/version-control/level_5_git_instructions.md)
 - Modelling - Analysis
   - [User stories](modelling-analysis/level5/user-stories.md)
+  - [MoSCoW prioritisation method](modelling-analysis/level5/moscow_prioritisation_method.md)
 - Modelling - Design
   - UML Class diagrams
 - Construction - Code
@@ -77,7 +78,7 @@ A description of each phase is presented below.
 ### 3.3. Level 6
 
 - Planning
-  - Git version control
+  - [Git version control](planning/version-control/level_6_git_instructions.md)
 - Modelling - Analysis
   - [User stories](modelling-analysis/level6/user-stories.md)
 - Modelling - Design

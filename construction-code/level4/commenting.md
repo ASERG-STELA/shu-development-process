@@ -10,7 +10,7 @@
     - [3.3. Organisational styling mention](#33-organisational-styling-mention)
   - [4. Clarification Comments](#4-clarification-comments)
   - [5. Bad practices not to follow](#5-bad-practices-not-to-follow)
-  - [4. References](#4-references)
+  - [6. References](#6-references)
 
 ## 2. Introduction
 
@@ -125,7 +125,7 @@ An example is
   
 It may seem funny at the time, or might help you vent your frustrations, but don't do this.
 
-## 4. References 
+## 6. References 
 [Elegant Themes: How to comment your code like a pro](https://www.elegantthemes.com/blog/wordpress/how-to-comment-your-code-like-a-pro-best-practices-and-good-habits)  
 [Submain: 4 reasons we need code comments](https://blog.submain.com/4-reasons-need-code-comments/)  
 [Freecodecamp: Putting comments in code: The good, the bad, and the ugly](https://www.freecodecamp.org/news/code-comments-the-good-the-bad-and-the-ugly-be9cc65fbf83/)
