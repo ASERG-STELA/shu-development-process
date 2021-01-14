@@ -17,10 +17,12 @@ The code step concerns the implementation of the structures modeled in the desig
 [Level 4 Code Commenting](level4/commenting.md)
 - Code should have basic comments.
 
-### Level 5 (TBD)
+### Level 5
 
+[Level 5 Code Commenting](level5/commenting.md)
 - Code should follow a coding standard and have basic documentation.
 
-### Level 6 (TBD)
+### Level 6
 
+[Level 6](level6/commenting.md)
 - Should follow proper coding standards. Need to be consistent with design. Code should be properly documented and should have generated documentation like API doc (e.g., swagger) or Javadoc.
