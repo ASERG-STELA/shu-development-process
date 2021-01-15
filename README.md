@@ -61,7 +61,7 @@ A description of each phase is presented below.
 - Modelling - Analysis
   - [User stories](modelling-analysis/level4/user-stories.md)
 - Construction - Code
-  - Code commenting
+  - [Code commenting](construction-code/level4/commenting.md)
   
 ### 3.2. Level 5
 
@@ -73,7 +73,7 @@ A description of each phase is presented below.
 - Modelling - Design
   - UML Class diagrams
 - Construction - Code
-  - Code commenting
+  - [Code commenting](construction-code/level5/commenting.md)
 
 ### 3.3. Level 6
 
@@ -84,7 +84,7 @@ A description of each phase is presented below.
 - Modelling - Design
   - UML Class diagrams
 - Construction - Code
-  - Code commenting
+  - [Code commenting](construction-code/level6/commenting.md)
 
 ## 4. Process-based view
 
