@@ -1,9 +1,9 @@
-# Project Management
+# Level 6 Project Management
 
 ## 1. Abstract
 
 This document will serve to provide Level 6 students with additional knowledge of project management, included in this document, will be guidelines on how to overcome and manage risks and dependencies that are likely to occur during the software development lifecycle.
-By this stage, you should have a good grasp of project management, especially using an Agile approach. for a reminder, feel free to access the Level 5 guidelines [here](project-management/level-5/level_5_management_guidelines.md).
+By this stage, you should have a good grasp of project management, especially using an Agile approach. for a reminder, feel free to access the Level 5 guidelines [here](/planning/project-management/level-5/level_5_management_guidelines.md).
 
 ## 2. Table of Contents
 
@@ -42,9 +42,9 @@ In order to manage the risks highlighted above, first, you’ve got to identify 
 
 These are based from reference [2].
 
-Communication is the best way to mitigate internal risks, such as inaccurate estimations, stakeholder expectations and scope variations. Poor code quality can also be mitigated with communication, if you identify any potential lack of experience in a particular area early, such as code commenting, then you can work on improving that area. More on team communication, on the team communication document. 
+Communication is the best way to mitigate internal risks, such as inaccurate estimations, stakeholder expectations and scope variations. Poor code quality can also be mitigated with communication, if you identify any potential lack of experience in a particular area early, such as code commenting, then you can work on improving that area. 
 
-It is important to always be aware and monitor all aspects of the project to catch any risks early, so you can then impliment the mitigating action before the risk develops even bigger. We expect you to be using a tool at this level, to track all of your projects.
+It is important to always be aware and monitor all aspects of the project to catch any risks early, so you can then impliment the mitigating action before the risk develops even bigger. We also expect you to be using a tool at this level, to track all of your projects. You can find information on what tools we recommend, along with some walkthrough examples [here](/planning/project-management/tools/project_management_tools.md).
 
 ## 4. Dependencies
 
