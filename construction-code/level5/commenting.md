@@ -83,7 +83,4 @@ The example image below shows the Checkstyle scan that is used for Java projects
 
 
 ## 4. References 
-[Elegant Themes: How to comment your code like a pro](https://www.elegantthemes.com/blog/wordpress/how-to-comment-your-code-like-a-pro-best-practices-and-good-habits)  
-[Submain: 4 reasons we need code comments](https://blog.submain.com/4-reasons-need-code-comments/)  
-[Freecodecamp: Putting comments in code: The good, the bad, and the ugly](https://www.freecodecamp.org/news/code-comments-the-good-the-bad-and-the-ugly-be9cc65fbf83/)  
 [Codeahoy: Effective Coding Standards](https://codeahoy.com/2016/05/22/effective-coding-standards/#:~:text=Coding%20standards%20are%20a%20set,big%20software%20companies%20have%20them.)
