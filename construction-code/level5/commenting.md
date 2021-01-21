@@ -4,8 +4,8 @@
 - [2. Introduction](#2-introduction)
 - [3. Coding Standards](#3-coding-standards)
   - [3.1. Effective Coding Standards](#31-effective-coding-standards)
-    - [3.1.1. Coding Standards based on Language](#311-coding-standards-based-on-language)
-  - [3.2. Automate the Process](#32-automate-the-process)
+  - [3.2. Coding Standards based on Language](#32-coding-standards-based-on-language)
+  - [3.3. Automate the Process](#33-automate-the-process)
 - [4. References](#4-references)
 
 ## 2. Introduction
