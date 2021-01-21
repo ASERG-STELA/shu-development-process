@@ -37,9 +37,9 @@ At this level, we expect you to use one of the following tools (preferably one o
 * Download/link: https://slack.com/intl/en-gb/
 * How to use: https://slack.com/intl/en-gb/resources/using-slack/how-to-use-slack
 
-It is also expected that you follow the Scrum framework (or something similar) and use it in conjunction with Kanban project managament. As a reminder, here is a diagram of the Scrum framework for you to follow. The framework is highlighted in detail in the [Level 5 Guidelines](/lifecycle/planning/team-communication/level-5/level_5_team_communication_guidelines.md):
+It is also expected that you follow the Scrum framework (or something similar) and use it in conjunction with Kanban project managament. As a reminder, here is a diagram of the Scrum framework for you to follow. The framework is highlighted in detail in the [Level 5 Guidelines](/planning/team-communication/level-5/level_5_team_communication_guidelines.md):
 
-![The Scrum Framework. By Scrum.org](/lifecycle/planning/team-communication/images/scrum-framework.png)
+![The Scrum Framework. By Scrum.org](/planning/team-communication/images/scrum-framework.png)
 *Fig. 1: The structure of the Scrum framework. By Scrum.org.*
 
 You should follow the Scrum framework whilst simultaniously communicating through one of the tools highlighted above when working remotely.
