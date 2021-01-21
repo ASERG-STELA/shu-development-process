@@ -58,7 +58,7 @@ Effective coding standards are;
 * strike the right balance between formatting issues and issues that 'make the wrong code look wrong'
 * black and white instead of vague suggestions or recommendations
 
-#### 3.1.1. Coding Standards based on Language
+### 3.2. Coding Standards based on Language
 Coding Standards differ between programming languages, links to these standards are provided for you below;  
 * [Java](../codingstandards/java.md)
 
@@ -70,7 +70,7 @@ Coding Standards differ between programming languages, links to these standards 
   * Node.js
   * PHP
   
-### 3.2. Automate the Process
+### 3.3. Automate the Process
 Once you have developed effectvie coding standards and are maming use of them, you should learn how to <b>automate the process</b>.  
 Automating the process of checking source code's adherence to standards, it will allow you to save a lot of time in perr reviews and alow you to catch everything that humans might miss. 
   
