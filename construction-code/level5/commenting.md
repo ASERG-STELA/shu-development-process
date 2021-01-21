@@ -71,7 +71,7 @@ Coding Standards differ between programming languages, links to these standards 
   * PHP
   
 ### 3.3. Automate the Process
-Once you have developed effectvie coding standards and are maming use of them, you should learn how to <b>automate the process</b>.  
+Once you have developed effective coding standards and are making use of them, you should learn how to <b>automate the process</b>.  
 Automating the process of checking source code's adherence to standards, it will allow you to save a lot of time in perr reviews and alow you to catch everything that humans might miss. 
   
 If you are starting fresh and looking for coding standards, start by searching online for well-known standards for your programming language. Start small and remember that there is more than one right way to style the code. There might already be a standard available from the language creators. Your coding standards should check for both style issues and design problems. Once you have standards, make sure that they are adopted by the team and automated. However, code that deviates from standards shouldn’t be considered erroneous. It should simply be marked as out of compliance and deviations must be reviewed and fixed.
