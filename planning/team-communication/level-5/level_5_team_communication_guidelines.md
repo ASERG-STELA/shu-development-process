@@ -31,10 +31,10 @@ It is designed to allow for quick adaptation to problems that arise during devel
 
 Scrum can be a very effective framework if used correctly, and in conjunction with other Agile methodologies. A diagram of a typical Scrum Sprint can be seen here:
 
-![The Scrum Framework. By Scrum.org](/lifecycle/planning/team-communication/images/scrum-framework.png)
+![The Scrum Framework. By Scrum.org](/planning/team-communication/images/scrum-framework.png)
 *Fig. 1: The structure of the Scrum framework. By Scrum.org.*
 
-This diagram shows the elements involved in a Scrum Sprint. The **product backlog** is a backlog of all the tasks that need to be completed for a project. This is usually created on a Kanban board for better project management, and is usually organised by the team lead/Product Owner, based on their priority using the [MoSCoW Method](/lifecycle/modelling/level-5/moscow_prioritisation_method.md). 
+This diagram shows the elements involved in a Scrum Sprint. The **product backlog** is a backlog of all the tasks that need to be completed for a project. This is usually created on a Kanban board for better project management, and is usually organised by the team lead/Product Owner, based on their priority using the [MoSCoW Method](/modelling-analysis/level5/moscow_prioritisation_method.md). 
 **Sprint Planning** should typically consist of a Scrum meeting at the start of each working day, where the each of the team answer 3 fundamental questions:
 
 * What did I do yesterday?
