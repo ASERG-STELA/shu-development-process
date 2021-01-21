@@ -57,7 +57,9 @@ A description of each phase is presented below.
 ### 3.1. Level 4
 
 - Planning
-  - [Git version control](planning/version-control/level_4_git_instructions.md)
+  - [Git Version Control](planning/version-control/level_4_git_instructions.md)
+  - [Project Management](planning/project-management/level-4/level_4_management_guidelines.md)
+  - [Team Communication](planning/team-communication/level-4/level_4_team_communication_guidelines.md)
 - Modelling - Analysis
   - [User stories](modelling-analysis/level4/user-stories.md)
 - Construction - Code
@@ -66,7 +68,9 @@ A description of each phase is presented below.
 ### 3.2. Level 5
 
 - Planning
-  - [Git version control](planning/version-control/level_5_git_instructions.md)
+  - [Git Version Control](planning/version-control/level_5_git_instructions.md)
+  - [Project Management](planning/project-management/level-5/level_5_management_guidelines.md)
+  - [Team Communication](planning/team-communication/level-5/level_5_team_communication_guidelines.md)
 - Modelling - Analysis
   - [User stories](modelling-analysis/level5/user-stories.md)
   - [MoSCoW prioritisation method](modelling-analysis/level5/moscow_prioritisation_method.md)
@@ -78,7 +82,9 @@ A description of each phase is presented below.
 ### 3.3. Level 6
 
 - Planning
-  - [Git version control](planning/version-control/level_6_git_instructions.md)
+  - [Git Version Control](planning/version-control/level_6_git_instructions.md)
+  - [Project Management](planning/project-management/level-6/level_6_management_guidelines.md)
+  - [Team Communication](planning/team-communication/level-6/level_6_team_communication_guidelines.md)
 - Modelling - Analysis
   - [User stories](modelling-analysis/level6/user-stories.md)
 - Modelling - Design
@@ -122,7 +128,7 @@ A description of each phase is presented below.
 
 ## 5. Tools view
 
-- **Project Planning:** Trello, MS Project, MS Excel
+- [**Project Planning:**](planning/project-management/tools/project_management_tools.md) Trello, MS Project, MS Excel
 - **Communication:** Team, Slack
 - **Version Control:** Git, CVS or similar
 - **Design:** STARUML, Visio or similar
