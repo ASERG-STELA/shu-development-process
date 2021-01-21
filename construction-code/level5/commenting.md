@@ -12,7 +12,7 @@
 
 The question most people ask is "Why do we need code comments anyway?"
 
-Code commenting is a very simple way to let someone know what your code is meant to be doing, even if their background in code is weak. Good comments make for easy reading and easy understanding for those who are perhaps not as tech savvy as yourself. Code commenting also explains why you wrote something. At Level 4, the expectation is that you will write basis code comments as a minimum measure to help a reader understand your code.
+Code commenting is a very simple way to let someone know what your code is meant to be doing, even if their background in code is weak. Good comments make for easy reading and easy understanding for those who are perhaps not as tech savvy as yourself. Code commenting also explains why you wrote something. At Level 5, the expectation is that you will write more concise and informative code comments that follow coding standards outlined for the specific programming language you are working in.
 
 These are meant for anyone who is likely to consume your source code, but they aren't likely to read through it in any real depth. Code comments are also used by different tools for automatic generation of documentation.
 If you are building something such as a **Library** or **Framework** that you would expect other developers to be using, then you need some form of documentation alongside that, with which comments help the basis of understanding.
