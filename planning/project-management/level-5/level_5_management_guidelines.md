@@ -1,4 +1,4 @@
-# Project Management
+# Level 5 Project Management
 
 ## 1. Abstract
 
@@ -19,7 +19,7 @@ Project management is very important for your GSDP module, therefore you should 
 
 ## 3. What Is Agile Project Management
 
-You should be familiar with what project management is, and why it is useful from the [level 4 management guidelines](planning/project-management/level-4/level_4_management_guidelines.md) document. When you have a grasp on this, it is now important to look at the different project management methodologies.
+You should be familiar with what project management is, and why it is useful from the [level 4 management guidelines](/planning/project-management/level-4/level_4_management_guidelines.md) document. When you have a grasp on this, it is now important to look at the different project management methodologies.
 
 At Level 5 and beyond, we would encourage you to use Agile Project Management.  
 Agile is a project management methodology that uses short development cycles called “sprints” to focus on continuous improvement in the development of a product or service. Software development methods go back as far as 1957, although agile was first discussed in depth in the 1970's. In 2001, the Agile Manifesto was created, highlighting four key values and twelve principles to guide developers. 
@@ -83,7 +83,7 @@ At Level 5, we expect you to use a project management tool to track the status o
 * Creating your own Kanban style board using post-it notes/paper/whiteboard
 
 All of these tools use the Kanban Agile Methodology, which is great for project management as you can oversee the entire project and track the status of tasks.
-You can find more information on how to use these tools, with some examples, on the tools document. 
+You can find more information on how to use these tools, with some examples, on the [tools](/planning/project-management/tools/project_management_tools.md) document. 
 
 ## 4.1. Creating a Structure
 
@@ -104,7 +104,7 @@ More information on how to do this with each of the tools above can be seen here
 In project management, it is important to work with your fellow developers to create a clear allocation of tasks and roles, so that you can work on tasks with the highest priority first, updating the choice of tool approriately. 
 To do this, we expect you to have created a set of User Stories or requirements specification for your current project. 
 
-You should then use the [MoSCoW Method](modelling-analysis/level5/moscow_prioritisation_method.md) to prioritise your stories and turn them into tasks. 
+You should then use the [MoSCoW Method](/modelling-analysis/level5/moscow_prioritisation_method.md) to prioritise your stories and turn them into tasks. 
 Add these tasks to your tool choice under the **To Do** card and allocate the **Must** tasks to members of the team. In a SCRUM style environment, developers may choose what tasks to work on themselves, but ensuring the **Must** tasks are completed first should be your top priority.
 
 ## 6. References
