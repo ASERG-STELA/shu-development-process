@@ -59,10 +59,23 @@ There are six types of socratic questions you can ask, which will solely depend 
   * How can you verify or dissaprove that assumption?
 * Probe reasons and evidence
   * What would be an example?
-  * What do you think
+  * What do you think causes this to happen? Why?
+  * Do you think that the software is a cause for these issues in deployment?
 * Viewpoints and Perspectives
+  * What would be an alernative?
+  * Why is this the best approach?
+  * What are the strengths and weaknesses of ...?
+  * How are ... and ... similar?
+  * Would you explain why this is beneficial or neccessary? Who benefits?
 * Probe implications and consequences
-* About the question  
+  * What are the consequences of that assumption?
+  * What are you implying?
+  * How could our results be affected if the software crashes?
+* About the question
+  * What was the point of this question?
+  * What does ... mean?
+  * How does ... apply to user requirements?
+  * Why do you think I asked this question?
 
 It is important to know what you want to find out so you can ask the right questions about the right thing. The example questions above should give you some insight into what you need ask, dependant on what type of information you are aiming to find out.
 
