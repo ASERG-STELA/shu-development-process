@@ -3,9 +3,9 @@
 ## 1. Abstract
 
 This document will serve to provide students with examples on how to use the recommended project management tools outlined in the level specific guidelines:
-[Level 4](project-management/level-4/level_4_management_guidelines.md)
-[Level 5](project-management/level-5/level_5_management_guidelines.md)
-[Level 6](project-management/level-6/level_6_management_guidelines.md)
+[Level 4](/planning/project-management/level-4/level_4_management_guidelines.md)
+[Level 5](/planning/project-management/level-5/level_5_management_guidelines.md)
+[Level 6](/planning/project-management/level-6/level_6_management_guidelines.md)
 
 We will go through some basic examples of how to set up the tools to do effective and efficient project management, that you can apply to your own projects.
 
@@ -25,7 +25,7 @@ We will go through some basic examples of how to set up the tools to do effectiv
 ## 3. Trello
 
 Trello is a free, and very versatile project management tool, and is the tool that I would recommend to students of all levels.
-It is a Kanban board (Agile development) allowing users to track the status of their projects. The concepts behind Agile development are highlighted in [Level 5 guidelines](project-management/level-5/level_5_management_guidelines.md), along with details on how to properly manage your projects.
+It is a Kanban board (Agile development) allowing users to track the status of their projects. The concepts behind Agile development are highlighted in [Level 5 guidelines](/planning/project-management/level-5/level_5_management_guidelines.md), along with details on how to properly manage your projects.
 
 ## 3.1. Setting Up The Board
 I will now walkthrough an example of how to set up Trello for project management, you should follow a similar structure to the example in your own projects:
@@ -107,7 +107,7 @@ I will now walkthrough how to set up Github Projects for your own projects in yo
 
 ## 4.2. Adding Tasks
 
-Adding tasks/cards to Github Projects is a little different to Trello. Tasks are added in the form of **Issues**. I will not go over how to create an issue here as I have included this in the [Level 5 version control guidelines](version-control/level_5_git_instructions.md). In short, navigate to **Issues** in your repository, and create an issue.
+Adding tasks/cards to Github Projects is a little different to Trello. Tasks are added in the form of **Issues**. I will not go over how to create an issue here as I have included this in the [Level 5 version control guidelines](/planning/version-control/level_5_git_instructions.md). In short, navigate to **Issues** in your repository, and create an issue.
 
 When you create an issue, you can assign it to a project. If you already have a project created like in this example, it should appear in the issue as seen here:
 
