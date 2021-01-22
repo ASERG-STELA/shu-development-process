@@ -7,7 +7,7 @@
   - [3.2. Level 5](#32-level-5)
   - [3.3. Level 6](#33-level-6)
 - [4. Process-based view](#4-process-based-view)
-  - [4.1. Communication](#41-communication)
+  - [4.1. Initiation](#41-initiation)
   - [4.2. Planning](#42-planning)
   - [4.3. Modelling - Analysis](#43-modelling---analysis)
   - [4.4. Modelling - Design](#44-modelling---design)
