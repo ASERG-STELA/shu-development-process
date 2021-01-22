@@ -11,7 +11,7 @@
 
 The question most people ask is "Why do we need code comments anyway?"
 
-Code commenting is a very simple way to let someone know what your code is meant to be doing, even if their background in code is weak. Good comments make for easy reading and easy understanding for those who are perhaps not as tech savvy as yourself. Code commenting also explains why you wrote something. At Level 6, the expectation is that you will write concise and informative code comments that follow coding standards outlined in the Level 5 Code Commenting Document for the specific programming language you are working in. The document can be found [here](../level5/level5-commenting.md).
+Code commenting is a very simple way to let someone know what your code is meant to be doing, even if their background in code is weak. Good comments make for easy reading and easy understanding for those who are perhaps not as tech savvy as yourself. Code commenting also explains why you wrote something. At Level 6, the expectation is that you will write concise and informative code comments that follow coding standards outlined in the Level 5 Code Commenting Document for the specific programming language you are working in. The document can be found [here](../level5/level5-code-commenting.md).
 
 These are meant for anyone who is likely to consume your source code, but they aren't likely to read through it in any real depth. Code comments are also used by different tools for automatic generation of documentation.
 If you are building something such as a **Library** or **Framework** that you would expect other developers to be using, then you need some form of documentation alongside that, with which comments help the basis of understanding.
@@ -19,7 +19,7 @@ If you are building something such as a **Library** or **Framework** that you wo
 It is worth mentioning that several organisations, and open source projects, define specific code style guidelines that must be adhered to.
 If they don’t, however, or you are on your own, keeping this stuff in mind will not only make your job easier in the future, but will also help out anyone who comes after you, too.
 
-More information on basic code commenting can be found in the Level 4 Code Commenting Document found [here](../level4/level4-commenting.md).  
+More information on basic code commenting can be found in the Level 4 Code Commenting Document found [here](../level4/level4-code-commenting.md).  
 
 ## 3. API Documentation
 API documentation is a technical content deliverable, containing instructions about how to effectively use and integrate with an API. It’s a concise reference manual containing all the information required to work with the API, with details about the functions, classes, return types, arguments and more, supported by tutorials and examples. API Documentation has traditionally been done using regular content creation and maintenance tools and text editors.
