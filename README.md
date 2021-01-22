@@ -7,7 +7,7 @@
   - [3.2. Level 5](#32-level-5)
   - [3.3. Level 6](#33-level-6)
 - [4. Process-based view](#4-process-based-view)
-  - [4.1. Communication](#41-communication)
+  - [4.1. Initiation](#41-initiation)
   - [4.2. Planning](#42-planning)
   - [4.3. Modelling - Analysis](#43-modelling---analysis)
   - [4.4. Modelling - Design](#44-modelling---design)
@@ -26,7 +26,7 @@ We're doing this because we want our students to use good practice, to undersatn
 
 ## 2. The Reference Process
 
-The SHU development process follows the generic process framework described by Pressman and Maxim [REF], which comprises five methodological stages: communication, planning, modelling, construction and deployment. These main stages encompass a set of support steps: analysis and design related to modelling; code and test related to construction; and delivery, support and feedback for deployment.
+The SHU development process is based on the generic process framework described by Pressman and Maxim [REF], and comprises five methodological stages: initiation, planning, modelling, construction and deployment. These main stages encompass a set of support steps: analysis and design related to modelling; code and test related to construction; and delivery, support and feedback for deployment.
 
 ![Reference Process](./Process.png)
 
@@ -42,7 +42,7 @@ In fact, each student is free to navigate over the stages as he/she sees fit.
 
 A description of each phase is presented below.
 
-- The **communication** phase is dedicated to understanding the objectives of stakeholders, and for the design and collection of requirements that help identify the expected software functionalities and quality attributes.
+- The **Initiation** phase is dedicated to understanding the objectives of stakeholders, and for the design and collection of requirements that help identify the expected software functionalities and quality attributes.
 - The **Planning** phase is responsible for defining the scope of the project, the resources needed, the risks involved, a work schedule, and the resulting products.
 - The **Modelling** phase is divided into analysis and design steps.
   - The **Analysis** is focused on the definition/formalisation of requirements, using artefacts like user stories and use cases.
@@ -56,6 +56,7 @@ A description of each phase is presented below.
 
 ### 3.1. Level 4
 
+- Initiation
 - Planning
   - [Git Version Control](planning/version-control/level_4_git_instructions.md)
   - [Project Management](planning/project-management/level-4/level_4_management_guidelines.md)
@@ -96,9 +97,9 @@ A description of each phase is presented below.
 
 ## 4. Process-based view
 
-### 4.1. Communication
+### 4.1. Initiation
 
-- [**Communication guidelines**](communication/README.md)
+- [**Initiation guidelines**](communication/README.md)
 
 ### 4.2. Planning
 
@@ -131,7 +132,7 @@ A description of each phase is presented below.
 ## 5. Tools view
 
 - [**Project Planning:**](planning/project-management/tools/project_management_tools.md) Trello, MS Project, MS Excel
-- **Communication:** Team, Slack
+- **Team Communication:** Team, Slack
 - **Version Control:** Git, CVS or similar
 - **Design:** STARUML, Visio or similar
 - **Coding:** Visual Studio/ Intelli J  or similar
