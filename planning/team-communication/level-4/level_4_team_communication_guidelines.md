@@ -50,6 +50,9 @@ In order to gain the benefits highlighted above, each member should know what ea
 We do not expect you to use any sophisticated communication tools at this level, but you should still use a tool if you are communicating remotely.
 Some basic communication tools we recommend are:
 
+### **Microsoft Teams**
+* Download/link: https://www.microsoft.com/en/microsoft-teams/group-chat-software
+* How to use:  https://support.microsoft.com/en-us/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7
 ### **Discord**
 * Download/link: https://discord.com/
 * How to use: https://support.discord.com/hc/en-us/articles/360045138571-Beginner-s-Guide-to-Discord
@@ -58,7 +61,7 @@ Some basic communication tools we recommend are:
 * How to use: https://slack.com/intl/en-gb/resources/using-slack/how-to-use-slack
 ### **Emails/Social Media**
 
-As previously mentioned, communication can be informal at this level, and tools such as those above (which may not be the most professional/industry standard), may be used, so use whichever you and your team are most comfortable with. 
+As previously mentioned, communication can be informal at this level, and tools such as those above may be used, so use whichever you and your team are most comfortable with. 
 
 ## 6. References
 
