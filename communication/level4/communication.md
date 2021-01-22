@@ -15,6 +15,7 @@ Communication in L4 is very incipience and we should focus on providing students
   - [4.2. Identification Stage](#42-identification-stage)
 - [5. Socratic Questioning Technique](#5-socratic-questioning-technique)
 - [6. Meeting Minutes (with template)](#6-meeting-minutes-with-template)
+- [7. References]()
 
 ## 2. Introduction
 Communication phase is dedicated to understanding the objectives of stakeholders, and for the design and collection of requirements that help identify the expected software functionalities and quality attributes.
