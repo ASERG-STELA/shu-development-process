@@ -3,8 +3,8 @@
 - [1. Introduction](#1-introduction)
 - [Level Specific Guidance](#level-specific-guidance)
   - [Level 4](#level-4)
-  - [Level 5)](#level-5)
-  - [Level 6)](#level-6)
+  - [Level 5](#level-5)
+  - [Level 6](#level-6)
 
 ## 1. Introduction
 
@@ -23,8 +23,8 @@ Communication phase is dedicated to understanding the objectives of stakeholders
 
 ## Level Specific Guidance
 
-### [Level 4](../level4/communication.md)
+### [Level 4](../communication/level4/communication.md)
 
-### [Level 5](../level5/communication.md)
+### [Level 5](../communication/level5/communication.md)
 
-### [Level 6](../level6/communication.md)
+### [Level 6](../communication/level6/communication.md)
