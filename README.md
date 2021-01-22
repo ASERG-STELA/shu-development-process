@@ -96,9 +96,9 @@ A description of each phase is presented below.
 
 ## 4. Process-based view
 
-### 4.1. Communication
+### 4.1. Initiation
 
-- [**Communication guidelines**](communication/README.md)
+- [**Initiation guidelines**](Initiation/README.md)
 
 ### 4.2. Planning
 
