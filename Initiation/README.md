@@ -1,4 +1,4 @@
-# Communication <!-- omit in toc -->
+# Initiation <!-- omit in toc -->
 
 - [1. Introduction](#1-introduction)
 - [Level Specific Guidance](#level-specific-guidance)
@@ -23,7 +23,7 @@ Communication phase is dedicated to understanding the objectives of stakeholders
 
 ## Level Specific Guidance
 
-### [Level 4](../communication/level4/communication.md)
+### [Level 4](../Initiation/level4/level4-initiation.md)
 
 <!-- ### [Level 5](../communication/level5/communication.md) -->
 ### Level 5

@@ -1,4 +1,4 @@
-# Communication - Level 4
+# Initiation - Level 4
 
 TODO:  
 Communication in L4 is very incipience and we should focus on providing students the initial set of questions they should use to interrogate the received specs and clients.
@@ -16,7 +16,7 @@ Communication in L4 is very incipience and we should focus on providing students
 - [5. Socratic Questioning Technique](#5-socratic-questioning-technique)
   - [5.1. Six Types of Socratic Questions](#51-six-types-of-socratic-questions)
 - [6. Meeting Minutes (with template)](#6-meeting-minutes-with-template)
-- [7. References]()
+- [7. References]()  
 
 ## 2. Introduction
 Communication phase is dedicated to understanding the objectives of stakeholders, and for the design and collection of requirements that help identify the expected software functionalities and quality attributes.

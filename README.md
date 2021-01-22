@@ -99,7 +99,11 @@ A description of each phase is presented below.
 
 ### 4.1. Initiation
 
+<<<<<<< HEAD
 - [**Initiation guidelines**](communication/README.md)
+=======
+- [**Initiation guidelines**](Initiation/README.md)
+>>>>>>> 269fdd168f176b541427a1f186a7d20bc275cfdd
 
 ### 4.2. Planning
 
