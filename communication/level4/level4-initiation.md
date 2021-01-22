@@ -1,4 +1,4 @@
-# Communication - Level 4
+# Initiation - Level 4
 
 TODO:  
 Communication in L4 is very incipience and we should focus on providing students the initial set of questions they should use to interrogate the received specs and clients.
