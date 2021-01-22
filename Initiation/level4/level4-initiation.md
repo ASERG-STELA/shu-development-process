@@ -1,10 +1,5 @@
 # Initiation - Level 4
 
-TODO:  
-Communication in L4 is very incipience and we should focus on providing students the initial set of questions they should use to interrogate the received specs and clients.
-* We will provide some guidance on the use of socratic questioning to interrogate the received specs, with some example of questions about project specifics
-* We will also provide a template of meeting minutes
-
 ## 1. Table of Contents
 - [2. Introduction](#2-introduction)
 - [3. Understand the Requirements](#3-understand-the-requirements)
