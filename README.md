@@ -62,6 +62,8 @@ A description of each phase is presented below.
   - [Team Communication](planning/team-communication/level-4/level_4_team_communication_guidelines.md)
 - Modelling - Analysis
   - [User stories](modelling-analysis/level4/user-stories.md)
+- Modelling - Design
+  - UML Class diagrams
 - Construction - Code
   - [Code commenting](construction-code/level4/commenting.md)
   
