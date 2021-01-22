@@ -25,6 +25,8 @@ Communication phase is dedicated to understanding the objectives of stakeholders
 
 ### [Level 4](../communication/level4/communication.md)
 
-### [Level 5](../communication/level5/communication.md)
+<!-- ### [Level 5](../communication/level5/communication.md) -->
+### Level 5
 
-### [Level 6](../communication/level6/communication.md)
+<!-- ### [Level 6](../communication/level6/communication.md) -->
+### Level 6
