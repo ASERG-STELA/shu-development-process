@@ -24,7 +24,7 @@ The requirements define what the system should do and how it should do it. It is
 <!-- The process of understanding the initial requirements is known in some places as the Requirements Engineering Process which spans 4 subsections. It is the process of defining, ducumenting and maintaining your requirements, and is just a way of organising what you have for later use. -->
 
 ### 3.1. Meeting the Client
-Meeting with your client will be the first step in the process of Initiation. This is where the client will talk to you about what they are wanting to develop, and they will want you to follow their requirements. These will be presented to you in the form of a specification document, also known as a specification requirements document (SRS). 
+Meeting with your client will be the first step in the process of Initiation. This is where the client will talk to you about what they are wanting to develop, and they will want you to follow their requirements. These will be presented to you in the form of a specification document. 
 
 ### 3.2.. Software Specification
 At the initial stage, you will have been given a set of requirements now in the form of the specification. This will define the expectation you need to follow in terms of how the system will perform, the inputs and outputs that are expected, what the program should do and who will be making use of it. It is important now for you to **read** this specification and start to think about the next steps you want to take. Don't worry if you are not sure of what to do at this point, once you've read the specification, this document will help guide you through the next stages you need to think about going forward.
@@ -32,10 +32,10 @@ At the initial stage, you will have been given a set of requirements now in the 
 ## 4. Understand the Problem
 
 ### 4.1. Define an initial set of Requirements
-What you understand the requirements of the project you are about to start working on, it's time to decide on the **functional** and **non-functional** requirements for that solution.
+When you understand the requirements of the project you are about to start working on, it's time to decide on the **functional** and **non-functional** requirements for that solution.
 
 #### 4.1.1. Functional Requirements
-Functional requirements define the basic system behaviour. Essentially, they are **what** the system does or must not do and can simply be thought of as how the system will respond to inputs. These requirements usually define if/then behaviours or **conditions** and can include calculations, data inpt and other business processes. Functional requirements are features that allow the system to function as it was intended. Putting it another way, if these requirements are not met, then the system could gridn to a halt when it is being used by an external user. They are the **features** of your product and should be thought of with the highest importance in the initial stages.
+Functional requirements define the basic system behaviour. Essentially, they are **what** the system does or must not do and can simply be thought of as how the system will respond to inputs. These requirements usually define if/then behaviours or **conditions** and can include calculations, data inpt and other business processes. Functional requirements are features that allow the system to function as it was intended. Putting it another way, if these requirements are not met, then the system could grind to a halt when it is being used by an external user. They are the **features** of your product and should be thought of with the highest importance in the initial stages.
 
 #### 4.1.2. Non-functional Requirements
 Non-functional requirements define what the system does or must not do, they specify **how** the system should do it. These requirements don't have any impact upon the functionality of the system, hence the name. Even if these requirements are not met, the system will perform its basic purpose. The most important aspect of non-functional requirements, and why they are so important is **usability**. The non-functional requirements define the system behaviour, features and general characteristics that are important for the user experience.
