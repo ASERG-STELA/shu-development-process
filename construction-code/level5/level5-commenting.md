@@ -20,7 +20,7 @@ If you are building something such as a **Library** or **Framework** that you wo
 It is worth mentioning that several organisations, and open source projects, define specific code style guidelines that must be adhered to.
 If they don’t, however, or you are on your own, keeping this stuff in mind will not only make your job easier in the future, but will also help out anyone who comes after you, too.
 
-More information on basic code commenting can be found in the Level 4 Code Commenting Document found [here](../level4/commenting.md).
+More information on basic code commenting can be found in the Level 4 Code Commenting Document found [here](../level4/level4-commenting.md).
 
 ## 3. Coding Standards
 When creating your code comments, it is advised that your commenting follows a relevant coding standard. Coding standards are a set of guidelines, best practices, programming styles and conventions that developers adhere to when writing source code for a project. All big software companies have them.  
