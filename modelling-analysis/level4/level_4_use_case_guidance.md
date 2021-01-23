@@ -37,7 +37,7 @@ A simple Use Case Diagram can be seen here:
 
 ![A simple Use Case Diagram](/modelling-analysis/images/model_use_case.PNG)
 
-*Fig. 1: A simple Use Case Diagram.*
+*Fig. 1: A simple Use Case Diagram. Retrieved from reference [1].*
 
 This diagram shows the four main components of a Use Case diagram:
 
