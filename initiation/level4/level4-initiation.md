@@ -14,7 +14,7 @@
   - [5.1. Six Types of Socratic Questions](#51-six-types-of-socratic-questions)
 - [6. Meeting Minutes](#6-meeting-minutes)
   - [6.1. How to Write Meeting Minutes](#61-how-to-write-meeting-minutes)
-- [7. References]()  
+- [7. References](#7-references)  
 
 ## 2. Introduction
 The Initiation phase (sometimes referred to as the Initial Communication phase) is dedicated to understanding the objectives of stakeholders, and for the design and collection of requirements that help identify the expected software functionalities and quality attributes. The aim of this ducoment is to give you an overview of how you go about understanding your requirments, what sort of requirements you need to think about and how meeting minutes are created for any meetings you undertake. There will also be some guidance on a questioning style known as Socratic questioning which can be found in section 5.
