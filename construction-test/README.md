@@ -21,8 +21,8 @@
 
 ## Level Specific Guidance
 
-### Level 4
-[Level 4 Testing](../construction-test/level4/level4-testing.md)
+### [Level 4](../construction-test/level4/level4-testing.md)
+
 - Unit testing: Manual testing is acceptable.
 
 ### Level 5 (TBD)
