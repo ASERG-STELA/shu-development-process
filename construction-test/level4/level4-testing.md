@@ -11,7 +11,7 @@ Unit Testing is a type of software testing where individual units or components 
   - [3.4. Manual vs Automated](#34-manual-vs-automated)
     - [3.4.1. Manual Testing - Pros and Cons](#341-manual-testing---pros-and-cons)
     - [3.4.2. Automated Testing - Pros and Cons](#342-automated-testing---pros-and-cons)
-  [4. References](4#-references)  
+  - [4. References](4#-references)  
 
 ## 3. Unit Testing
 In most cases, Unit testing are not an effective way to find bugs in your code. They are more effective in examining each unit within your code separately. When you run your application for real, all those units have to work together, and the whole is more complex and subtle than the sum of its independently-tested parts. Defects in an individual component may bear no relationship to the symptoms an end user would experience and report, since you aree designing the preconditions for your unit tests, they won't ever detect problems triggered by preconditions that you didn't anticipate. Unit tests can be effective at detecting in one instance though, and that is when you are re-factoring your code without meaning to change it's behaviour. In this case, tests can often tell you if the unit's behaviour has changed.
