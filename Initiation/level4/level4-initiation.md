@@ -16,7 +16,7 @@
 - [7. References]()  
 
 ## 2. Introduction
-The Initiation phase (sometimes referred to as the Initial Communication phase) is dedicated to understanding the objectives of stakeholders, and for the design and collection of requirements that help identify the expected software functionalities and quality attributes. 
+The Initiation phase (sometimes referred to as the Initial Communication phase) is dedicated to understanding the objectives of stakeholders, and for the design and collection of requirements that help identify the expected software functionalities and quality attributes. The aim of this ducoment is to give you an overview of how you go about understanding your requirments, what sort of requirements you need to think about and how meeting minutes are created for any meetings you undertake. There will also be some guidance on a questioning style known as Socratic questioning which can be found in section 5.
 
 ## 3. Understand the Requirements
 The requirements define what the system should do and how it should do it. It is important to first take a step back and think about the whole picture. What do you want your software to be able to do? The specifications help to define this, and understanding the expected direction and features from this document is extremely important when starting out. A software requirements specification is a document that describes what the software will do and how it will be expected to perform. It also describes the functionality the product needs to fulfill all stakeholders (business, users) needs.  
@@ -96,6 +96,12 @@ There are six types of socratic questions you can ask, which will solely depend 
 It is important to know what you want to find out so you can ask the right questions about the right thing. The example questions above should give you some insight into what you need ask, dependant on what type of information you are aiming to find out.
 
 ## 6. Meeting Minutes (with template)
+Meeting Minutes, also sometimes referred to **minutes of a meeting** are the official summary of what happened during a meeting. Any correspondence you have with a client needs to be recorded so that you can look back at them and use them to form your agenda, deliverables and aims to meet before you need to have another meeting. The importance of these is not as key at Level 4, but it is good to get good practice in with these as they are a key artefact for further Levels, especially when you begin to work more in groups with your peers.  
+
+This section will give you a brief look at meeting minutes and include tips to help you write good minutes. A template will also be included for you to make use of, but if you prefer, there are plenty of other templates online you can make use of. For the most part, the minutes you will write for your meeting in University will be **informal**, but there might be times you need more **formal** minutes, but that won't be covered here. Informal meeting minutes mainly form a meeting summary, which is mainly what you require at Level 4.  
+
+
+
 
 ## 7. References
 [Intel Teach Program: The Socratic Questioning Technique](https://www.intel.com/content/dam/www/program/education/us/en/documents/project-design/strategies/dep-question-socratic.pdf)  
@@ -103,3 +109,4 @@ It is important to know what you want to find out so you can ask the right quest
 [QRACorp Func and Non-Func Requirements](https://qracorp.com/functional-vs-non-functional-requirements/)  
 [Freecodecamp: Why You Need to Understand Software Requirements as a Software Engineer](https://www.freecodecamp.org/news/why-understanding-software-requirements-matter-to-you-as-a-software-engineer/)  
 [Geeks4Geeks Software Engineering Requirements Engineering Process](https://www.geeksforgeeks.org/software-engineering-requirements-engineering-process/)  
+[Hugo: Meetings Minutes](https://www.hugo.team/blog/meeting-minutes-with-samples-templates)
