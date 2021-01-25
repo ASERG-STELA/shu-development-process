@@ -1,7 +1,7 @@
 # Testing - Level 5
 
 ## 1. Introduction
-Unit Testing is a type of software testing where individual units or components of a software are tested. The purpose is to validate that each unit of the software code performs as expected. Unit Testing is done during the development (coding phase) of an application by the developers. Unit Tests isolate a section of code and verify its correctness. A unit may be an individual function, method, procedure, module, or object. At Level 5, the expectation is that you will do **Unit Testing** that makes use of a framework and is performed within the IDE. Manual testing and the concept of Unit Testing was covered in the Level 4 Testing document found [here](../construction-test/level4/level4-testing.md)
+Unit Testing is a type of software testing where individual units or components of a software are tested. The purpose is to validate that each unit of the software code performs as expected. Unit Testing is done during the development (coding phase) of an application by the developers. Unit Tests isolate a section of code and verify its correctness. A unit may be an individual function, method, procedure, module, or object. At Level 5, the expectation is that you will do **Unit Testing** that makes use of a framework and is performed within the IDE. Manual testing and the concept of Unit Testing was covered in the Level 4 Testing document found [here](../level4/level4-testing.md).
 
     - Within the IDE
       - IntelliJ
