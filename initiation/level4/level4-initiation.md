@@ -112,7 +112,7 @@ There ia a balancing act when it comes to writing meeting minutes. You must keep
 
 * Note the facts  
 
-Avoid jotting down personal observations and irrelevant conversations into the minutes. If you want to take seperate notes of your won, you are welcome to do so, but the meeting minutes should be a factual record of the meeting. 
+Avoid jotting down personal observations and irrelevant conversations into the minutes. If you want to take seperate notes of your own, you are welcome to do so, but the meeting minutes should be a factual record of the meeting. 
 
 **Shorthand tips to write meetings minutes faster**  
 When writing the meeting minutes, here are a few tips to help you create your notes much faster.
