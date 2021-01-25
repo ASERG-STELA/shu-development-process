@@ -3,16 +3,6 @@
 ## 1. Introduction
 Unit Testing is a type of software testing where individual units or components of a software are tested. The purpose is to validate that each unit of the software code performs as expected. Unit Testing is done during the development (coding phase) of an application by the developers. Unit Tests isolate a section of code and verify its correctness. A unit may be an individual function, method, procedure, module, or object. At Level 4, the expectation is that you will at least do **manual testing** when you are conducting Unit Testing for your software.
 
-    - Within the IDE
-      - IntelliJ
-        - Java
-        - Web Development
-          - PHP
-          - Node  
-      - Visual Studio
-        - C++
-        - C#
-
 ## 2. Table of Contents
 - [3. Unit Testing](#3-unit-testing)
   - [3.1. Benefits of Unit Testing](#31-benefits-of-unit-testing)
@@ -21,11 +11,7 @@ Unit Testing is a type of software testing where individual units or components 
   - [3.4. Manual vs Automated](#34-manual-vs-automated)
     - [3.4.1. Manual Testing - Pros and Cons](#341-manual-testing---pros-and-cons)
     - [3.4.2. Automated Testing - Pros and Cons](#342-automated-testing---pros-and-cons)
-- [4. Testing within the IDE](#4-testing-within-the-ide)
-  - [4.1. Performing Tests in IntelliJ](#41-performing-tests-in-intellij)
-    - [4.1.1. Preparing for Tests](#411-preparing-for-tests)
-  - [4.2. Performing Tests in Visual Studio](#42-performing-tests-in-visual-studio)
-  
+  [4. References](4#-references)  
 
 ## 3. Unit Testing
 In most cases, Unit testing are not an effective way to find bugs in your code. They are more effective in examining each unit within your code separately. When you run your application for real, all those units have to work together, and the whole is more complex and subtle than the sum of its independently-tested parts. Defects in an individual component may bear no relationship to the symptoms an end user would experience and report, since you aree designing the preconditions for your unit tests, they won't ever detect problems triggered by preconditions that you didn't anticipate. Unit tests can be effective at detecting in one instance though, and that is when you are re-factoring your code without meaning to change it's behaviour. In this case, tests can often tell you if the unit's behaviour has changed.
@@ -126,36 +112,7 @@ In order to do unit testing, we write a section of code to test a specific funct
   * Automation testing tool is not yet foolproof. Every automation tool has their limitations which reduces the scope of automation
   * Debugging the test script is another major issue in the automated testing. Test maintenance is costl* y
 
-## 4. Testing within the IDE
-
-### 4.1. Performing Tests in IntelliJ
-
-#### 4.1.1. Preparing for Tests
-IntelliJ IDEA works with multiple testsing frameworks out of the box such as JUnit or TestNG. Inside the IDE you can create a test class directly from the source code together with the necessary testmethods. You can switch between test classes and source code with a shortcut, run multiple tests, view statistics for each test, and export test results for a file. 
-
-#### 4.1.2. Create Tests
-The simplest way of creating a new test class in IntelliJ IDEA is by using a dedicated intention action that you can invoke from your source code. In this case, the IDE creates a new test class and generates test code for this class, package, or function.
-
-##### Add a new Test
-1 - In your production code, place the caret at the class for which you want to create a test, press `Alt+Enter`, and select **Create Test**.  
-2 - In the **Create Test** dialog, select the library that you want to use. If you don't have the necessary library yet, you will be prompted to download it. To do that, click **Fix**.  
-```
-If you're using Maven, the IDE will add the missing dependencies to your pom.xml.  
-For Gradle projects, add the necessary dependencies manually.
-```
-More information to add them manually [here](https://www.jetbrains.com/help/idea/testing.html#add-testing-libraries)  
-3 - Configure the test class name and its location and select the methods that you want to test. Click **OK**.  
-As a result, IntelliJ IDEA creates a new test class with the specified name and generated test methods in the **Test Sources Root**.
-
-
-![](../testing-gifs/create-intellij-gif.gif)
-
-### 4.2. Performing Tests in Visual Studio
-
-
-## 5. References
+## 4. References
 [Guru99: Unit Testing Tutorial](https://www.guru99.com/unit-testing-guide.html)  
 [DZone Unit Testing Guidelines: What to Test and What Not To Test](https://dzone.com/articles/unit-testing-guidelines-what-to-test-and-what-not)  
-[Guru99: Automated Testing vs Manual Testing](https://www.guru99.com/difference-automated-vs-manual-testing.html)  
-[JetBrains IntelliJ IDEA Testing](https://www.jetbrains.com/help/idea/testing.html)  
-[TutorialsPoint: IntelliJ Idea - Unit Testing](https://www.tutorialspoint.com/intellij_idea/intellij_idea_unit_testing.htm)  
+[Guru99: Automated Testing vs Manual Testing](https://www.guru99.com/difference-automated-vs-manual-testing.html)   
