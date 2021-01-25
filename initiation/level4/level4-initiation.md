@@ -12,7 +12,8 @@
   - [4.2. Identification Stage](#42-identification-stage)
 - [5. Socratic Questioning Technique](#5-socratic-questioning-technique)
   - [5.1. Six Types of Socratic Questions](#51-six-types-of-socratic-questions)
-- [6. Meeting Minutes (with template)](#6-meeting-minutes-with-template)
+- [6. Meeting Minutes](#6-meeting-minutes)
+  - [6.1. How to Write Meeting Minutes](#61-how-to-write-meeting-minutes)
 - [7. References]()  
 
 ## 2. Introduction
@@ -95,12 +96,31 @@ There are six types of socratic questions you can ask, which will solely depend 
 
 It is important to know what you want to find out so you can ask the right questions about the right thing. The example questions above should give you some insight into what you need ask, dependant on what type of information you are aiming to find out.
 
-## 6. Meeting Minutes (with template)
-Meeting Minutes, also sometimes referred to **minutes of a meeting** are the official summary of what happened during a meeting. Any correspondence you have with a client needs to be recorded so that you can look back at them and use them to form your agenda, deliverables and aims to meet before you need to have another meeting. The importance of these is not as key at Level 4, but it is good to get good practice in with these as they are a key artefact for further Levels, especially when you begin to work more in groups with your peers.  
+## 6. Meeting Minutes
+Meeting Minutes, also sometimes referred to as **minutes of a meeting** are the official summary of what happened during a meeting. Any correspondence you have with a client needs to be recorded so that you can look back at them and use them to form your agenda, deliverables and aims to meet before you need to have another meeting. The importance of these is not as key at Level 4, but it is good to get good practice in with these as they are a key artefact for further Levels, especially when you begin to work more in groups with your peers.  
 
 This section will give you a brief look at meeting minutes and include tips to help you write good minutes. A template will also be included for you to make use of, but if you prefer, there are plenty of other templates online you can make use of. For the most part, the minutes you will write for your meeting in University will be **informal**, but there might be times you need more **formal** minutes, but that won't be covered here. Informal meeting minutes mainly form a meeting summary, which is mainly what you require at Level 4.  
 
+### 6.1. How to Write Meeting Minutes
+* Be Concise  
 
+The key to writing good meeting minutes is to write concisely. Think of yourself as a journalist who is carefully documenting what is happening at the meeting. 
+
+* Be Clear  
+
+There ia a balancing act when it comes to writing meeting minutes. You must keep minutes concise but they also need to be clear so as to provide the necessary information to those who didn't attend the meeting. 
+
+* Note the facts  
+
+Avoid jotting down personal observations and irrelevant conversations into the minutes. If you want to take seperate notes of your own, you are welcome to do so, but the meeting minutes should be a factual record of the meeting. 
+
+**Shorthand tips to write meetings minutes faster**  
+When writing the meeting minutes, here are a few tips to help you create your notes much faster.
+* Use initials instead of people's full names
+* Use acronyms where you can without sacrifcing clarity
+* Using sentence fragments is fine as long as it still makes sense.  
+
+The template to help you get started can be found [here](../level4/Project%20Check-In%20Meeting%20Template.docx).
 
 
 ## 7. References
