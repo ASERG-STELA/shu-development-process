@@ -66,7 +66,7 @@ A description of each phase is presented below.
   - [User Stories](modelling-analysis/level4/user-stories.md)
   - [Use Case Diagrams](modelling-analysis/level4/level_4_use_case_guidance.md)
 - Modelling - Design
-  - [UML Class Diagrams]()
+  - [Class, Entity Relationship and Sequence Diagrams](modelling-design/level4/level4-design.md)
 - Construction - Code
   - [Code Commenting](construction-code/level4/level4-code-commenting.md)
   
