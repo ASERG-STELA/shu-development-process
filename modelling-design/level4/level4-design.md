@@ -1,17 +1,7 @@
-# Design - Level 4 <!-- omit in toc -->
+# Design - Level 4 
 
-## 1. Table of Contents
-- [2. Introduction](#2-introduction)
-- [3. Diagrams That You Will Need](#3-diagrams-that-you-will-need)
-  - [3.1. UML Class Diagram](#31-uml-class-diagram)
-    - [3.1.1. The Technical Details](#311-the-technical-details)
-  - [3.2. Entity Relationship Diagram](#32-entity-relationship-diagram)
-  - [3.3 Sequence Diagram](#33-sequence-diagram)
-  - [3.4. Linking You Diagrams](#34-linking-your-diagrams)
-- [4. References](#4-references)  
-
-## 2. Introduction
-The design step is focused on the modelling of the solution. It usually involves decisions around architecture, data structure, user-interface, classes, algorithms, etc. At Level 4 it is not expected that you will overly complex diagram, more you will just need to create feasible basic diagrams that link well where necessary. You will need to create at a minimum 3 diagrams which are.
+## 1. Introduction
+The design step is focused on the modelling of the solution. It usually involves decisions around architecture, data structure, user-interface, classes, algorithms, etc. At Level 4 it is not expected that you will create overly complex diagrams, more you will just need to create feasible basic diagrams that link well where necessary. The three most common diagrams you will expect to be creating are.
 
 * UML Class Diagram
 * Entity Relationship Diagram
@@ -19,7 +9,16 @@ The design step is focused on the modelling of the solution. It usually involves
 
 This document will go through what these documents are and provide examples as we go through that you can look at to give you an idea what your document should look like. There will also be some blank templates you can use to get started. At Level 4 you only need to worry about **Inheritance** in your class diagrams. More on this later.
 
-## 3. Diagrams That You Will Need
+## 2. Table of Contents
+- [3. Diagrams That You Will Create](#3-diagrams-that-you-will-create)
+  - [3.1. UML Class Diagram](#31-uml-class-diagram)
+    - [3.1.1. The Technical Details](#311-the-technical-details)
+  - [3.2. Entity Relationship Diagram](#32-entity-relationship-diagram)
+  - [3.3 Sequence Diagram](#33-sequence-diagram)
+  - [3.4. Linking You Diagrams](#34-linking-your-diagrams)
+- [4. References](#4-references)  
+
+## 3. Diagrams That You Will Create
 ### 3.1. UML Class Diagram
 When designing a system, before you start to implement a bunch of classes, it is good to have a conceptual understanding of the system that you will be creating. The questions you need to think about are.
 
@@ -59,7 +58,7 @@ Class members (attributes and methods) have a specific visibility assigned to th
 |         Class Visibility      | Icon |                             Who Can See It?                                | 
 |-------------------------------|------|----------------------------------------------------------------------------|
 |            `public`           |   +  | anywhere in the program and may bbe called by any object within the system |
-|           `private`           |   -  | the class that definies it                                                 |
+|           `private`           |   -  | the class that defines it                                                 |
 |          `protected`          |   #  | (a) the class that defines it or (b) a subclass of that class              |
 |          `package`            |   ~  | instances of other classes within the same package                         |  
 
@@ -79,9 +78,12 @@ In figure 5 we can see what Inheritance looks like. In this example we have an *
 
 ### 3.2. Entity Relationship Diagram
 
+
+
 ### 3.3. Sequence Diagram
 
 ### 3.4. Linking your Diagrams
 
 ## 4. References
-- [Medium.com: UML Class Diagrams Step by Step](https://medium.com/@smagid_allThings/uml-class-diagrams-tutorial-step-by-step-520fd83b300b)
+- [Medium.com: UML Class Diagrams Step by Step](https://medium.com/@smagid_allThings/uml-class-diagrams-tutorial-step-by-step-520fd83b300b)  
+- [Guru99.com: ER Diagram Tutorial](https://www.guru99.com/er-diagram-tutorial-dbms.html)
