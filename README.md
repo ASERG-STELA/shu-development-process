@@ -57,6 +57,7 @@ A description of each phase is presented below.
 ### 3.1. Level 4
 
 - Initiation
+  - [Initiation Guidelines](initiation/level4/level4-initiation.md)
 - Planning
   - [Git Version Control](planning/version-control/level_4_git_instructions.md)
   - [Project Management](planning/project-management/level-4/level_4_management_guidelines.md)
@@ -64,9 +65,9 @@ A description of each phase is presented below.
 - Modelling - Analysis
   - [User stories](modelling-analysis/level4/user-stories.md)
 - Modelling - Design
-  - UML Class diagrams
+  - [UML Class diagrams]()
 - Construction - Code
-  - [Code commenting](construction-code/level4/commenting.md)
+  - [Code Commenting](construction-code/level4/level4-code-commenting.md)
   
 ### 3.2. Level 5
 
@@ -78,9 +79,9 @@ A description of each phase is presented below.
   - [User stories](modelling-analysis/level5/user-stories.md)
   - [MoSCoW prioritisation method](modelling-analysis/level5/moscow_prioritisation_method.md)
 - Modelling - Design
-  - UML Class diagrams
+  - [UML Class diagrams]()
 - Construction - Code
-  - [Code commenting](construction-code/level5/commenting.md)
+  - [Code commenting](construction-code/level5/level5-code-commenting.md)
 
 ### 3.3. Level 6
 
@@ -91,9 +92,9 @@ A description of each phase is presented below.
 - Modelling - Analysis
   - [User stories](modelling-analysis/level6/user-stories.md)
 - Modelling - Design
-  - UML Class diagrams
+  - [UML Class diagrams]()
 - Construction - Code
-  - [Code commenting](construction-code/level6/commenting.md)
+  - [Code commenting](construction-code/level6/level6-code-commenting.md)
 
 ## 4. Process-based view
 
