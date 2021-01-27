@@ -22,12 +22,12 @@ It is a very important part of any project, no matter the size or number of deve
 The project lead should be the one to set up the initial management tools (more on this later), as well as schedule and outline the workflows to the other developers during the planning phase.
 The following are some tasks a project lead/manager might have to complete:
 
-* **Planning**: This means putting together the blueprint for the entire project. It will define the scope, allocate necessary resources, propose the timeline, lay out a communication strategy, and indicate the steps necessary for testing and maintenance.
-* **Leading**: A software project manager will need to assemble and lead the project team
-* **Execution**: The project manager will participate in and supervise the successful execution of each stage of the project. This includes monitoring progress through frequent team check-ins or SCRUM meetings
-* **Time management**: Staying on schedule is crucial to the successful completion of any project, but it’s particularly challenging when it comes to managing software projects because changes to the original plan are almost certain to occur as the project evolves
-* **Budget**: Like traditional project managers, software project managers are tasked with creating a budget for a project, and then sticking to it as closely as possible, moderating spend and re-allocating funds when necessary. This one will be less applicable to you whilst at University.
-* **Maintenance**: The project manager is responsible for ensuring proper and consistent testing, evaluation and fixes are being made
+- **Planning**: This means putting together the blueprint for the entire project. It will define the scope, allocate necessary resources, propose the timeline, lay out a communication strategy, and indicate the steps necessary for testing and maintenance.
+- **Leading**: A software project manager will need to assemble and lead the project team
+- **Execution**: The project manager will participate in and supervise the successful execution of each stage of the project. This includes monitoring progress through frequent team check-ins or SCRUM meetings
+- **Time management**: Staying on schedule is crucial to the successful completion of any project, but it’s particularly challenging when it comes to managing software projects because changes to the original plan are almost certain to occur as the project evolves
+- **Budget**: Like traditional project managers, software project managers are tasked with creating a budget for a project, and then sticking to it as closely as possible, moderating spend and re-allocating funds when necessary. This one will be less applicable to you whilst at University.
+- **Maintenance**: The project manager is responsible for ensuring proper and consistent testing, evaluation and fixes are being made
 
 These are based from reference [1]
 
@@ -46,7 +46,7 @@ These are based from reference [2]
 ## 4. Tools
 
 At Level 4, it is not essential to use a project management tool as it is likely you will mostly be working on your own projects as an individual. However, as previously mentioned, it is a useful concept to get a grasp of early, and using a tool would be a nice touch to your projects.
-A more detailed look at which tools are available to you and the concepts behind them will be available at L5, if you wish to get a head start, you can navigate to the [tools guidelines](/planning/project-management/tools/project_management_tools.md), which shows some of the tools we recommend for project management, and some basic examples on how to use them.
+A more detailed look at which tools are available to you and the concepts behind them will be available at L5, if you wish to get a head start, you can navigate to the [tools guidelines](planning/project-management/tools/project_management_tools.md), which shows some of the tools we recommend for project management, and some basic examples on how to use them.
 
 ## 5 References
 
