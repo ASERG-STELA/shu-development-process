@@ -26,7 +26,10 @@ For Level 4 students and for future reference for other Levels, this document wi
 In order to first start using Github, you will first need to create free Github account:
 
 1. Go to <https://github.com>.
-2. On the starting page, click **Sign up for GitHub**
+2. On the starting page, click **Sign up for GitHub**:
+
+![Sign up for Github](/planning/version-control/images/sign-up.png)
+
 3. Fill out all fields and complete the puzzle, then press **Create account**
 4. Use these details when logging in after this point
 
@@ -42,13 +45,31 @@ A repository is often used to organise a single project. Often called a **Repo**
 
 ## 4.1. Creating a Repository
 
-Follow these steps to create your own repository, this is based on reference [1]:
+There are 3 ways to create a repository:
 
-1. In the upper right corner, next to your avatar or identicon, click and then select **New repository**
-2. Name your repository
-3. Write a short description
-4. Select **Initialize this repository with a README**
-5. Click **Create repository**
+1. In the upper right corner, next to your avatar or identicon, click and then select **New repository**:
+
+![Create repository header](/planning/version-control/images/create_header.png)
+
+2. On the panel on the left:
+
+![Create repository left panel](/planning/version-control/images/create_panel.png)
+
+3. On the start page/page content:
+
+![Create repository start page](/planning/version-control/images/create_start_page.png)
+
+Do any of these and you should see this screen:
+
+![Create the repository](/planning/version-control/images/create_repo1.PNG)
+
+Now:
+* Name your repository
+* Write a short description
+* Select **Initialize this repository with a README**
+* Click **Create repository** when you are satisfied. You should be greeted by this screen:
+
+![Repository created](/planning/version-control/images/repo_created.PNG)
 
 ## 4.2. README File
 
@@ -109,7 +130,9 @@ Building on the sections above, it is important to be able to integrate them all
 
 For Level 4, we recommend you follow a basic flow for your projects, using just the one branch, **Main/Master**, as you are likely to be working as an individual on most of your projects at L4. You will be introduced to branching and merging at L5 but for L4, this will suffice. You should try to use Github for all of your projects, even if it is just you working on them as they can be used to build a portfolio of work to bring to interviews after graduation or for placements.
 
-The main branch should always ready to run with the most up to date version of your code, using **tags** to identify the release version. This workflow is very basic but will ensure a simple, structure for your project with a clear history of your release versions at Level 4. This workflow is most suitable for small projects, once you start to work on larger projects, you will need to build on this workflow (more on this at Level 5 and 6).
+The main branch should always ready to run with the most up to date version of your code, using **tags** to identify the release version. This workflow is very basic but will ensure a simple, structure for your project with a clear history of your release versions at Level 4. This workflow is most suitable for small projects, once you start to work on larger projects, you will need to build on this workflow (more on this at Level 5 and 6). 
+
+If you have any problems with anything we have covered, check out reference [1] at the bottom of the document.
 
 ## 10. Tools
 
