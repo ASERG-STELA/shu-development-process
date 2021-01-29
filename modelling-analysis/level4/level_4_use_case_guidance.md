@@ -15,9 +15,9 @@ This document will serve to provide Level 4 students with knowledge and guidance
   - [4.3. Relationships](#43-relationships)
 - [5. Use Case Descriptions](#5-use-case-descriptions)
   - [5.1. Components Of A Use Case Description](#51-components-of-a-use-case-description)
-- [6. Tools](#4-tools)
-- [7. Template](#5-template)
-- [8. References](#6-references)
+- [6. Tools](#6-tools)
+- [7. Template](#7-template)
+- [8. References](#8-references)
   
 ## 3. What Is A Use Case Model
 
