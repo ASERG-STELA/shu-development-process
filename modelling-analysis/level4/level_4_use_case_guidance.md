@@ -2,21 +2,33 @@
 
 ## 1. Abstract
 
-This document will serve to provide Level 4 students with knowledge and guidance of a key phase in modelling analysis. Use Case diagrams. At this level, you are not expected to create anything too advanced, but you will need to know the basics of how to create a simple use case diagram.
+This document will serve to provide Level 4 students with knowledge and guidance of a key phase in modelling analysis. Use Case diagrams. At this level, you are not expected to create anything too advanced, but you will need to know the basics of how to create a simple use case diagram. In the software development lifecycle, you should be using your User Stories to form the basis of your Use Cases. Refer to the [User Stories guidance](/modelling-analysis/level4/user-stories.md) if you are yet to create a set of User Stories. Do not attempt to create a Use Case diagram without doing this first.
 
 ## 2. Table of Contents
 
 - [1. Abstract](#1-abstract)
 - [2. Table of Contents](#2-table-of-contents)
-- [3. What Is A Use Case Diagram](#3-what-is-a-use-case-diagram)
-  - [3.1. What Does A Use Case Diagram Look Like](#31-what-does-a-use-case-diagram-look-like)
-  - [3.2. Components Of A Use Case Diagram](#32-components-of-a-use-case-diagram)
-  - [3.3. Relationships](#33-relationships)
-- [4. Tools](#4-tools)
-- [5. Template](#5-template)
-- [6. References](#6-references)
+- [3. What Is A Use Case Model](#2-table-of-contents)
+- [4. Use Case Diagrams](#4-use-case-diagrams)
+  - [4.1. What Does A Use Case Diagram Look Like](#41-what-does-a-use-case-diagram-look-like)
+  - [4.2. Components Of A Use Case Diagram](#42-components-of-a-use-case-diagram)
+  - [4.3. Relationships](#43-relationships)
+- [5. Use Case Descriptions](#5-use-case-descriptions)
+  - [5.1. Components Of A Use Case Description](#51-components-of-a-use-case-description)
+- [6. Tools](#4-tools)
+- [7. Template](#5-template)
+- [8. References](#6-references)
   
-## 3. What is A Use Case Diagram
+## 3. What Is A Use Case Model
+
+A Use Case Model is a modelling methodology used in system analysis to identify, clarify and organize system requirements. The Use Case is made up of a set of possible sequences of interactions between systems and users/actors in a particular environment and related to a particular goal. It is composed of two elements:
+
+* Use Case Diagrams
+* Use Case Descriptions
+
+Use Cases describe the functional requirements of a system from the end user's perspective, creating a goal-focused sequence of events that is easy for users and developers to follow.
+
+## 4. Use Case Diagrams
 
 A Use Case diagram is often the primary form of system/software requirements analysis, A **Use Case** specifies what the expected behaviour of the system will be, it does not go into detail of the exact method that will make it happen. Use Cases, can be textual, or visual, the latter in the form of a Use Case diagram.
 
@@ -31,7 +43,7 @@ A Use Case Diagram is often simple, as it does not show the detail of the Use Ca
 * Validates a systems architecture
 * Drives implementation and generate test cases
 
-## 3.1. What Does A Use Case Diagram Look Like
+## 4.1. What Does A Use Case Diagram Look Like
 
 A simple Use Case Diagram can be seen here:
 
@@ -42,13 +54,13 @@ A simple Use Case Diagram can be seen here:
 This diagram shows the four main components of a Use Case diagram:
 
 * Actor
-* Use Case
+* Use Case (Identified from User Stories)
 * Communication Link
 * System Boundary
 
-## 3.2. Components Of A Use Case Diagram
+## 4.2. Components Of A Use Case Diagram
 
-We will now go into detail about the different components of a Use Case diagram.
+We will now go into some detail about the different components of a Use Case diagram.
 
 ### Actor
 
@@ -74,7 +86,7 @@ We will now go into detail about the different components of a Use Case diagram.
 * The participation of an actor in a use case is shown by connecting an actor to a use case by a solid link.
 * Actors may be connected to use cases by associations, indicating that the actor and the use case communicate with one another using messages.
 
-## System Boundary
+### System Boundary
 
 * The system boundary is potentially the entire system as defined in the requirements document.
 * For large and complex systems, each module may be the system boundary.
@@ -82,7 +94,7 @@ We will now go into detail about the different components of a Use Case diagram.
 
 These are based from reference [1].
 
-## 3.3. Relationships
+## 4.3. Relationships
 
 There can be 5 relationship types in a Use Case diagram.
 
@@ -106,7 +118,7 @@ An example of Association is shown here in this simple example:
 
 ![A simple Use Case Diagram with association](/modelling-analysis/images/association.PNG)
 
-*Fig. 1: A simple Use Case Diagram with association.*
+*Fig. 2: A simple Use Case Diagram with association.*
 
 ### Generalization Of An Actor
 
@@ -116,11 +128,53 @@ Expanding on the previous diagram, the following now includes generalization:
 
 ![A Use Case Diagram with generalization of an actor](/modelling-analysis/images/actor_generalization.PNG)
 
-*Fig. 1: A Use Case Diagram with generalization of an actor.*
+*Fig. 3: A Use Case Diagram with generalization of an actor.*
 
 These are based from reference [2].
 
-## 4. Tools
+## 5. Use Case Descriptions
+
+A use Case description is similar to that of a diagram, however where the diagram is a more visual element, a description is how it sounds. It is defined as a written account of the sequence of steps performed by an actor to accomplish some sort of task. It goes into more detail about how the system is expected to behave than a Use Case Diagram, and can therefore refine the details in the diagram.
+
+An example of a Use Case Description can be seen here:
+
+![A Use Case Description](/modelling-analysis/images/use_case_description1.jpg)
+
+*Fig. 4: Simple Use Case Description. From reference [3].*
+
+## 5.1. Components Of A Use Case Description
+
+Most Use Case Descriptions include the following elements at a minimum. You should try to use the same components in your own descriptions for your projects (this is a seperate Use Case Model than Fig. 4):
+
+![Conditions of a Use Case Description](/modelling-analysis/images/use_case_description2.png)
+
+*Fig. 5: Conditions of a Use Case Description. From reference [4].*
+
+### Title/Name
+
+The title communicates the goal of the Use Case. In the example, Login.
+
+### Actors
+
+The people who interact with the Use Case. This can be broken down into Primary (the actor who starts the use case), Secondary (the one who interacts with the use case) and even Off-Stage (those who don’t interact directly with the use case but are involved from a business rule perspective) if needed.
+
+### Pre-Condition
+
+Preconditions are those things that need to be in place before the use case can start. In the example, the system must be connected to the network so a user can login.
+
+### Post-Condition
+
+Postconditions are in place when you finish the use case successfully or unsuccessfully. A postcondition on success indicates what happens when the process completes successfully. A postcondition on failure is the opposite.
+
+### Path
+
+Also called flow or story, the path is the step-by-step action and interaction between the actor and the system (like that of Fig. 4). Paths come in three types:
+
+* Primary path/Main Flow:  The most commonly taken path to a successful conclusion.
+* Alternate path: This path is an alternate, less-frequented way to get to a successful conclusion.
+* Exception path: This path is an alternate path that leads to an unsuccessful conclusion.
+
+## 6. Tools
 
 There are a variety of software tools that you can use to create Use Case diagrams, some of which we recommend are:
 
@@ -140,18 +194,24 @@ There are a variety of software tools that you can use to create Use Case diagra
 * Download/link: https://www.visual-paradigm.com/
 * How to use: https://www.visual-paradigm.com/support/documents/vpuserguide/94/2575/6362_drawinguseca.html
 
-## 5. Template
+## 7. Template
 
 I will now show you a simple template that you can start with, this is the start of a very simple Use Case diagram, you should add in as many Use Cases and actors as you can think of when are identifying your User Stories:
 
 ![A simple Use Case Diagram template](/modelling-analysis/images/use_case_template.PNG)
 
-*Fig. 1: A simple Use Case Diagram template.*
+*Fig. 6: A simple Use Case Diagram template.*
 
-At this stage, you should have already created a set of User Stories. Use these stories to identify the Use Cases and Actors in your Use Case diagrams. After this point, you can then use the Use Case diagram to help you create sequence diagrams (more on this in modelling-design).
+I have also provided you with a template that you can use to create your Use Case Descriptions. This can be found [here](/modelling-analysis/level4/use_case_description_template.docx).
 
-## 6. References
+At this stage, you should have already created a set of **User Stories**. Use these stories to identify the Use Cases and Actors in your **Use Case Diagrams** and **Use Case Descriptions**. After this point, you can then use the **Use Case Models** to help you create sequence diagrams (more on this in modelling-design).
 
-[1] Visual Paradigm. What is Use Case Diagram?. <https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-use-case-diagram/>.
+## 8. References
+
+[1] Visual Paradigm. What is Use Case Diagram? <https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-use-case-diagram/>.
 
 [2] Creately. Use Case Diagram Relationships Explained with Examples. <https://creately.com/blog/diagrams/use-case-diagram-relationships/>.
+
+[3] Dummies. How to Create Use Case Description for Your Business Analysis Report. By Kupe Kupersmith, Paul Mulvey, Kate McGoey. <https://www.dummies.com/business/business-strategy/how-to-create-use-case-description-for-your-business-analysis-report/>.
+
+[4] Warren Lynch. Use Case Description Example. <https://warren2lynch.medium.com/use-case-description-example-4b04280d6435>.
