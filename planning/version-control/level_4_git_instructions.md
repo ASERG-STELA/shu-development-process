@@ -3,7 +3,9 @@
 ## 1. Abstract
 
 This document will serve to provide you with instructions on how to use Git and Github as version control for your projects. Version control allows developers to keep track of their projects and have all files/folders/source code all in one place. It is particularly useful for teams of developers but is also useful for individual work.
-For Level 4 students and for future reference for other Levels, this document will explain the basics, including creating an account, repositories, adding files/folders, pushing/pulling and editing and committing changes.
+For Level 4 students and for future reference for other Levels, this document will explain the basics, including creating an account, repositories, adding files/folders, pushing/pulling and editing and committing changes. 
+
+You can see how to integrate Git with the tools you will likely be using at L4, Visual Studio 2019 and IntelliJ IDEA in the tools guidelines [here](/planning/version-control/tools/level_4_git_tools.md).
 
 ## 2. Table of Contents
 
