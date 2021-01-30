@@ -29,7 +29,7 @@ It will involve artefacts like user stories and use cases.
 [Level 4 User Stories Templates](level4/user-stories.md)
 - Basic user stories identifying “the actor”, “the narrative”, and “the goal”.
 
-[Level 4 User Case Guidance](level4/level_4_use_case_guidance.md)
+[Level 4 Use Case Guidance](level4/level_4_use_case_guidance.md)
 - Basic use case diagram and use case descriptions. Use cases identified from user stories.
 
 ### Level 5
