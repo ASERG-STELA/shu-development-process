@@ -75,23 +75,44 @@ Intermediate code has 2 forms of representation:
 
 ### Optimisation
 
-In the optimization phase, the compiler uses a variety of ways to enhance the efficiency of the code. This can be done by:
+In the optimisation phase, the compiler uses a variety of ways to enhance the efficiency of the code. This can be done by:
 
 * Function inlining – replacing the function call with its body.
 * Dead code elimination – compiler gets rid of code that is never executed, or if executed, its returned result isn’t used.
 * Loop fusion – executing, in one loop, operations from the adjacent loops that have the same iteration conditions.
-* Instruction combining – instructions realizing similar operations are combined into one; for example, x = x + 10; x = x – 7; could be replaced with x = x + 3;
+* Instruction combining – instructions realising similar operations are combined into one; for example, x = x + 10; x = x – 7; could be replaced with x = x + 3;
 
 ### Code Generation
 
-Finally, the compiler converts the optimized intermediate code to the machine code dedicated to the target machine. The final code should have the same meaning as source code and be efficient in terms of memory and CPU resource usage.
+Finally, the compiler converts the optimised intermediate code to the machine code dedicated to the target machine. The final code should have the same meaning as source code and be efficient in terms of memory and CPU resource usage.
 
 These are based from reference [2].
 
 ## 4. How To Compile In Visual Studio 2019
 
-I will now walkthrough how to compile your code in Visual Studio 2019. You will need to do this each time you want to run your programs, likely to be written in C# at this level.
-I have prepared a simple 'Hello World' application, written in C# to use as an example program:
+I will now walkthrough how to compile your code in Visual Studio 2019. You will need to do this each time you want to run your programs, likely to be written in C# at this level. It is very simple to do.
+I have prepared a simple 'Hello World' application, written in C# to use as an example program for a console application, as well as an example of a windows forms application (the process is the same).
+
+Lets start witht the console application:
+
+![Simple hello world console application](/deployment-delivery/images/c_sharp_console_app.PNG)
+
+This is just a simple 'Hello World' application that we will compile. To compile, simply click the green arrow at the top of the IDE next to your project name:
+
+
+![Compile hello world console application](/deployment-delivery/images/compile_c_sharp.PNG)
+
+Your program should now be running and a console window should appear:
+
+![Compiled hello world console application](/deployment-delivery/images/compiled_c_sharp.PNG)
+
+If you have any errors in your program that the compiler has spotted, this window should appear. Always click **No** as you do not want to run the program anyway as it will run the last build without the recent changes you have made: 
+
+![Build errors in project](/deployment-delivery/images/build_errors.PNG)
+
+You can see details on the errors in your program in the error list window at the bottom of the IDE:
+
+![Viewing errors](/deployment-delivery/images/error_list.PNG)
 
 ## 5. How To Compile In IntelliJ IDEA.
 
