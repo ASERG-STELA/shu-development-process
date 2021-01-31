@@ -93,12 +93,11 @@ These are based from reference [2].
 I will now walkthrough how to compile your code in Visual Studio 2019. You will need to do this each time you want to run your programs, likely to be written in C# at this level. It is very simple to do.
 I have prepared a simple 'Hello World' application, written in C# to use as an example program for a console application, as well as an example of a windows forms application (the process is the same).
 
-Lets start witht the console application:
+Lets start witht the **console application:**
 
 ![Simple hello world console application](/deployment-delivery/images/c_sharp_console_app.PNG)
 
-This is just a simple 'Hello World' application that we will compile. To compile, simply click the green arrow at the top of the IDE next to your project name:
-
+This is just a simple 'Hello World' application that we will compile. To compile, simply click the green arrow at the top of the IDE next to your project name or press F10:
 
 ![Compile hello world console application](/deployment-delivery/images/compile_c_sharp.PNG)
 
@@ -114,10 +113,44 @@ You can see details on the errors in your program in the error list window at th
 
 ![Viewing errors](/deployment-delivery/images/error_list.PNG)
 
+It is a similar process with **Windows Forms** applications, here is a windows forms application I had laying around on my machine:
+
+![Windows Forms application](/deployment-delivery/images/c_sharp_forms_app.PNG)
+
+To compile, we once again go to the top of the IDE and click the green arrow next to **Start** or F10:
+
+![Compile Windows Forms application](/deployment-delivery/images/compile_forms.PNG)
+
+The program will now compile and open a forms application:
+
+![Compiled Windows Forms application](/deployment-delivery/images/compiled_forms.PNG)
+
+Any errors during compilation will once again bring up the build errors pop up, and you can view these errors in the **Error list**.
+
 ## 5. How To Compile In IntelliJ IDEA.
 
 Compiling in IntelliJ IDEA is very similar to that of Visual Studio 2019. You will be using IntelliJ for Java development.
 I have prepared a similar 'Hello World' application to that written in C++, this time, written in Java, so that I can use the IntelliJ compiler:
+
+![Example Java application](/deployment-delivery/images/java_app.PNG)
+
+To compile, there are 2 ways. Click the green arrow on either:
+
+The **nav bar:**
+
+![Compile Java application on navbar](/deployment-delivery/images/run_navbar.PNG)
+
+The **line of code** where the function starts:
+
+![Compile Java application on line of code](/deployment-delivery/images/run_code_line.PNG)
+
+If the compilation is successful, you should get an output in the console window:
+
+![Successful compile of Java application](/deployment-delivery/images/compiled_java.PNG)
+
+If the compilation is not successful and there are build errors, the application will not compile and the errors can be shown in the **build output**:
+
+![Build errors in Java application](/deployment-delivery/images/java_error.PNG)
 
 ## 6. References 
 
