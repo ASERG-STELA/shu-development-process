@@ -8,11 +8,11 @@
   - [3. Understand the Requirements](#3-understand-the-requirements)
     - [3.1. Meeting the Client](#31-meeting-the-client)
     - [3.2. Software Specification](#32-software-specification)
+	- [3.3. Identification Stage](#33-identification-stage)
   - [4. Understand the Problem](#4-understand-the-problem)
     - [4.1. Define an initial set of Requirements](#41-define-an-initial-set-of-requirements)
       - [4.1.1. Functional Requirements](#411-functional-requirements)
       - [4.1.2. Non-functional Requirements](#412-non-functional-requirements)
-    - [4.2. Identification Stage](#42-identification-stage)
   - [5. Socratic Questioning Technique](#5-socratic-questioning-technique)
     - [5.1. Six Types of Socratic Questions](#51-six-types-of-socratic-questions)
   - [6. Meeting Minutes](#6-meeting-minutes)
@@ -37,6 +37,16 @@ Meeting with your client will be the first step in the process of Initiation. Th
 
 At the initial stage, you will have been given a set of requirements now in the form of the specification. This will define the expectation you need to follow in terms of how the system will perform, the inputs and outputs that are expected, what the program should do and who will be making use of it. It is important now for you to **read** this specification and start to think about the next steps you want to take. Don't worry if you are not sure of what to do at this point, once you've read the specification, this document will help guide you through the next stages you need to think about going forward.
 
+### 3.3. Identification Stage
+
+Once you have identified all of your requirements, you now need to.
+
+- Identify what you understand
+- Identify things on which you need clarity  
+
+With this, you will be able to understand what you need to get clarity on and what you are happy with in terms of your understanding. At this stage you will have had your initial meeting with your client, but once you have understood and wrote down a set of requirements, it is a good idea to meet them again with a set of question you can use to obtain further understanding. To do this you need to think about what the problem is, and think about what kind of questions you need to ask to help you get clarity here.
+
+
 ## 4. Understand the Problem
 
 ### 4.1. Define an initial set of Requirements
@@ -54,22 +64,17 @@ How well you define and execute these non-functional requirements will determine
 
 ![](https://qracorp.com/wp-content/uploads/2020/09/Functional-Vs-Non-Functional-Article-Imagery-03-1024x314-1-768x236.png)
 
-### 4.2. Identification Stage
-
-Once you have identified all of your requirements, you now need to.
-
-- Identify what you understand
-- Identify things on which you need clarity  
-
-With this, you will be able to understand what you need to get clarity on and what you are happy with in terms of your understanding. At this stage you will have had your initial meeting with your client, but once you have understood and wrote down a set of requirements, it is a good idea to meet them again with a set of question you can use to obtain further understanding. To do this you need to think about what the problem is, and think about what kind of questions you need to ask to help you get clarity here.
 
 ## 5. Socratic Questioning Technique
 
 When you have to ask questions about something, there is a technique that you can consider when thinking about how to format the questions you ask, so you can get as much information as possible. The key to extracting relevant information is all about how you structure your questions. This section will cover a technique known as Socratic Questioning which will help give you a guide as to how you can go about formatting your questions.  
 
-The socratic approach to questioning is based on the practice of disciplined, thoughtful dialogue. Socrates, the early greek philosopher/teacher, believed that disciplined practice and thoughtful questioning enabled the student to examine ideas logically and to determine the validity of those ideas. When using this technique in a teaching aspect, the teacher professes ignorance of the topic in order to engage in dialogue with the students. By doing this, the student develops the fullest possible knowledge about the topic.  
-
-This technique is an effective way to explore ideas in depth. By using this technique, it promotes independant thinking and gives ownership of what you are learning. Higher level thinking are present when you are thinking, evaluating, debating, discussing, and analysing content using your own thinking process. These types of questions take practice since in some cases the structure promotes an entirely new approach.  
+The socratic approach to questioning is based on the practice of disciplined, thoughtful dialogue. 
+The Intel Teach Program ([1]), teaches that disciplined practice and thoughtful questioning enable you to examine ideas logically and to determine the validity of those ideas. 
+This technique is an effective way to explore ideas in depth. 
+By using this technique, it promotes independant thinking and gives ownership of what you are learning. 
+Higher level thinking is present when you are thinking, evaluating, debating, discussing, and analysing content using your 
+own thinking process. These types of questions take practice since in some cases the structure promotes an entirely new approach.   
 
 Some tips:
 
@@ -143,9 +148,9 @@ A template to help you get started can be found [here](../level4/Project%20Check
 
 ## 7. References
 
-[Intel Teach Program: The Socratic Questioning Technique](https://www.intel.com/content/dam/www/program/education/us/en/documents/project-design/strategies/dep-question-socratic.pdf)  
-[The Six Types of Socratic Questions](http://problemsolving.engin.umich.edu/strategy/cthinking.htm)  
-[QRACorp Func and Non-Func Requirements](https://qracorp.com/functional-vs-non-functional-requirements/)  
-[Freecodecamp: Why You Need to Understand Software Requirements as a Software Engineer](https://www.freecodecamp.org/news/why-understanding-software-requirements-matter-to-you-as-a-software-engineer/)  
-[Geeks4Geeks Software Engineering Requirements Engineering Process](https://www.geeksforgeeks.org/software-engineering-requirements-engineering-process/)  
-[Hugo: Meetings Minutes](https://www.hugo.team/blog/meeting-minutes-with-samples-templates)
+[1] Intel Teach Program: The Socratic Questioning Technique <https://www.intel.com/content/dam/www/program/education/us/en/documents/project-design/strategies/dep-question-socratic.pdf>  
+[2] The Six Types of Socratic Questions <http://problemsolving.engin.umich.edu/strategy/cthinking.htm)>  
+[3] QRACorp Func and Non-Func Requirements <https://qracorp.com/functional-vs-non-functional-requirements/)>  
+[4] Freecodecamp: Why You Need to Understand Software Requirements as a Software Engineer <https://www.freecodecamp.org/news/why-understanding-software-requirements-matter-to-you-as-a-software-engineer/>  
+[5] Geeks4Geeks Software Engineering Requirements Engineering Process <https://www.geeksforgeeks.org/software-engineering-requirements-engineering-process/>  
+[6] Hugo: Meetings Minutes <https://www.hugo.team/blog/meeting-minutes-with-samples-templates>
