@@ -3,7 +3,9 @@
 ## 1. Abstract
 
 This document will serve to provide you with instructions on how to use Git and Github as version control for your projects. Version control allows developers to keep track of their projects and have all files/folders/source code all in one place. It is particularly useful for teams of developers but is also useful for individual work.
-For Level 4 students and for future reference for other Levels, this document will explain the basics, including creating an account, repositories, adding files/folders, pushing/pulling and editing and committing changes.
+For Level 4 students and for future reference for other Levels, this document will explain the basics, including creating an account, repositories, adding files/folders, pushing/pulling and editing and committing changes. 
+
+You can see how to integrate Git with the tools you will likely be using at L4, Visual Studio 2019 and IntelliJ IDEA in the tools guidelines [here](/planning/version-control/tools/level_4_git_tools.md).
 
 ## 2. Table of Contents
 
@@ -19,21 +21,23 @@ For Level 4 students and for future reference for other Levels, this document wi
 - [8. Downloading and Cloning](#8-downloading-and-cloning)
 - [9. Workflow](#9-workflow)
 - [10. Tools](#10-tools)
-- [Downloading Git Kraken](#downloading-git-kraken)
-- [12. References](#12-references)
+- [11. References](#11-references)
 
 ## 3. Creating an Account
 
 In order to first start using Github, you will first need to create free Github account:
 
 1. Go to <https://github.com>.
-2. On the starting page, click ‘Sign up for GitHub’
-3. Fill out all fields and complete the puzzle, then press ‘Create account’
+2. On the starting page, click **Sign up for GitHub**:
+
+![Sign up for Github](/planning/version-control/images/sign-up.png)
+
+3. Fill out all fields and complete the puzzle, then press **Create account**
 4. Use these details when logging in after this point
 
 ## 4. Repositories
 
-A repository is often used to organise a single project. Often called a ‘Repo’, repositories can contain anything that your project could need:
+A repository is often used to organise a single project. Often called a **Repo**, repositories can contain anything that your project could need:
 
 - Folders and files including source code
 - Images and videos
@@ -43,13 +47,31 @@ A repository is often used to organise a single project. Often called a ‘Repo�
 
 ## 4.1. Creating a Repository
 
-Follow these steps to create your own repository, this is based on reference [1]:
+There are 3 ways to create a repository:
 
-1. In the upper right corner, next to your avatar or identicon, click and then select **New repository**
-2. Name your repository
-3. Write a short description
-4. Select **Initialize this repository with a README**
-5. Click **Create repository**
+1. In the upper right corner, next to your avatar or identicon, click and then select **New repository**:
+
+![Create repository header](/planning/version-control/images/create_header.png)
+
+2. On the panel on the left:
+
+![Create repository left panel](/planning/version-control/images/create_panel.png)
+
+3. On the start page/page content:
+
+![Create repository start page](/planning/version-control/images/create_start_page.png)
+
+Do any of these and you should see this screen:
+
+![Create the repository](/planning/version-control/images/create_repo1.PNG)
+
+Now:
+* Name your repository
+* Write a short description
+* Select **Initialize this repository with a README**
+* Click **Create repository** when you are satisfied. You should be greeted by this screen:
+
+![Repository created](/planning/version-control/images/repo_created.PNG)
 
 ## 4.2. README File
 
@@ -81,9 +103,9 @@ As well as uploading files, you can also edit the content of existing files insi
 
 ## 7. Push and Pull
 
-Pushing and Pulling are used to upload and retrieve code from Github, usually directly through the code editor terminal or GitKraken. ‘Push’ is used to push the changes you have made to your code in the editor onto Github without needing to reupload the full file.
+Pushing and Pulling are used to upload and retrieve code from Github, usually directly through the code editor terminal, GitKraken/Github Desktop or your development environment. ‘Push’ is used to push the changes you have made to your code in the editor onto Github without needing to reupload the full file.
 
-‘Pull’ is the opposite, it is used to retrieve code from Github using the terminal or GitKraken in order to update your code in your editor. This is used to ensure you always have the most up to date version of your code (very useful for collaboration).
+‘Pull’ is the opposite, it is used to retrieve code from Github using the terminal, GitKraken/Github Desktop or your development environment, in order to update your code in your editor. This is used to ensure you always have the most up to date version of your code (very useful for collaboration).
 
 ## 8. Downloading and Cloning
 
@@ -93,7 +115,7 @@ If you are not using GitKraken, there are two options available to you to retrie
 2. Click the green **Code** button just above your file structure;
 3. Click **Download ZIP**. Your project will then download and you will be free to use it as you please;
 
-Cloning is another way to retrieve your files from Github, this is done through your IDE and avoids the need to download the files each time:
+Cloning is another way to retrieve your files from Github, this is done through your IDE and avoids the need to download the files each time. In the [tools](/planning/version-control/tools/level_4_git_tools.md) guidance, we have showed an example with screenshots of how to do this:
 
 1. Launch your IDE (Visual Studio 2019);
 2. Navigate to the section where you create or open a project (on the right in VS 2019), there should be a section saying Clone or check out code;
@@ -110,14 +132,26 @@ Building on the sections above, it is important to be able to integrate them all
 
 For Level 4, we recommend you follow a basic flow for your projects, using just the one branch, **Main/Master**, as you are likely to be working as an individual on most of your projects at L4. You will be introduced to branching and merging at L5 but for L4, this will suffice. You should try to use Github for all of your projects, even if it is just you working on them as they can be used to build a portfolio of work to bring to interviews after graduation or for placements.
 
-The main branch should always ready to run with the most up to date version of your code, using **tags** to identify the release version. This workflow is very basic but will ensure a simple, structure for your project with a clear history of your release versions at Level 4. This workflow is most suitable for small projects, once you start to work on larger projects, you will need to build on this workflow (more on this at Level 5 and 6).
+The main branch should always ready to run with the most up to date version of your code, using **tags** to identify the release version. This workflow is very basic but will ensure a simple, structure for your project with a clear history of your release versions at Level 4. This workflow is most suitable for small projects, once you start to work on larger projects, you will need to build on this workflow (more on this at Level 5 and 6). 
+
+If you have any problems with anything we have covered, check out reference [1] at the bottom of the document.
 
 ## 10. Tools
 
-## Downloading Git Kraken
+Git is integrated in many development environments, including the ones that you will be using at Level 4. These include:
 
-This step is optional. GitKraken is a free Git GUI that should be available on all University machines. It essentially performs the same functions as Github, in fact, they are integrated. Any changes you make in GitKraken get pushed to Github. In order to download GitKraken on your own machines, simply visit gitkraken.com to download for free and follow the instructions on the website.
+* Visual Studio 2019
+* IntelliJ IDEA
+* Visual Studio Code
 
-## 12. References
+There is also a few Git GUI tools that are available to you, that may make it easier for you to use Git with your projects. Two of these we can recommend to you are:
+
+* Github Desktop
+* Git Kraken
+
+We have prepared some walkthrough examples of how to integrate Git with the development environments above, as well as provided links to resources that can help you with VS Code, and the Git GUI tools in the tools guidance [here](/planning/version-control/tools/level_4_git_tools.md). 
+We encourage you to look at this guidance to help you integrate Git with all of your projects. This will help you build a portfolio of work, that you can show interviewers when applying for placements and graduate jobs after University.
+
+## 11. References
 
 [1] Hello World. Getting started with github. <https://guides.github.com/activities/hello-world/>.

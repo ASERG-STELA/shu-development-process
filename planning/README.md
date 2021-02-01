@@ -3,9 +3,9 @@
 - [1. Introduction](#1-introduction)
 - [2. Planning your work](#2-planning-your-work)
 - [Level Specific Guidance](#level-specific-guidance)
-  - [Level 4 (TBD)](#level-4-tbd)
-  - [Level 5 (TBD)](#level-5-tbd)
-  - [Level 6 (TBD)](#level-6-tbd)
+  - [Level 4](#level-4)
+  - [Level 5](#level-5)
+  - [Level 6](#level-6)
 
 ## 1. Introduction
 
@@ -53,20 +53,20 @@ When planning your work you should try to adopt SMART planning:
 
 ## Level Specific Guidance
 
-### Level 4 (TBD)
+### Level 4
 
-- Communication: informal
-- Project planning: Basic work breakdown structure is maintained. Using a tool is nice.
-- Basic version control for individual programs.
+- [Communication:](/planning/team-communication/level-4/level_4_team_communication_guidelines.md) Informal
+- [Project Planning:](/planning/project-management/level-4/level_4_management_guidelines.md) Basic work breakdown structure is maintained. Using a tool is nice.
+- [Version Control](/planning/version-control/level_4_git_instructions.md) Basic version control for individual programs.
 
-### Level 5 (TBD)
+### Level 5
 
-- Communication: Scrum like meeting.
-- Project planning: Work plan and allocation is done. Status is also tracked using some tool.
-- With basic branching. Nice to have basic DevOps implementation depending on module (e,g GSDP)
+- [Communication:](/planning/team-communication/level-5/level_5_team_communication_guidelines.md) Scrum like meeting.
+- [Project Planning:](/planning/project-management/level-5/level_5_management_guidelines.md) Work plan and allocation is done. Status is also tracked using some tool.
+- [Version Control:](/planning/version-control/level_5_git_instructions.md). With basic branching. Nice to have basic DevOps implementation depending on module (e,g GSDP)
 
-### Level 6 (TBD)
+### Level 6
 
-- Scrum like meeting and ongoing communication through tools.
-- Project planning: Work plan, allocation and status is tracked through some tool. Dependency and risks are managed.
-- With development/feature branch, main branch and integration branch (if applicable). Need to have a merging strategy. DevOps implementation.
+- [Communication:](/planning/team-communication/level-6/level_6_team_communication_guidelines.md) Scrum like meeting and ongoing communication through tools.
+- [Project Planning:](/planning/project-management/level-6/level_6_management_guidelines.md) Work plan, allocation and status is tracked through some tool. Dependency and risks are managed.
+- [Version Control:](/planning/version-control/level_6_git_instructions.md) With development/feature branch, main branch and integration branch (if applicable). Need to have a merging strategy. DevOps implementation.

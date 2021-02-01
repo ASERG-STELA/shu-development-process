@@ -57,16 +57,18 @@ A description of each phase is presented below.
 ### 3.1. Level 4
 
 - Initiation
+  - [Initiation Guidelines](initiation/level4/level4-initiation.md)
 - Planning
   - [Git Version Control](planning/version-control/level_4_git_instructions.md)
   - [Project Management](planning/project-management/level-4/level_4_management_guidelines.md)
   - [Team Communication](planning/team-communication/level-4/level_4_team_communication_guidelines.md)
 - Modelling - Analysis
-  - [User stories](modelling-analysis/level4/user-stories.md)
+  - [User Stories](modelling-analysis/level4/user-stories.md)
+  - [Use Case Diagrams](modelling-analysis/level4/level_4_use_case_guidance.md)
 - Modelling - Design
-  - UML Class diagrams
+  - [Class, Entity Relationship and Sequence Diagrams](modelling-design/level4/level4-design.md)
 - Construction - Code
-  - [Code commenting](construction-code/level4/commenting.md)
+  - [Code Commenting](construction-code/level4/level4-code-commenting.md)
   
 ### 3.2. Level 5
 
@@ -75,12 +77,12 @@ A description of each phase is presented below.
   - [Project Management](planning/project-management/level-5/level_5_management_guidelines.md)
   - [Team Communication](planning/team-communication/level-5/level_5_team_communication_guidelines.md)
 - Modelling - Analysis
-  - [User stories](modelling-analysis/level5/user-stories.md)
-  - [MoSCoW prioritisation method](modelling-analysis/level5/moscow_prioritisation_method.md)
+  - [User Stories](modelling-analysis/level5/user-stories.md)
+  - [MoSCoW Prioritisation Method](modelling-analysis/level5/moscow_prioritisation_method.md)
 - Modelling - Design
-  - UML Class diagrams
+  - [UML Class Diagrams]()
 - Construction - Code
-  - [Code commenting](construction-code/level5/commenting.md)
+  - [Code Commenting](construction-code/level5/level5-code-commenting.md)
 
 ### 3.3. Level 6
 
@@ -89,17 +91,17 @@ A description of each phase is presented below.
   - [Project Management](planning/project-management/level-6/level_6_management_guidelines.md)
   - [Team Communication](planning/team-communication/level-6/level_6_team_communication_guidelines.md)
 - Modelling - Analysis
-  - [User stories](modelling-analysis/level6/user-stories.md)
+  - [User Stories](modelling-analysis/level6/user-stories.md)
 - Modelling - Design
-  - UML Class diagrams
+  - [UML Class Diagrams]()
 - Construction - Code
-  - [Code commenting](construction-code/level6/commenting.md)
+  - [Code Commenting](construction-code/level6/level6-code-commenting.md)
 
 ## 4. Process-based view
 
 ### 4.1. Initiation
 
-- [**Initiation guidelines**](Initiation/README.md)
+- [**Initiation guidelines**](initiation/README.md)
 
 ### 4.2. Planning
 
@@ -133,7 +135,7 @@ A description of each phase is presented below.
 
 - [**Project Planning:**](planning/project-management/tools/project_management_tools.md) Trello, MS Project, MS Excel
 - **Team Communication:** Team, Slack
-- **Version Control:** Git, CVS or similar
+- **Version Control ([L4](/planning/version-control/tools/level_4_git_tools.md)):** Git, CVS or similar
 - **Design:** STARUML, Visio or similar
 - **Coding:** Visual Studio/ Intelli J  or similar
 - **Unit Testing:** Junit/Nunit or similar. Coverage tools

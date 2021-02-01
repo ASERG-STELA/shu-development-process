@@ -29,6 +29,9 @@ It will involve artefacts like user stories and use cases.
 [Level 4 User Stories Templates](level4/user-stories.md)
 - Basic user stories identifying “the actor”, “the narrative”, and “the goal”.
 
+[Level 4 Use Case Guidance](level4/level_4_use_case_guidance.md)
+- Basic use case diagram and use case descriptions. Use cases identified from user stories.
+
 ### Level 5
 
 [Level 5 User Stories Templates](level5/user-stories.md)
@@ -36,6 +39,9 @@ It will involve artefacts like user stories and use cases.
 - Use Case or User Story or Requirement Specification.
 - Persona and User scenario.
 - Requirements should be SMART.
+
+[MoSCoW Prioritisation Method](level5/moscow_prioritisation_method.md)
+- Use the method to prioritise your requirements and user stories.
 
 ### Level 6
 
