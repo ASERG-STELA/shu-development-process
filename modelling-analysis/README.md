@@ -66,5 +66,3 @@ How well you define and execute these non-functional requirements will determine
 [Level 6 User Stories Template](level6/level-6-user-stories.md)
 - Well defined user stories with clear acceptance criteria, and evidence of traceability.
 - end to end traceability (Requirement Traceability Verification Matrix) need to be maintained.
-
-## 4. References
