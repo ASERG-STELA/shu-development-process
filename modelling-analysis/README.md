@@ -1,7 +1,10 @@
 # Analysis <!-- omit in toc -->
 
 - [1. Introduction](#1-introduction)
-- [Level Specific Guidance](#level-specific-guidance)
+- [2. Requirements](#2-requirements)
+	- [2.1. Functional Requirements](#21-functional-requirements)
+	- [2.2.  Non-functional Requirements](#22-non-functional-requirements)
+- [3. Level Specific Guidance](#3-level-specific-guidance)
   - [Level 4 ](#level-4)
   - [Level 5 ](#level-5)
   - [Level 6 ](#level-6)
@@ -21,8 +24,23 @@ It will involve artefacts like user stories and use cases.
   - Identifying them
   - Documenting
   - Prioritising
+  
+## 2. Requirements
 
-## Level Specific Guidance
+#### 2.1. Functional Requirements
+
+Functional requirements define the basic system behaviour. Essentially, they are **what** the system does or must not do and can simply be thought of as how the system will respond to inputs. These requirements usually define if/then behaviours or **conditions** and can include calculations, data input and other business processes. Functional requirements are features that allow the system to function as it was intended. Putting it another way, if these requirements are not met, then the system could grind to a halt when it is being used by an external user. They are the **features** of your product and should be thought of with the highest importance in the initial stages.
+
+#### 2.2.  Non-functional Requirements
+
+Non-functional requirements define what the system does or must not do, they specify **how** the system should do it. These requirements don't have any impact upon the functionality of the system, hence the name. Even if these requirements are not met, the system will perform its basic purpose. The most important aspect of non-functional requirements, and why they are so important is **usability**. The non-functional requirements define the system behaviour, features and general characteristics that are important for the user experience.
+How well you define and execute these non-functional requirements will determine how easy the system will be to use. This is a good way to judge your system performance as well, consider them **product properties** and maintain focus on **user expectations**.  
+
+![](https://qracorp.com/wp-content/uploads/2020/09/Functional-Vs-Non-Functional-Article-Imagery-03-1024x314-1-768x236.png)
+
+
+
+## 3. Level Specific Guidance
 
 ### Level 4
 
@@ -49,3 +67,4 @@ It will involve artefacts like user stories and use cases.
 - Well defined user stories with clear acceptance criteria, and evidence of traceability.
 - end to end traceability (Requirement Traceability Verification Matrix) need to be maintained.
 
+## 4. References
