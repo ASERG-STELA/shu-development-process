@@ -9,19 +9,15 @@
     - [3.1. Meeting the Client](#31-meeting-the-client)
     - [3.2. Software Specification](#32-software-specification)
 	- [3.3. Identification Stage](#33-identification-stage)
-  - [4. Understand the Problem](#4-understand-the-problem)
-    - [4.1. Define an initial set of Requirements](#41-define-an-initial-set-of-requirements)
-      - [4.1.1. Functional Requirements](#411-functional-requirements)
-      - [4.1.2. Non-functional Requirements](#412-non-functional-requirements)
-  - [5. Socratic Questioning Technique](#5-socratic-questioning-technique)
-    - [5.1. Six Types of Socratic Questions](#51-six-types-of-socratic-questions)
-  - [6. Meeting Minutes](#6-meeting-minutes)
-    - [6.1. How to Write Meeting Minutes](#61-how-to-write-meeting-minutes)
-  - [7. References](#7-references)
+  - [4. Socratic Questioning Technique](#4-socratic-questioning-technique)
+    - [4.1. Six Types of Socratic Questions](#41-six-types-of-socratic-questions)
+  - [5. Meeting Minutes](#5-meeting-minutes)
+    - [5.1. How to Write Meeting Minutes](#51-how-to-write-meeting-minutes)
+  - [6. References](#7-references)
 
 ## 2. Introduction
 
-The Initiation phase (sometimes referred to as the Initial Communication phase) is dedicated to understanding the objectives of stakeholders, and for the design and collection of requirements that help identify the expected software functionalities and quality attributes. The aim of this document is to give you an overview of how you go about understanding your requirements, what sort of requirements you need to think about and how meeting minutes are created for any meetings you undertake. There will also be some guidance on a questioning style known as Socratic questioning which can be found in section [5](#5-socratic-questioning-technique).
+The Initiation phase (sometimes referred to as the Initial Communication phase) is dedicated to understanding the objectives of stakeholders, and for the design and collection of requirements that help identify the expected software functionalities and quality attributes. The aim of this document is to give you an overview of how you go about understanding your requirements, what sort of requirements you need to think about and how meeting minutes are created for any meetings you undertake. There will also be some guidance on a questioning style known as Socratic questioning which can be found in section [4](#4-socratic-questioning-technique).
 
 ## 3. Understand the Requirements
 
@@ -46,26 +42,7 @@ Once you have identified all of your requirements, you now need to.
 
 With this, you will be able to understand what you need to get clarity on and what you are happy with in terms of your understanding. At this stage you will have had your initial meeting with your client, but once you have understood and wrote down a set of requirements, it is a good idea to meet them again with a set of question you can use to obtain further understanding. To do this you need to think about what the problem is, and think about what kind of questions you need to ask to help you get clarity here.
 
-
-## 4. Understand the Problem
-
-### 4.1. Define an initial set of Requirements
-
-When you understand the requirements of the project you are about to start working on, it's time to decide on the **functional** and **non-functional** requirements for that solution.
-
-#### 4.1.1. Functional Requirements
-
-Functional requirements define the basic system behaviour. Essentially, they are **what** the system does or must not do and can simply be thought of as how the system will respond to inputs. These requirements usually define if/then behaviours or **conditions** and can include calculations, data input and other business processes. Functional requirements are features that allow the system to function as it was intended. Putting it another way, if these requirements are not met, then the system could grind to a halt when it is being used by an external user. They are the **features** of your product and should be thought of with the highest importance in the initial stages.
-
-#### 4.1.2. Non-functional Requirements
-
-Non-functional requirements define what the system does or must not do, they specify **how** the system should do it. These requirements don't have any impact upon the functionality of the system, hence the name. Even if these requirements are not met, the system will perform its basic purpose. The most important aspect of non-functional requirements, and why they are so important is **usability**. The non-functional requirements define the system behaviour, features and general characteristics that are important for the user experience.
-How well you define and execute these non-functional requirements will determine how easy the system will be to use. This is a good way to judge your system performance as well, consider them **product properties** and maintain focus on **user expectations**.  
-
-![](https://qracorp.com/wp-content/uploads/2020/09/Functional-Vs-Non-Functional-Article-Imagery-03-1024x314-1-768x236.png)
-
-
-## 5. Socratic Questioning Technique
+## 4. Socratic Questioning Technique
 
 When you have to ask questions about something, there is a technique that you can consider when thinking about how to format the questions you ask, so you can get as much information as possible. The key to extracting relevant information is all about how you structure your questions. This section will cover a technique known as Socratic Questioning which will help give you a guide as to how you can go about formatting your questions.  
 
@@ -84,7 +61,7 @@ Some tips:
 - Ask probing questions
 - Periodically summarise in writing key points that have been discussed  
 
-### 5.1. Six Types of Socratic Questions
+### 4.1. Six Types of Socratic Questions
 
 There are six types of socratic questions you can ask, which will solely depend on what you are asking the questions for, and what information you are aiming to extract. The six types along with some example questions you could use that match these types are.
 
@@ -117,13 +94,13 @@ There are six types of socratic questions you can ask, which will solely depend 
 
 It is important to know what you want to find out so you can ask the right questions about the right thing. The example questions above should give you some insight into what you need ask, dependant on what type of information you are aiming to find out.
 
-## 6. Meeting Minutes
+## 5. Meeting Minutes
 
 Meeting Minutes, also sometimes referred to as **minutes of a meeting** are the official summary of what happened during a meeting. Any correspondence you have with a client needs to be recorded so that you can look back at them and use them to form your agenda, deliverables and aims to meet before you need to have another meeting. The importance of these is not as key at Level 4, but it is good to get good practice in with these as they are a key artefact for further Levels, especially when you begin to work more in groups with your peers.  
 
 This section will give you a brief look at meeting minutes and include tips to help you write good minutes. A template will also be included for you to make use of, but if you prefer, there are plenty of other templates online you can make use of. For the most part, the minutes you will write for your meeting in University will be **informal**, but there might be times you need more **formal** minutes, but that won't be covered here. Informal meeting minutes mainly form a meeting summary, which is mainly what you require at Level 4.  
 
-### 6.1. How to Write Meeting Minutes
+### 5.1. How to Write Meeting Minutes
 
 - Be Concise  
 
@@ -146,11 +123,9 @@ When writing the meeting minutes, here are a few tips to help you create your no
 
 A template to help you get started can be found [here](../level4/Project%20Check-In%20Meeting%20Template.docx).
 
-## 7. References
+## 6. References
 
-[1] Intel Teach Program: The Socratic Questioning Technique <https://www.intel.com/content/dam/www/program/education/us/en/documents/project-design/strategies/dep-question-socratic.pdf>  
-[2] The Six Types of Socratic Questions <http://problemsolving.engin.umich.edu/strategy/cthinking.htm)>  
-[3] QRACorp Func and Non-Func Requirements <https://qracorp.com/functional-vs-non-functional-requirements/)>  
-[4] Freecodecamp: Why You Need to Understand Software Requirements as a Software Engineer <https://www.freecodecamp.org/news/why-understanding-software-requirements-matter-to-you-as-a-software-engineer/>  
-[5] Geeks4Geeks Software Engineering Requirements Engineering Process <https://www.geeksforgeeks.org/software-engineering-requirements-engineering-process/>  
-[6] Hugo: Meetings Minutes <https://www.hugo.team/blog/meeting-minutes-with-samples-templates>
+- [1] Intel Teach Program: The Socratic Questioning Technique <https://www.intel.com/content/dam/www/program/education/us/en/documents/project-design/strategies/dep-question-socratic.pdf>  
+- [2] The Six Types of Socratic Questions <http://problemsolving.engin.umich.edu/strategy/cthinking.htm)>  
+- [3] QRACorp Func and Non-Func Requirements <https://qracorp.com/functional-vs-non-functional-requirements/)>  
+- [4] Hugo: Meetings Minutes <https://www.hugo.team/blog/meeting-minutes-with-samples-templates>
