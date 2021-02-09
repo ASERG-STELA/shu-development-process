@@ -68,7 +68,7 @@ We know what we should be testing, but how about what we shouldn't be?
 ### 3.5. Keeping Track
 As you will most likely be doing your Unit Testing at this level by hand, to keep track of this it is better to use some form of document like a testing table to help organise the tests you have done, what you need to do, and what needs to be done, along with recording results. There might be failures in your tests that require you to make adjustments to your program, especially if these failures can impact on the performance of your program.  
 
-There is no one-size-fits-all when it comes to an effective, but there are some examples that we can provide you. Here we will provide you a couple of readily available ideas. One of them is a simple requirement testing table I did for a past assignment, and another is a suitable template I found online. It is preferable you label your tests with appropriate IDs, so with this in mind, modifying the examples here can be done if you prefer. These examples can be seen below, and found [here](../level4).
+Here we will provide you a couple of readily available ideas. One of them is a simple requirement testing table I did for a past assignment, and another is a suitable template I found online. It is preferable you label your tests with appropriate IDs, so with this in mind, modifying the examples here can be done if you prefer. These examples can be seen below, and found [here](../level4).
 
 <p align = "center">
   <img src="../level4/testing-example-template.PNG" width="400" />
