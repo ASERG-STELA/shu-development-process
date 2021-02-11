@@ -2,7 +2,7 @@
 
 ## 1. Abstract
 
-This document will walk through some examples of how to integrate Git into your development environment. At Level 4, you will be using Visual Studio 2019 and IntelliJ IDEA for your projects. Therefore the following examples will be specific for these two IDE's.
+This document will walk through some examples of how to integrate Git into your development environment. At Level 4, you will be using Visual Studio 2019, IntelliJ IDEA and Eclipse for your projects. Therefore the following examples will be specific for these three IDE's.
 Integrating Git into your IDE's is much more convenient than going directly through Github everytime you want to push or pull any changes from your repository.
 
 ## 2. Table of Contents
@@ -18,8 +18,12 @@ Integrating Git into your IDE's is much more convenient than going directly thro
   - [4.3. Put An Existing Project Under Git](#43-put-an-existing-project-under-git)
   - [4.4. Adding files to Git](#44-adding-files-to-git)
   - [4.5. Committing Changes](#45-committing-changes)
-- [5. Other Tools](#5-other-tools)
-- [6. References](#6-references)
+- [5. Eclipse](#5-eclipse)
+  - [5.1. Push A Project To Github](#51-push-a-project-to-github)
+  - [5.2. Committing Changes](#52-committing-changes)
+  - [5.3. Clone A Github Repository](#53-clone-a-github-repository)
+- [6. Other Tools](#6-other-tools)
+- [7. References](#7-references)
 
 ## 3. Visual Studio 2019
 
@@ -135,7 +139,86 @@ You can also edit the commit message later before you've pushed the commit.
 
 4. When you're ready, click **Commit** or **Commit and Push** (Ctrl+Alt+K) to push the changes to the remote repository immediately after the commit. You will be able to review the current commit as well as all other commits before they are pushed to the remote.
 
-## 5. Other Tools
+## 5. Eclipse
+
+Along with IntelliJ IDEA, Eclipse is also a great option for Java development. Similarly to the previous IDE's, Eclipse can also be integrated with Github. I will now walkthrough an example of how to do this.
+
+## 5.1. Push A Project To Github
+
+1. Create a repository on Github:
+
+![Create a repository](/planning/version-control/images/create_repo1.PNG)
+
+2. Copy the URL:
+
+![Copy URL](/planning/version-control/images/url.png)
+
+3. Go into Eclipse, and find **Perspectve** from the top left:
+
+![Find perspective](/planning/version-control/images/perspective.png)
+
+Or search for **Git Repositories** in the search bar next to it.
+A panel should be added to the work space:
+
+![Panel opened](/planning/version-control/images/panel.png)
+
+4. Select this icon to clone the repository you created previously:
+
+![Select clone repository](/planning/version-control/images/e_clone1.png)
+
+5. Paste the URL of the repository you copied earlier, then click **Next** then **Next** again. Then finally, click **Finish**. A new repository should be created:
+
+![New repository created](/planning/version-control/images/repo_added.png)
+
+6. Create a project in Eclipse. Then right click the project -> Team -> Share Project:
+
+![Share project](/planning/version-control/images/share_project.png)
+
+7. Select the Github repository you just created:
+
+![Select repository](/planning/version-control/images/select_repo.png)
+
+Then select **Finish**
+
+## 5.2. Committing Changes
+
+1. Right click the project again, then Team -> Commit:
+
+![Commit](/planning/version-control/images/team_commit.png)
+
+A new panel should appear at the bottom:
+
+![Stage panel](/planning/version-control/images/stage_panel.png)
+
+2. Select all the files in **Unstaged** then drag to the **Stage Changes** area. You can also click the **+** icon.
+
+3. Create a message then select **Commit and Push**. Then select **Preview**, 
+
+4. Input your Github details and select **Log in**. Then, select **Push** and enter your details once again.
+
+5. The changes should now be pushed, go ahead and click **Close**. Check your Github, the project source code should have been pushed:
+
+![Changes pushed](/planning/version-control/images/changes_pushed.png)
+
+## 5.3. Clone A Github Repository
+
+1. From file, select **Import**
+
+2. This panel should be prompted, select Git -> Project from Git (with smart import):
+
+![Project from Git](/planning/version-control/images/project_from_git.png)
+
+3. Select **Clone URI**, then copy in the Github URL (the project you wish to clone) and paste it in **URI**, then select **Next**, then **Next** again.
+
+4. Name the new folder if the suggest name (from Github) is already existed in your directory, and click **Next**.
+
+5. Select **Finish**:
+
+![Complete import](/planning/version-control/images/complete_import.png)
+
+Your source code from Github should now be available in your Eclipse project.
+
+## 6. Other Tools
 
 If you are wanting to use other code editors or version control tools, the links below will help you set up Git with them:
 
@@ -151,7 +234,7 @@ If you are wanting to use other code editors or version control tools, the links
 * Download/Link:https://www.gitkraken.com/
 * How to integrate Git: https://support.gitkraken.com/start-here/guide/
 
-## 6. References
+## 7. References
 
 [1] JetBrains. Set up a Git repository. <https://www.jetbrains.com/help/idea/set-up-a-git-repository.html>.
 
