@@ -177,8 +177,10 @@ UML 2.0 has helped to introduce sequence fragments, which make it easier to crea
 *Figure 9: A sequence fragment*  
 
 ### 3.4. Linking your Diagrams
+When we use our class diagrams and sequence diagrams together, it allows for an extremely effective communication mechanism. We use a class diagram to illustrate relationships, and a sequence diagram to illustrate interactions between these classes. When an object is senidng information to another, this implies a relationship between the two classes. When thinking about how to link these together, if you've already created them beforehand, you can put them side-by-side and use this to help you understand what elements to take from each of them and then combine them into a single image. Examples to do this can be found at [4](#4-references).
 
 ## 4. References
 - [1] Medium.com: UML Class Diagrams Step by Step <https://medium.com/@smagid_allThings/uml-class-diagrams-tutorial-step-by-step-520fd83b300b> 
 - [2] Lucidchart: What is an Entity Relationship Diagram? <https://www.lucidchart.com/pages/er-diagrams> 
-- [3] Visual Paradigm: What is Sequence Diagram <https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-sequence-diagram/>
+- [3] Visual Paradigm: What is Sequence Diagram <https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-sequence-diagram/>  
+- [4] Tech Republic: Class and Sequence diagrams work together to allow for precise modelling <https://www.techrepublic.com/article/class-and-sequence-diagrams-work-together-to-allow-precise-modeling/>
