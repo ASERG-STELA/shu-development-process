@@ -10,8 +10,8 @@ If you would like a refresher of the basics of Use Case modelling, head over to 
 - [1. Abstract](#1-abstract)
 - [2. Table of Contents](#2-table-of-contents)
 - [3. Use Case Diagrams](#3-use-case-diagrams)
-  -[3.1. Relationships](#31-relationships)
-  -[3.2. What You Should Be Doing](#32-what-you-should-be-doing)
+  - [3.1. Relationships](#31-relationships)
+  - [3.2. What You Should Be Doing](#32-what-you-should-be-doing)
 - [4. References](#4-references)
   
 ## 3. Use Case Diagrams
