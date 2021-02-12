@@ -64,7 +64,7 @@ A description of each phase is presented below.
   - [Team Communication](planning/team-communication/level-4/level_4_team_communication_guidelines.md)
 - Modelling - Analysis
   - [User Stories](modelling-analysis/level4/level-4-user-stories.md)
-  - [Use Case Diagrams](modelling-analysis/level4/level_4_use_case_guidance.md)
+  - [Use Case Models](modelling-analysis/level4/level_4_use_case_guidance.md)
 - Modelling - Design
   - [Class, Entity Relationship and Sequence Diagrams](modelling-design/level4/level4-design.md)
 - Construction - Code
@@ -78,6 +78,7 @@ A description of each phase is presented below.
   - [Team Communication](planning/team-communication/level-5/level_5_team_communication_guidelines.md)
 - Modelling - Analysis
   - [User Stories](modelling-analysis/level5/level-5-user-stories.md)
+  - [Use Case Models](modelling-analysis/level5/level_5_use_case_guidance.md)
   - [MoSCoW Prioritisation Method](modelling-analysis/level5/moscow_prioritisation_method.md)
 - Modelling - Design
   - [UML Class Diagrams]()
