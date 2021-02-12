@@ -3,7 +3,7 @@
 - [1. Introduction](#1-introduction)
 - [2. Requirements](#2-requirements)
 	- [2.1. Functional Requirements](#21-functional-requirements)
-	- [2.2.  Non-functional Requirements](#22-non-functional-requirements)
+	- [2.2. Non-functional Requirements](#22-non-functional-requirements)
 - [3. Level Specific Guidance](#3-level-specific-guidance)
   - [Level 4 ](#level-4)
   - [Level 5 ](#level-5)
@@ -53,6 +53,10 @@ How well you define and execute these non-functional requirements will determine
 ### Level 5
 
 [Level 5 User Stories Templates](level5/level-5-user-stories.md)
+
+[Level 5 Use Case Guidance](level5/level_5_use_case_guidance.md)
+- Advanced use case diagram and use case descriptions with relationships. Use cases identified from user stories.
+
 - User stories should include basic indications of acceptance criteria.
 - Use Case or User Story or Requirement Specification.
 - Persona and User scenario.
