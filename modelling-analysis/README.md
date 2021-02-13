@@ -59,8 +59,10 @@ How well you define and execute these non-functional requirements will determine
 
 - User stories should include basic indications of acceptance criteria.
 - Use Case or User Story or Requirement Specification.
-- Persona and User scenario.
 - Requirements should be SMART.
+
+[Level 5 Personas and User Scenarios](level5/personas_and_scanarios.md)
+- At least one Persona and one User scenario.
 
 [MoSCoW Prioritisation Method](level5/moscow_prioritisation_method.md)
 - Use the method to prioritise your requirements and user stories.
