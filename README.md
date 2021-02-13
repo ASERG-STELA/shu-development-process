@@ -79,6 +79,7 @@ A description of each phase is presented below.
 - Modelling - Analysis
   - [User Stories](modelling-analysis/level5/level-5-user-stories.md)
   - [Use Case Models](modelling-analysis/level5/level_5_use_case_guidance.md)
+  - [Personas and Scenarios](modelling-analysis/level5/personas_and_scenarios.md)
   - [MoSCoW Prioritisation Method](modelling-analysis/level5/moscow_prioritisation_method.md)
 - Modelling - Design
   - [UML Class Diagrams]()
