@@ -26,7 +26,7 @@ As well as creating a set of User Stories, you should also be using the [MoSCoW 
 
 ## 3.1. Relationships
 
-I will now explain the three types of Use Case relationships that were not covered in the Level 4 guidelines. **Generalisation of a Use Case**, **Extend** and **Include** between two Use Cases.
+I will now explain the three types of Use Case relationships that were not covered in the Level 4 guidelines. **Generalisation of a Use Case**, **Extend** and **Include** between two Use Cases. With these added to the two other types of relationship covered in the Level 4 guidance (**Generalisation of an Actor & Association**), you will be able to create advanced Use Case Diagrams and Descriptions with 5 types of relationships shown.
 
 ### Extend
 
@@ -84,7 +84,7 @@ In the previous banking example, there might be a use case called â€œPay Billsâ€
 
 ## 3.2. What You Should Be Doing
 
-You should try to think about all 5 of the different relationships that have been covered and be able to identify when each of them would be more adequade in your model:
+You should try to think about all 5 of the different relationships that have been covered (in L4 and here in L5) and be able to identify when each of them would be more adequade in your model:
 
 - Generalisation of an actor
 - Generalisation of a Use Case
