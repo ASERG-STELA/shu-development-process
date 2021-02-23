@@ -4,26 +4,27 @@
 
 This document will provide Level 5 students with the knowledge to create high quality Personas and Scenarios for use during the modelling analysis phase of software development. 
 At this level, it expected that you complete at least one Persona and one User Scenario. Use your User Stories to help create the right Personas. It is expected that your Personas, Scenarios, User Stories and other models are linked and consistent.
-For guidance on creating a set of User Stories, follow the link [here](/modelling-analysis/level5/level-5-user-stories.md).
+For guidance on creating a set of User Stories, follow the link [here](level-5-user-stories.md).
 
 ## 2. Table of Contents
 
-- [1. Abstract](#1-abstract)
-- [2. Table of Contents](#2-table-of-contents)
-- [3. What Is A Persona](#3-what-is-a-persona)
+- [Personas and Scenarios](#personas-and-scenarios)
+  - [1. Abstract](#1-abstract)
+  - [2. Table of Contents](#2-table-of-contents)
+  - [3. What Is A Persona](#3-what-is-a-persona)
   - [3.1. What Does A Persona Look Like](#31-what-does-a-persona-look-like)
-- [4. What Is A User Scenario](#4-what-is-a-user-scenario)
+  - [4. What Is A User Scenario?](#4-what-is-a-user-scenario)
   - [4.1. What Does A User Scenario Look Like](#41-what-does-a-user-scenario-look-like)
-- [5. What You Need To Produce](#5-what-you-need-to-produce)
-- [6. References](#6-references)
+  - [5. What You Need To Produce](#5-what-you-need-to-produce)
+  - [6. References](#6-references)
   
 ## 3. What Is A Persona
 
-Personas are fictional, but realistic representations of target users of the product users. Persona is created to visualize better the target users, who you are trying to reach. It helps to make right decisions about product features, navigation, interactions, visual design and much more.
+Personas are fictional, but realistic representations of target users of your product/software. Persona is created to visualize better the target users, who you are trying to reach. It helps to make right decisions about product features, navigation, interactions, visual design and much more.
 These fictional characters are often named, and include a picture to represent them. The purpose of Personas is to make the users seem more real, to help designers keep realistic ideas of users throughout the design process.
 
 A Persona also includes specific characteristics, demographics, and experience levels from a user profile, for example, a specific hardware and software configuration. Additional information in personas are personal details such as behaviors, attitudes, motivations, and goals.
-They can range from anywhere between a single paragraph and a full page. 
+They can range from anywhere between a single paragraph and a full page.
 
 ## 3.1. What Does A Persona Look Like
 
@@ -38,7 +39,7 @@ Your User Personas do not necessarily have to include all of the above, but they
 
 ## 4. What Is A User Scenario?
 
-A User Scenario and a Persona go hand in hand and one should not be produced without the other. A Scenario is eccentially a more detailed, descriptive version of a Persona. 
+A User Scenario and a Persona go hand in hand and one should not be produced without the other. A Scenario is eccentially a more detailed, descriptive version of a Persona.
 Like Personas, User Scenarios are a way to allow developers to try to understand what users want, how they feel and what they want from the product.
 
 User Scenario tends to include who the user is and what their goal is at that moment. Generally, Scenarios are concise and represent a snapshot of the user experience.
@@ -47,12 +48,12 @@ They are about tracing a user’s steps in order to complete a task and validati
 
 Some things a Scenario might include are:
 
-* Who the user is
-* The situation that drives users to seek the product
-* A specific task or goal the user has
-* Information regarding user’s income and spending
-* The path to completion of a task
-* Points of friction or stress in daily life or in the user experience
+- Who the user is
+- The situation that drives users to seek the product
+- A specific task or goal the user has
+- Information regarding user’s income and spending
+- The path to completion of a task
+- Points of friction or stress in daily life or in the user experience
 
 ## 4.1. What Does A User Scenario Look Like
 
