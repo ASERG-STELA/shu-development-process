@@ -1,6 +1,9 @@
 # Modelling - Analysis - Level 4
 
-## User Stories
+## 1. Table of Contents
+- [2. User Stories](#2-user-stories)
+
+## 2. User Stories
 A User Story is an informal, natural language description of one or more features of a software system. We write these under the perspective of a potential end user of our system.  
 At Level 4, the expectation of your User Stories will be to fulfil the basic criteria using the template of;
 

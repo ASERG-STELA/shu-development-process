@@ -1,16 +1,15 @@
 # Testing - Level 4
 
 ## 1. Introduction
-Unit Testing is a type of software testing where individual units or components of a software are tested. The purpose is to validate that each unit of the software code performs as expected. Unit Testing is done during the development (coding phase) of an application by the developers. Unit Tests isolate a section of code and verify its correctness. A unit may be an individual function, method, procedure, module, or object. At Level 4, the expectation is that you will at least do **manual testing** when you are conducting Unit Testing for your software.
+Unit Testing is a type of software testing where individual units or components of a software are tested. The purpose is to validate that each unit of the software code performs as expected. Unit Testing is done during the development (coding phase) of an application by the developers. Unit Tests isolate a section of code and verify its correctness. A unit may be an individual function, method, procedure, module, or object. At Level 4, the expectation is that you will at least do **manual testing** when you are conducting Unit Testing for your software, which can be done by hand if you prefer as long as all your testing is recorded as you go.
 
 ## 2. Table of Contents
 - [3. Unit Testing](#3-unit-testing)
   - [3.1. Benefits of Unit Testing](#31-benefits-of-unit-testing)
   - [3.2. What should you test?](#32-what-should-you-test)
   - [3.3. What shouldn't you test?](#33-what-shouldnt-you-test)
-  - [3.4. Manual vs Automated](#34-manual-vs-automated)
-    - [3.4.1. Manual Testing - Pros and Cons](#341-manual-testing---pros-and-cons)
-    - [3.4.2. Automated Testing - Pros and Cons](#342-automated-testing---pros-and-cons)
+  - [3.4. Pros and Cons](#34-pros-and-cons)
+  - [3.5. Keeping Track](#35-keeping-track)
 - [4. References](#4-references)  
 
 ## 3. Unit Testing
@@ -53,37 +52,8 @@ We know what we should be testing, but how about what we shouldn't be?
 * Complex multi-threading code (it is better to be tested with integration tests)
 * Methods that call another public method
 
-### 3.4. Manual vs Automated
-In order to do unit testing, we write a section of code to test a specific function in software application. We can also isolate this function to test more rigorously which reveals unnecessary dependencies between the function being tested and other units so the dependencies can be eliminated. We can make use of [UnitTest Frameworks](https://www.guru99.com/test-automation-framework.html) to help develop automated test cases for unit testing. Unit testing is generally of two types. Although Unit testing is generally automated, it can also be done manually if this is preferred. There is no favoritism in terms of which is declared as the best, but automated is the preferred technique. 
 
-|           Parameter           |                      Automation Testing                |                  Manual Testing                | 
-|-------------------------------|--------------------------------------------------------|------------------------------------------------|
-|  Definition                   | Uses automation to execute test cases  | Test cases are executed by a human tester and software |
-|  Processing Time              | Significantly faster than a manual approach | Time-consuming and takes up human resources |
-|  Exploratory Testing          | Does not allow random testing | Exploratory Testing is possible in Manual Testing |
-|  Initial Investment           | II is higher in AT, though the ROI is better in the long run | II is comparatively lower. ROI is lower in the long run compared to AT                |
-|  Reliability                  | Reliable method, as it is performed by tools and scripts. There is no testing fatigue | It is not accurate because of the possibility of human error|
-|  UI Change                    | For even a trivial change the UI of the AUT, Automated Test Scripts need to be modified to work as expected                   | Small changes like change in id, class etc. of a button wouldn't thwart execution of a manual tester                |
-|  Investment                   | Required for testing tools as well as automation engineers | Needed for human resources               |
-|  Cost-Effective               | Not cost effective for low-volume regression | Not cost effective for high-volume regression          |
-|  Test Report Visibility       | With automation testing, all stakeholders can login into the automation system and check test execution results                   | Manual Tests are usually recorded in an Excel or Word, and test results are not readily / readily available.                 |
-|  Human Observation            | Automated testing does not involve human consideration. So it can never give assurance of user-friendliness and positive customer experience                   | The manual testing method allows human observation, which may be useful to offer user-friendly system.                |
-|  Performance Testing          | Performance Tests like Load Testing, Stress Testing, Spike Testing, etc. have to be tested by an automation tool compulsorily               | Performance Testing is not feasible manually                |
-|  Parallel Execution           | This testing can be executed on different operating platforms in parallel ad reduce test execution time                   | Manual tests can be executed in parallel but would need to increase your human resource which is expensive                     |
-|  Batch Testing                | You can batch test multiple Test Scripts for nightly execution                   |                 |
-|  Programming Knowledge        | It is a must in Automated Testing                   | No need for programming in Manual Testing                |
-|  Set-up                       | Requires less complex test execution set up  | Needs to have a more straightforward test execution setup                 |
-|  Engagement                   | Done by tools. It's accurate and never gets bored  | Repetitive Test Execution can get boring and error-prone                |
-|  Ideal Approach               | Useful when frequently executing the same set of test cases     | Proves useful when the test case only needs to run once or twice.                 |
-|  Build Verification Testing   | Useful for Build Verification Testing (BVT) | Executing the Build Verification Testing (BVT) is very difficult and time-consuming in manual testing                |
-|  Deadlines                    | Zero-risks of missing out a pre-decided test | Has a higher risk of missing out the pre-decided test deadline                |
-|  Framework                    | Uses frameworks like Data Drive, Keyword, Hybrid to accelerate the automation process    | Does not use frameworks but may use guidelines, checklists, stringent processes to draft certain test cases                |
-|  Documentation                | Automated Tests acts as a document provides training value especially for automated unit test cases. A new developer can look into a unit test cases and understand the code base quickly                   | Manual Test cases provide no training value                |
-|  Test Design                  | Enforce/drive Test Driven Development Design                   | Do not drive design into the coding process                |
-|  Devops                       | 	Help in Build Verification Testing and are an integral part of DevOps Cycle                   | Defeats the automated build principle of DevOps                 |
-|  When To Use?                 | Is suited for Regression Testing, Performance Testing, Load Testing or highly repeatable functional test cases                   | Is suitable for Exploratory, Usability and Adhoc Testing. It should also be used where the AUT changes frequently                |
-
-#### 3.4.1. Manual Testing - Pros and Cons
+### 3.4. Pros and Cons
 * Pros
   * Get fast and accurate visual feedback
   * It is less expensive as you don't need to spend your budget fro the automation tools and process
@@ -94,25 +64,18 @@ In order to do unit testing, we write a section of code to test a specific funct
   * Less reliable testing method because it's conducted by a human. Therefore, it is always prone to mistakes and errors
   * The manual testing process can't be recorded, so it is not possible to reuse the manual test
   * In this testing method, certain tasks are difficult to perform manually which may require an additional time of the software testing phase
-
-#### 3.4.2. Automated Testing - Pros and Cons
-
-* Pros
-  * Automated testing helps you to find more bugs compare to a human tester
-  * As most of the part of the testing process is automated, you can have a speedy and efficient process
-  * Automation process can be recorded. This allows you to reuse and execute the same kind of testing operations
-  * Automated testing is conducted using software tools, so it works without tiring and fatigue unlike humans in manual testing
-  * It can easily increase productivity because it provides fast & accurate testing result
-  * Automated testing support various applications
-  * Testing coverage can be increased because of automation testing tool never forget to check even the smallest unit
   
-* Cons
-  * Without human element, it's difficult to get insight into visual aspects of your UI like colors, font, sizes, contrast or button sizes
-  * The tools to run automation testing can be expensive, which may increase the cost of the testing project
-  * Automation testing tool is not yet foolproof. Every automation tool has their limitations which reduces the scope of automation
-  * Debugging the test script is another major issue in the automated testing. Test maintenance is costl* y
+### 3.5. Keeping Track
+As you will most likely be doing your Unit Testing at this level by hand, to keep track of this it is better to use some form of document like a testing table to help organise the tests you have done, what you need to do, and what needs to be done, along with recording results. There might be failures in your tests that require you to make adjustments to your program, especially if these failures can impact on the performance of your program.  
+
+Here we will provide you a couple of readily available ideas. One of them is a simple requirement testing table I did for a past assignment, and another is a suitable template I found online. It is preferable you label your tests with appropriate IDs, so with this in mind, modifying the examples here can be done if you prefer. These examples can be seen below, and found [here](../level4).
+
+<p align = "center">
+  <img src="../level4/testing-example-template.PNG" width="400" />
+  <img src="../level4/Manual-Testing-Test-Case-Template.png" width="400" /> 
+</p>  
+
 
 ## 4. References
-[Guru99: Unit Testing Tutorial](https://www.guru99.com/unit-testing-guide.html)  
-[DZone Unit Testing Guidelines: What to Test and What Not To Test](https://dzone.com/articles/unit-testing-guidelines-what-to-test-and-what-not)  
-[Guru99: Automated Testing vs Manual Testing](https://www.guru99.com/difference-automated-vs-manual-testing.html)   
+- [1] Guru99: Unit Testing Tutorial <https://www.guru99.com/unit-testing-guide.html>
+- [2] DZone Unit Testing Guidelines: What to Test and What Not To Test <https://dzone.com/articles/unit-testing-guidelines-what-to-test-and-what-not>

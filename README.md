@@ -63,7 +63,7 @@ A description of each phase is presented below.
   - [Project Management](planning/project-management/level-4/level_4_management_guidelines.md)
   - [Team Communication](planning/team-communication/level-4/level_4_team_communication_guidelines.md)
 - Modelling - Analysis
-  - [User Stories](modelling-analysis/level4/user-stories.md)
+  - [User Stories](modelling-analysis/level4/level-4-user-stories.md)
   - [Use Case Diagrams](modelling-analysis/level4/level_4_use_case_guidance.md)
 - Modelling - Design
   - [Class, Entity Relationship and Sequence Diagrams](modelling-design/level4/level4-design.md)
@@ -77,7 +77,7 @@ A description of each phase is presented below.
   - [Project Management](planning/project-management/level-5/level_5_management_guidelines.md)
   - [Team Communication](planning/team-communication/level-5/level_5_team_communication_guidelines.md)
 - Modelling - Analysis
-  - [User Stories](modelling-analysis/level5/user-stories.md)
+  - [User Stories](modelling-analysis/level5/level-5-user-stories.md)
   - [MoSCoW Prioritisation Method](modelling-analysis/level5/moscow_prioritisation_method.md)
 - Modelling - Design
   - [UML Class Diagrams]()
@@ -91,7 +91,7 @@ A description of each phase is presented below.
   - [Project Management](planning/project-management/level-6/level_6_management_guidelines.md)
   - [Team Communication](planning/team-communication/level-6/level_6_team_communication_guidelines.md)
 - Modelling - Analysis
-  - [User Stories](modelling-analysis/level6/user-stories.md)
+  - [User Stories](modelling-analysis/level6/level-6-user-stories.md)
 - Modelling - Design
   - [UML Class Diagrams]()
 - Construction - Code
