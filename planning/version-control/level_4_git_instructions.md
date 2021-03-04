@@ -152,6 +152,8 @@ There is also a few Git GUI tools that are available to you, that may make it ea
 We have prepared some walkthrough examples of how to integrate Git with the development environments above, as well as provided links to resources that can help you with VS Code, and the Git GUI tools in the tools guidance [here](/planning/version-control/tools/level_4_git_tools.md). 
 We encourage you to look at this guidance to help you integrate Git with all of your projects. This will help you build a portfolio of work, that you can show interviewers when applying for placements and graduate jobs after University.
 
+If you want to learn more about how to run Git from the terminal, as well as in depth information and a visual walkthrough, [this link](https://agripongit.vincenttunru.com/) is a great introduction to Git.
+
 ## 11. References
 
 [1] Hello World. Getting started with github. <https://guides.github.com/activities/hello-world/>.
