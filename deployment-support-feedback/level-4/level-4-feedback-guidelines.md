@@ -12,6 +12,9 @@ This document will go into detail about what is expected of Level 4 students for
 - [4. Why Evaluation Is Important](#4-why-evaluation-is-important)
 - [5. What You Should Evaluate](#5-what-you-should-evaluate)
   - [5.1. What To Include In Your Reflective Report](#51-what-to-include-in-your-reflective-report)
+  - [5.2. What To Include In Your Presentations](#52-what-to-include-in-your-presentations)
+  - [Hints and Tips for Presentations](#hints-and-tips-for-presentations)
+  - [5.3. Walkthroughs](#53-walkthroughs)
   
 ## 3. How You Will Be Assessed
 
@@ -66,3 +69,42 @@ Reflecting on the above, we expect you to evaluate the following in your reflect
 * Validation (refer to requirements, models, testing and user feedback)
 * Discuss the case study in the context of your course (how you used knowledge you gained from the module and other modules)
 * How well you worked as a team
+
+## 5.2. What To Include In Your Presentations
+
+Presentations are another popular form of assessment. You may need to complete a couple of these at Level 4. To help guide you with your presentations, the following should be included:
+
+* Explanations
+* Screenshots etc
+* A high level overview
+* What you learned
+* What are you most proud of
+
+### Hints and Tips for Presentations
+
+Here are a few hints and tips to help with your presentations:
+
+* Fewer slides
+* More images
+* Fewer words on each slide
+* Don't read the slides
+* Speak slowly and clearly
+* Involve the audience - ask questions
+* If presenting in a group:
+	* Let everyone speak
+	* Each prepare your own slides
+	* Use a single template
+	* Don't look bored when your colleagues are speaking
+
+## 5.3. Walkthroughs
+
+A long with presentations, you are likely going to have to complete at least one walkthrough at Level 4. Both walkthroughs and presentations can be quite daunting for some students, however, they are nothing to be worried about and give you an opportunity to show off your product, particularly sections you are proud of creating. Here are some aspects you should think about prior to completing a walkthrough:
+
+* Preparation
+* Showing your work
+* How much detail
+* Answering questions
+
+Preparation is perhaps the most important aspect in this list. If you prepare well, chances are your walkthrough is going to run smoothly. 
+
+For both presentations and walkthroughs, it is ok to be nervous, everyone is, and it won't effect your grade. You also do not have to dress smart, like you would do in an office for example. If you are stuck for what to include in your presentations and reports, refer back to [What You Should Evaluate](#5-what-you-should-evaluate).
