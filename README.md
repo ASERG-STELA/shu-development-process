@@ -72,7 +72,7 @@ A description of each phase is presented below.
 - Deployment - Delivery
   - [Delivery Guidelines](deployment-delivery/level-4/level_4_delivery_guidelines.md)
 - Deployment - Support - Feedback
-  - [Support - Feedback Guidelines](deployment-support-feedback/level-4/level_4_feedback_guidelines.md)
+  - [Support - Feedback Guidelines](deployment-support-feedback/level-4/level-4-feedback-guidelines.md)
   
 ### 3.2. Level 5
 
@@ -87,6 +87,8 @@ A description of each phase is presented below.
   - [UML Class Diagrams]()
 - Construction - Code
   - [Code Commenting](construction-code/level5/level5-code-commenting.md)
+- Deployment - Support - Feedback
+  - [Support - Feedback Guidelines](deployment-support-feedback/level-5/level-5-feedback-guidelines.md)
 
 ### 3.3. Level 6
 
@@ -100,6 +102,8 @@ A description of each phase is presented below.
   - [UML Class Diagrams]()
 - Construction - Code
   - [Code Commenting](construction-code/level6/level6-code-commenting.md)
+- Deployment - Support - Feedback
+  - [Support - Feedback Guidelines](deployment-support-feedback/level-6/level-6-feedback-guidelines.md)
 
 ## 4. Process-based view
 
