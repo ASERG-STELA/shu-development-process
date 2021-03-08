@@ -66,14 +66,39 @@ There are many different relationships that you can define within your class dia
 * Dependency
 * Aggregation
 * Composition
-* Realization
+* Realization  
+  
+![](https://cdn-images.visual-paradigm.com/guide/uml/uml-class-diagram-tutorial/07-relationships-between-classes.png)
+
+#### Association
+This is a broad term that simply emcompasses just about any logical connection or relationship between classes. We represent Association as a simple straight line between two different classes. It is typical to name our associations using a verb or verb phrase which reflects the real world problem domain. Alongsaide typical Association, There are a couple of other types of Association that can be used, which are;
+
+* Directed Association
+  * A directional relationship represented by a line with an arrowhead, where the arrowhead depcicts a container-contained directional flow  
+* Reflexive Association
+  * This occurs when a class may have multiple functions or responsibilities  
+
+#### Inheritance
+This refers to a type of relationship wherein one associated class is a child of another by virtue of assuming the same functionalities of the parent class. The child is a specific type of the parent class and inherits properties from that parent it is inheriting from. A solid line is used to represent Inheritance with an unfilled arrowhead.  
+
+#### Dependency
+An object of one class might use an object from another class in the code the method. If the object is not stored in any field, then this is considered, and modeled as a dependency relationship. This is a special type of association, similar to reflexive association, that exists between two classes if making changes to one of the classes will cause changes to another. The first class simply depends on the other class. 
+
+#### Aggregation
+This refers to the formation of a particular class as a result of one class being aggregated or built as a collection. In aggregation, the contianed classes are not strongly dependent on the lifecycle of the container. To show aggregation a diagram, draw a line from the parent class to the child class with a diamond shape near the parent class.
+
+#### Composition
+This is quite similar to aggregation, with the only difference being its key purpose of emphasizing the dependence of the contained class to the lifecycle of the container class. The contained class will be obliterated when the container class is destroyed. To show compsotion on a diagram, use a directional line connecting the two classes, with a filled diamond shape adjacent to the container class and the directional arrow to the contained class.
+
+#### Realization
+This denotes the implementation of the functionality defined in one class by another class. To show the relationship in UML, a broken line with an unfilled solid arrow is drawn from the class that defines the functionality of the class that implements the function. 
+
+#### Cardinality  
+Cardinality was touched upon in the [Level 4](../level4/level4-design.md/#32-entity-relationship-diagram) document in the Entity Relationship section. It is what refers to the expression in terms of one to one, one to many and many to many.  
+  
+![](https://cdn-images.visual-paradigm.com/guide/uml/uml-class-diagram-tutorial/11-associations-with-different-multiplicies.png)  
 
 
-**Inheritance** indicates the child (subclass) that is considered to a specialized form of the parent (super class) For example.
-![](https://miro.medium.com/max/847/1*szU8ngrWSXmBNPYReMyK5w.png)  
-*Figure 5: Inheritance within a Class Diagram*  
-
-In figure 5 we can see what Inheritance looks like. In this example we have an **Animal** parent class with all public member fields. The arrows represent the direction of Inheritance. Where the arrow connects the child class to the parent class is naturally labeled as **Inherits from**, indicated by the direction of this clear arrow. The child classes in this example not only inherit methods and attributes from the parent, but they also have some of their own unique methods too, such as **quack()** in Duck and **run()** in Zebra.
 
 ### 3.2. Entity Relationship Diagram
 An Entity Relationship Diagram is a type of flowchart that illustrates how 'entities' such as people, objects or concepts relate to each other within a system. They are most often used to design or debug **relational databases** within software engineering, business information systems, education and research. Sometimes known as ERDs or ER Models, they use a defined set of symbols such as rectangles, diamonds, ovals and connecting lines to depict the interconnectedness of entities, relationships and their attributes.
