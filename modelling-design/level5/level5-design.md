@@ -13,6 +13,7 @@ This document is a follow-up to the previous document and will provide examples 
 - [3. Software Model Diagrams](#3-software-model-diagrams)
   - [3.1. UML Class Diagram](#31-uml-class-diagram)
     - [3.1.1. The Technical Details](#311-the-technical-details)
+    - [3.1.2. GUI Class Diagram Example GUI](#312-gui-class-diagram-example)
   - [3.2. Entity Relationship Diagram](#32-entity-relationship-diagram)
     - [3.2.1. Components and Features of ER Diagrams](#321-components-and-features-of-er-diagrams)
   - [3.3 Sequence Diagram](#33-sequence-diagram)
@@ -98,7 +99,11 @@ Cardinality was touched upon in the [Level 4](../level4/level4-design.md/#32-ent
   
 ![](https://cdn-images.visual-paradigm.com/guide/uml/uml-class-diagram-tutorial/11-associations-with-different-multiplicies.png)  
 
-
+#### 3.1.2. GUI Class Diagram Example
+The following example gives a taste of what a class diagram looks like for a GUI system. This diagram highlights all of the key relationships needed and has labels to help you indicate where the correct relationship needs to be used.  
+  
+![](https://cdn-images.visual-paradigm.com/guide/uml/uml-class-diagram-tutorial/18-uml-class-diagram-example-gui.png)  
+*Figure 3: A Class Diagram representation of a GUI system*
 
 ### 3.2. Entity Relationship Diagram
 An Entity Relationship Diagram is a type of flowchart that illustrates how 'entities' such as people, objects or concepts relate to each other within a system. They are most often used to design or debug **relational databases** within software engineering, business information systems, education and research. Sometimes known as ERDs or ER Models, they use a defined set of symbols such as rectangles, diamonds, ovals and connecting lines to depict the interconnectedness of entities, relationships and their attributes.
