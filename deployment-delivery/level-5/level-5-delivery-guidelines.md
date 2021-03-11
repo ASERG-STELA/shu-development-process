@@ -62,6 +62,8 @@ It is essential that you maintain good version control management in your GSDP m
 
 Code should be pushed and merged in small batches frequently if you are following DevOps practices. If this is done in conjunction with automated tests in a CI workflow, you will impress your clients and your module leaders, and importantly, make for good quality code and releases.  
 
+As well as this; as with Level 4, you should also complete and upload the README file located [here](../README-Template.md) with your submission.
+
 ## 5. References
 
 [1] Atlassian. DevOps: Breaking the Development-Operations barrier. <https://www.atlassian.com/devops>.
