@@ -22,7 +22,7 @@ As previously mentioned, at L4 you do not need to submit much along with your pr
 
 To help you with your submission, we have provided you with a very basic template with the above aspects included. You will need to download this template, and fill it out with the appropriate information. Include this README in your submissions to ensure that there are no problems on the reviewer/tutors side when it comes to running your project.
 
-You can find the template for the README file [here](/deployment-delivery/README_Template.md).
+You can find the template for the README file [here](../README-Template.md).
 
 It is written in Markdown, similar to HTML. You can view the syntax of Markdown here:
 https://www.markdownguide.org/basic-syntax/
