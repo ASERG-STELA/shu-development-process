@@ -7,13 +7,15 @@ This phase is dedicated to the delivery of the product to the end user. It inclu
 ## Level Specific Guidance
 
 - [Level 4](#level-4)
-- [Level 5 (TBD)](#level-5-tbd)
+- [Level 5](#level-5-tbd)
 - [Level 6 (TBD)](#level-6-tbd)
 
 ### Level 4 
-[L4 Delivery Guidelines](/deployment-delivery/level-4/level_4_delivery_guidelines.md)
+[L4 Delivery Guidelines](/deployment-delivery/level-4/level-4-delivery-guidelines.md)
 - Manual. Complete and submit the README file located [here](README_Template.md)
 
-### Level 5 (TBD)
+### Level 5
+[L5 Delivery Guidelines](/deployment-delivery/level-5/level-5-delivery-guidelines.md)
+- Complete and submit the README file located [here](README_Template.md), some flavour of DevOps would be nice depending on the module (GSDP)
 
 ### Level 6 (TBD)
