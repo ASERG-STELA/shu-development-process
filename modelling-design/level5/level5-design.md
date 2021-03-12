@@ -16,6 +16,7 @@ This document is a follow-up to the previous document and will provide examples 
     - [3.1.2. GUI Class Diagram Example GUI](#312-gui-class-diagram-example)
   - [3.2. Entity Relationship Diagram](#32-entity-relationship-diagram)
     - [3.2.1. Entity Notations and Attributes](#321-entity-notations-and-attributes)
+    - [3.2.2. Levels of Abstraction](#322-levels-of-abstraction)
   - [3.3 Sequence Diagram](#33-sequence-diagram)
     - [3.3.1. Sequence Diagram Notation](#331-sequence-diagram-notation)
     - [3.3.2. Message and Focus of Control](#332-message-and-focus-of-control)
@@ -131,7 +132,21 @@ Sometimes known as FK, the foreign key is a **reference** to a primary key in **
 ![](https://cdn-images.visual-paradigm.com/guide/data-modeling/what-is-erd/06-concept-of-erd-foreign-key.png)  
 *Figure _ Foreign Key example*  
 
+#### Relationships
+Remember that relationships help to signify the connection between two entities that are associated with each other in some way. 
 
+#### Cardinality
+This is the definition that defines the numerical attributes between two entities or entity sets. Recall we we have the three main caridnal relationships of **one-to-one**, **one-to-many** and **many-to-many**.
+
+* **One-to-one**: A one-to-one relationship is mostly used to split an entity in two to provide information concisely and make it more understandable, the example below shows this in practice  
+![](https://cdn-images.visual-paradigm.com/guide/data-modeling/what-is-erd/07-erd-one-to-one-relationship-example.png)  
+* **One-to-many**: A one-to-many relationship refers to the relationship between two entities X and Y in which an instance of X may be linked to many instances of Y, but an instance of Y is only linked to one instance of X  
+![](https://cdn-images.visual-paradigm.com/guide/data-modeling/what-is-erd/08-erd-one-to-many-example.png)  
+* **Many-to-many**: Many-to-many refers to the relationship between two entities X and Y in which X may be linked to many instances of Y and vice versa. Note that a many-to-many relationship is split into a pair of one-to-many relationships in a physical ERD.  
+![](https://cdn-images.visual-paradigm.com/guide/data-modeling/what-is-erd/09-erd-many-to-many-example.png)  
+
+#### 3.2.2. Levels of Abstraction
+TODO https://www.visual-paradigm.com/guide/data-modeling/what-is-entity-relationship-diagram/#erd-data-models-conceptual
 
 ### 3.3. Sequence Diagram _ NEEDS ADJUSTING FOR L5
 This style of diagram describes the interactions among classes in terms of an exchange of messages over time. They are sometimes known as **event diagrams**. It is a good way to visualise and validate various runtime scenarios. These can help to predict how a system will behave and to discover responsibilities a class may need to have in the process of modeling a new system.
