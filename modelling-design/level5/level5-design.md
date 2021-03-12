@@ -16,7 +16,7 @@ This document is a follow-up to the previous document and will provide examples 
     - [3.1.2. GUI Class Diagram Example GUI](#312-gui-class-diagram-example)
   - [3.2. Entity Relationship Diagram](#32-entity-relationship-diagram)
     - [3.2.1. Entity Notations and Attributes](#321-entity-notations-and-attributes)
-    - [3.2.2. Levels of Abstraction](#322-levels-of-abstraction)
+    - [3.2.2. Data Models](#322-data-models)
   - [3.3 Sequence Diagram](#33-sequence-diagram)
     - [3.3.1. Sequence Diagram Notation](#331-sequence-diagram-notation)
     - [3.3.2. Message and Focus of Control](#332-message-and-focus-of-control)
@@ -145,8 +145,17 @@ This is the definition that defines the numerical attributes between two entitie
 * **Many-to-many**: Many-to-many refers to the relationship between two entities X and Y in which X may be linked to many instances of Y and vice versa. Note that a many-to-many relationship is split into a pair of one-to-many relationships in a physical ERD.  
 ![](https://cdn-images.visual-paradigm.com/guide/data-modeling/what-is-erd/09-erd-many-to-many-example.png)  
 
-#### 3.2.2. Levels of Abstraction
-TODO https://www.visual-paradigm.com/guide/data-modeling/what-is-entity-relationship-diagram/#erd-data-models-conceptual
+#### 3.2.2. Data Models
+There are three types of conceptual models when we think about ERDs. They differ in the purposes they are created for and for the audiences they are intended for. The different models is not something that will be covered here, as we will be focusing on the **Physical Model**, but more information regarding the other models not covered can be found at [[3]](#5-references). __may change this__
+
+#### Physical Model
+The pysical model represents the *actual design of a relational database*. A physical data model elaborates on the logical data model by assigning each column with type, length, nullable etc. Since this kind of model represents how data should be structured and related in a specific DBMS (DataBase Management System), it is importnat to consider the convention and restriction of the actual database system in which the database will be created. It is important to make sure that the column types are supported by your DBMS and reserved words are not used in naming entities and columms.
+  
+![](https://cdn-images.visual-paradigm.com/guide/data-modeling/what-is-erd/12-physical-data-model-example.png)  
+*Figure _ Physical Data Model example*  
+
+![](https://cdn-images.visual-paradigm.com/guide/data-modeling/what-is-erd/13-erd-example-movie-rental-system.png)  
+*Figure _ ERD Example - Movie Rental System*
 
 ### 3.3. Sequence Diagram _ NEEDS ADJUSTING FOR L5
 This style of diagram describes the interactions among classes in terms of an exchange of messages over time. They are sometimes known as **event diagrams**. It is a good way to visualise and validate various runtime scenarios. These can help to predict how a system will behave and to discover responsibilities a class may need to have in the process of modeling a new system.
