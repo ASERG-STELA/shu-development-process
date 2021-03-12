@@ -27,7 +27,7 @@ You may not think this is very applicable to you as students, but it is a good i
 
 DevOps is not a thing, such as a piece of software or programming language, it is a culture; a set of practices to help improve software development enabling for rapid software release. It is made up of 8 main practices, which can be seen from this diagram:
 
-![DevOps diagram](/deployment-delivery/images/devops-diagram.png)
+![DevOps diagram](../images/devops-diagram.png)
 *Fig. 1: DevOps practices. Retrieved from reference [2]*
 
 This diagram shows the primary DevOps practices, as well as some popular tools that are often used during each phase. Throughout each phase, teams collaborate and communicate to maintain alignment, velocity, and quality. 
@@ -53,7 +53,41 @@ Continuous Deployment goes one step further than Continuous Delivery. With this 
 
 ## 3.4. Setting up a CI Pipeline with Github Actions
 
+I will now show a simple example of how to set up a CI pipeline using **Github Actions**, this example is a basic repository with a 'Hello World' C++ project in it. We will set up a CI pipeline that runs some basic automated tests when merging the **develop** branch with **master**. The CI workflow should be set up **before** you start development:
 
+1. Go to your repository and select **Actions** from the nav bar:
+
+![Navigate to Actions](../images/Actions-1.PNG)
+
+2. You will see that there are many **Workflows** to chose from. Some are CI specific, some are deployment specific (CD). Find a CI workflow for whatever programming language you are using; .NET for C#, Pylint for Python etc. We will choose the recommended workflow **C/C++ with Make** for the C++ program we have in this example. Click **Set up this workflow**:
+
+![Choose a workflow](../images/Actions-2.PNG)
+
+This might look confusing. The only parts you should pay attention to at this stage is **on: push** and **on: pull_request**. The **jobs** section can be edited to include more tests, the basic version will be enough for us in this example and you shouldn't worry too much about changing this at Level 5. The **on:** section shows when the automated unit tests will run, in our example, they will run when pushing and merging on the master branch. 
+
+3. Select the green **Start commit** button at the top, when you are ready. Fill in the fields then select **Commit new file**. The workflow should now be set up and a new .yml file created. You may need to navigate back to **Actions** to click **Enable actions**.
+
+4. Now lets see it in action! Lets make a change in the project. So far, the project looks like this:
+
+![Project before change](../images/Actions-3.PNG)
+
+Now lets add an extra output, and commit the changes:
+
+![Project after change](../images/Actions-4.PNG)
+
+5. Create a new **Pull request** to merge **develop** into **master**:
+
+![Create pull request](../images/Actions-5.PNG)
+
+6. Navigate to the pull request, The workflow should now run and perform some automatic tests to check everything is in order. If so, this should appear:
+
+![Workflow checks passed](../images/Actions-6.PNG)
+
+7. If everything is in order, click **Merge pull request**. You can still merge if a test fails, but this is discouraged, and you should check the error to see what test failed and fix it before merging. If a test fails, it should output something similar to this: 
+
+![Workflow checks failed](../images/Actions-7.PNG)
+
+You can navigate to the **Checks** tab to see what caused the test to fail.
 
 ## 4. What is Expected
 
