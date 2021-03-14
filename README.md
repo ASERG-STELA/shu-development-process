@@ -102,6 +102,8 @@ A description of each phase is presented below.
   - [UML Class Diagrams]()
 - Construction - Code
   - [Code Commenting](construction-code/level6/level6-code-commenting.md)
+- Deployment - Delivery
+  - [Delivery](deployment-delivery/level-6/level-6-delivery-guidelines.md)
 
 ## 4. Process-based view
 
