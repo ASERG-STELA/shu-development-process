@@ -12,9 +12,9 @@ This document will serve to provide Level 5 students with instructions on what y
   - [3.1. What is DevOps](#31-what-is-devops)
   - [3.2. Continuous Integration](#32-continuous-integration)
   - [3.3. Continuous Delivery and Deployment](#33-continuous-delivery-and-deployment)
-  - [3.4. Setting up a CI Pipeline with Github Actions](#34-setting-up-a-ci-pipeline-with-github-actions)
 - [4. What is Expected](#4-what-is-expected) 
-- [5. References](#5-references)
+- [5. Tools](#5-tools)
+- [6. References](#6-references)
 
 ## 3. DevOps
 
@@ -40,7 +40,7 @@ It allows developers to frequently merge code changes into a central repository 
 
 As you can probably guess, the backbone of a good CI pipeline/workflow is good version control management. Version control is also supplemented with other checks like automated code quality tests, and syntax style review tools. In Git (which you should be familiar with at this level), a CI pipeline can be implimented using an **Action**. I will demonstrate how to implement a Github Action later in the document.
 
-CI is a valuable and well-established practice in modern, high performance software engineering organizations, therefore it is a good practice to learn, before you go out into the working world (reference [3]).
+CI is a valuable and well-established practice in modern, high performance software engineering organizations, therefore it is a good practice to learn, before you go out into the working world (reference [3]). You can set up a CI pipeline in Github using Github Actions. We have provided guidance for this, which can be seen [here]().
 
 ## 3.3. Continuous Delivery and Deployment
 
@@ -51,54 +51,33 @@ In theory, with CD, you can decide to release daily, weekly, fortnightly, or wha
 
 Continuous Deployment goes one step further than Continuous Delivery. With this practice, every change that passes all stages of your production pipeline is released to your customers. There's no human intervention, and only a failed test will prevent a new change to be deployed to production (reference [4]). This is not expected at Level 5.
 
-## 3.4. Setting up a CI Pipeline with Github Actions
-
-I will now show a simple example of how to set up a CI pipeline using **Github Actions**, this example is a basic repository with a 'Hello World' C++ project in it. We will set up a CI pipeline that runs some basic automated tests when merging the **develop** branch with **master**. The CI workflow should be set up **before** you start development:
-
-1. Go to your repository and select **Actions** from the nav bar:
-
-![Navigate to Actions](../images/Actions-1.PNG)
-
-2. You will see that there are many **Workflows** to chose from. Some are CI specific, some are deployment specific (CD). Find a CI workflow for whatever programming language you are using; .NET for C#, Pylint for Python etc. We will choose the recommended workflow **C/C++ with Make** for the C++ program we have in this example. Click **Set up this workflow**:
-
-![Choose a workflow](../images/Actions-2.PNG)
-
-This might look confusing. The only parts you should pay attention to at this stage is **on: push** and **on: pull_request**. The **jobs** section can be edited to include more tests, the basic version will be enough for us in this example and you shouldn't worry too much about changing this at Level 5. The **on:** section shows when the automated unit tests will run, in our example, they will run when pushing and merging on the master branch. 
-
-3. Select the green **Start commit** button at the top, when you are ready. Fill in the fields then select **Commit new file**. The workflow should now be set up and a new .yml file created. You may need to navigate back to **Actions** to click **Enable actions**.
-
-4. Now lets see it in action! Lets make a change in the project. So far, the project looks like this:
-
-![Project before change](../images/Actions-3.PNG)
-
-Now lets add an extra output, and commit the changes:
-
-![Project after change](../images/Actions-4.PNG)
-
-5. Create a new **Pull request** to merge **develop** into **master**:
-
-![Create pull request](../images/Actions-5.PNG)
-
-6. Navigate to the pull request, The workflow should now run and perform some automatic tests to check everything is in order. If so, this should appear:
-
-![Workflow checks passed](../images/Actions-6.PNG)
-
-7. If everything is in order, click **Merge pull request**. You can still merge if a test fails, but this is discouraged, and you should check the error to see what test failed and fix it before merging. If a test fails, it should output something similar to this: 
-
-![Workflow checks failed](../images/Actions-7.PNG)
-
-You can navigate to the **Checks** tab to see what caused the test to fail.
-
 ## 4. What is Expected
 
-At Level 5, DevOps is not expected to be seen in all of your projects. In some modules such as GSDP however, it would be nice to see some basic DevOps such as a Continuous Integration pipeline. 
+At Level 5, DevOps is not expected to be seen in all of your projects. In some modules such as GSDP however, it would be nice to see some basic DevOps such as a Continuous Integration pipeline. This can be done using a Github Action. You can follow the guidance [here]() to set one up. 
 It is essential that you maintain good version control management in your GSDP module, and it would be nice to see a Github Action implemented for some basic automated testing. Manual communication should still be of high importance on this module, and during any of your other group projects.
 
 Code should be pushed and merged in small batches frequently if you are following DevOps practices. If this is done in conjunction with automated tests in a CI workflow, you will impress your clients and your module leaders, and importantly, make for good quality code and releases.  
 
-As well as this; as with Level 4, you should also complete and upload the README file located [here](../README-Template.md) with your submission.
+As well as this; as with Level 4, you should also complete and upload the README file located [here](../README-Template.md) with your submission. This README goes into a little more detail than the one provided for Level 4, so make sure you fill out all sections appropriately. 
 
-## 5. References
+## 5. Tools
+
+There are many tools that can be used to set up a basic DevOps pipeline. We have already talked about Github Actions, you can follow a walkthrough of this [here]().
+Some other tools that are good for deployment can be seen below, they don't just have to be used for a DevOps pipeline:
+
+### Gitlab
+Download/info: https://about.gitlab.com/stages-devops-lifecycle/
+
+### Gitea
+Download/information: https://gitea.io/en-us/
+
+### Codeship
+Download/information: https://www.cloudbees.com/products/codeship
+
+### Jenkins
+Download/information: https://www.jenkins.io/
+
+## 6. References
 
 [1] Atlassian. DevOps: Breaking the Development-Operations barrier. <https://www.atlassian.com/devops>.
 
