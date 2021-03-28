@@ -69,6 +69,10 @@ A description of each phase is presented below.
   - [Class, Entity Relationship and Sequence Diagrams](modelling-design/level4/level4-design.md)
 - Construction - Code
   - [Code Commenting](construction-code/level4/level4-code-commenting.md)
+- Deployment - Delivery
+  - [Delivery Guidelines](deployment-delivery/level-4/level_4_delivery_guidelines.md)
+- Deployment - Support - Feedback
+  - [Support - Feedback Guidelines](deployment-support-feedback/level-4/level_4_feedback_guidelines.md)
   
 ### 3.2. Level 5
 

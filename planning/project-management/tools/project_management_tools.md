@@ -126,7 +126,12 @@ Repeat this with all of your issues, and new issues when they are created. In a 
 If you want to use software other than those shown above, there are other software available such as:
 
 ### MS Project (paid service but can be used for free on university machines)
+* How to use: https://support.microsoft.com/en-us/office/basic-tasks-in-project-8fdbf020-a9e1-45e4-bf15-23a8d2b6797d
 ### MS Excel
+* How to use: https://www.officetimeline.com/project-management/excel
 ### Basecamp (free for students)
+* Download/link: https://basecamp.com/
+* How to use: https://basecamp.com/learn
 ### Wrike
-
+* Download/link: https://www.wrike.com/
+* How to use: https://help.wrike.com/hc/en-us/categories/201188625-Wrike-Videos?type=videos&category=for-admins
