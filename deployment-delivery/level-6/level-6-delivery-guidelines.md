@@ -2,7 +2,7 @@
 
 ## 1. Abstract
 
-This document will serve to provide Level 6 students with instructions on what you need to do for arguably the most important phase of the software development lifecycle. The Delivery of the product. At Level 6, along with submitting the README file located [here](../README-Template.md), we expect DevOps culture to be adopted, especially for your Final Year Project, and CSSD modules.  
+This document will serve to provide Level 6 students with instructions on what you need to do for arguably the most important phase of the software development lifecycle. The Delivery of the product. At Level 6, along with submitting the README file located [here](../L6-README-Template.md), we expect DevOps culture to be adopted, especially for your Final Year Project, and CSSD modules.  
 
 ## 2. Table of Contents
 
@@ -10,7 +10,8 @@ This document will serve to provide Level 6 students with instructions on what y
 - [2. Table of Contents](#2-table-of-contents)
 - [3. DevOps](#3-devops)
 - [4. What is Expected](#4-what-is-expected)
-- [5. References](#5-references)
+- [5. Tools](#5-tools)
+- [6. References](#6-references)
 
 ## 3. DevOps
 
@@ -33,12 +34,38 @@ We expect:
 * **Code** and **Build**: Good quality code with comments, and with the designs and models you have created in mind.
 * **Test**: Use of a tool would be nice such a JUnit/NUnit or Selenium, comprehensive Unit Testing and User Acceptance Testing where applicable. Should be done on develop branch.
 * **Release**: Continuous Integration adopted, perhaps through the use of Github Actions. Code being merged in small batches frequently, with automated tests being run.
-* **Deployment**: Would be nice to see in Final Year project if applicable. Continuous Delivery being used in FYP and CSSD, releasing as soon as possible, but could be a scheduled timeframe i.e. weekly.
+* **Deployment**: Continuous Delivery being used in FYP and CSSD if applicable, releasing as soon as possible, but could be a scheduled timeframe i.e. weekly.
 * **Operate**: Not essential, however would be nice to see in Final Year Projects if applicable e.g. Kubernetes or Docker.
 
-And remember, you should always fill in and submit a README file detailing the contents of your submission. This can be found [here](../README-Template.md).
+And remember, you should always fill in and submit a README file detailing the contents of your submission. This can be found [here](../L6-README-Template.md). You should do this along with any DevOps implementation, the details of this should be outlined in the README.
 
-## 5. References
+## 5. Tools
+
+We recommend the tools below for integrating the full DevOps pipeline into your projects. We are not expecting all of these to be used, but some such as Junit/NUnit and Github Actions would be good to see:
+
+### Testing
+
+* JUnit/NUnit: 
+  * JUnit: https://junit.org/junit5/
+  * NUnit: https://nunit.org/
+* Selenium: https://www.selenium.dev/
+
+### Release
+
+* Github Actions: https://github.com/features/actions
+* Gitlab: https://about.gitlab.com/
+* Gitea: https://gitea.io/en-us/
+* Codeship: https://www.cloudbees.com/products/codeship
+* Jenkins: https://www.jenkins.io/
+
+### Deployment/Operate
+
+* Docker: https://www.docker.com/
+* Kubernetes: https://kubernetes.io/
+* Azure: https://azure.microsoft.com/en-gb/ (free credit available from university)
+* DC/OS: https://dcos.io/
+
+## 6. References
 
 [1] Atlassian. DevOps: Breaking the Development-Operations barrier. <https://www.atlassian.com/devops>.
 
