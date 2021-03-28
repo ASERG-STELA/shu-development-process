@@ -24,11 +24,11 @@ At this level you are expected to ...
 At this level you are expected to ...
 
 [L5 Delivery Guidelines](/deployment-delivery/level-5/level-5-delivery-guidelines.md)
-- Complete and submit the README file located [here](README_Template.md), some flavour of DevOps would be nice depending on the module (GSDP)
+- Complete and submit the README file located [here](L5-README_Template.md), some flavour of DevOps would be nice depending on the module (GSDP)
 
 ### Level 6
 
 At this level you are expected to ...
 
 [L6 Delivery Guidelines](/deployment-delivery/level-6/level-6-delivery-guidelines.md)
-- Complete and submit the README file located [here](README_Template.md), DevOps culture adopted from Plan to Deployment, CI/CD at a minimum.
+- Complete and submit the README file located [here](L6-README_Template.md), DevOps culture adopted from Plan to Deployment, CI/CD at a minimum.
