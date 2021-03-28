@@ -2,7 +2,7 @@
 
 ## 1. Abstract
 
-This document will serve to provide Level 5 students with instructions on what you need to do for arguably the most important phase of the software development lifecycle. The Delivery of the product. At Level 5, along with submitting the README file located [here](../README-Template.md), some flavour of DevOps would also be nice depending on the module.  
+This document will serve to provide Level 5 students with instructions on what you need to do for arguably the most important phase of the software development lifecycle. The Delivery of the product. At Level 5, along with submitting the README file located [here](../L5-README-Template.md), some flavour of DevOps would also be nice depending on the module.  
 
 ## 2. Table of Contents
 
@@ -40,7 +40,7 @@ It allows developers to frequently merge code changes into a central repository 
 
 As you can probably guess, the backbone of a good CI pipeline/workflow is good version control management. Version control is also supplemented with other checks like automated code quality tests, and syntax style review tools. In Git (which you should be familiar with at this level), a CI pipeline can be implimented using an **Action**. I will demonstrate how to implement a Github Action later in the document.
 
-CI is a valuable and well-established practice in modern, high performance software engineering organizations, therefore it is a good practice to learn, before you go out into the working world (reference [3]). You can set up a CI pipeline in Github using Github Actions. We have provided guidance for this, which can be seen [here]().
+CI is a valuable and well-established practice in modern, high performance software engineering organizations, therefore it is a good practice to learn, before you go out into the working world (reference [3]). You can set up a CI pipeline in Github using Github Actions. We have provided guidance for this, which can be seen [here](/planning/version-control/tools/level-5-github-actions.md).
 
 ## 3.3. Continuous Delivery and Deployment
 
@@ -53,16 +53,16 @@ Continuous Deployment goes one step further than Continuous Delivery. With this 
 
 ## 4. What is Expected
 
-At Level 5, DevOps is not expected to be seen in all of your projects. In some modules such as GSDP however, it would be nice to see some basic DevOps such as a Continuous Integration pipeline. This can be done using a Github Action. You can follow the guidance [here]() to set one up. 
+At Level 5, DevOps is not expected to be seen in all of your projects. In some modules such as GSDP however, it would be nice to see some basic DevOps such as a Continuous Integration pipeline. This can be done using a Github Action. You can follow the guidance [here](/planning/version-control/tools/level-5-github-actions.md) to set one up. 
 It is essential that you maintain good version control management in your GSDP module, and it would be nice to see a Github Action implemented for some basic automated testing. Manual communication should still be of high importance on this module, and during any of your other group projects.
 
 Code should be pushed and merged in small batches frequently if you are following DevOps practices. If this is done in conjunction with automated tests in a CI workflow, you will impress your clients and your module leaders, and importantly, make for good quality code and releases.  
 
-As well as this; as with Level 4, you should also complete and upload the README file located [here](../README-Template.md) with your submission. This README goes into a little more detail than the one provided for Level 4, so make sure you fill out all sections appropriately. 
+As well as this; as with Level 4, you should also complete and upload the README file located [here](../L5-README-Template.md) with your submission. This README goes into a little more detail than the one provided for Level 4, so make sure you fill out all sections appropriately. 
 
 ## 5. Tools
 
-There are many tools that can be used to set up a basic DevOps pipeline. We have already talked about Github Actions, you can follow a walkthrough of this [here]().
+There are many tools that can be used to set up a basic DevOps pipeline. We have already talked about Github Actions, you can follow a walkthrough of this [here](/planning/version-control/tools/level-5-github-actions.md).
 Some other tools that are good for deployment can be seen below, they don't just have to be used for a DevOps pipeline:
 
 ### Gitlab
