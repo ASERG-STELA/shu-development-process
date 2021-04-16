@@ -5,7 +5,7 @@
 This document will serve to provide you with instructions on how to use Git and Github as version control for your projects. Version control allows developers to keep track of their projects and have all files/folders/source code all in one place. It is particularly useful for teams of developers but is also useful for individual work.
 For Level 4 students and for future reference for other Levels, this document will explain the basics, including creating an account, repositories, adding files/folders, pushing/pulling and editing and committing changes. 
 
-You can see how to integrate Git with the tools you will likely be using at L4, Visual Studio 2019 and IntelliJ IDEA in the tools guidelines [here](/planning/version-control/tools/level_4_git_tools.md).
+You can see how to integrate Git with the tools you will likely be using at L4, Visual Studio 2019 and IntelliJ IDEA in the tools guidelines [here](tools/level_4_git_tools.md).
 
 ## 2. Table of Contents
 
@@ -30,7 +30,7 @@ In order to first start using Github, you will first need to create free Github 
 1. Go to <https://github.com>.
 2. On the starting page, click **Sign up for GitHub**:
 
-![Sign up for Github](/planning/version-control/images/sign-up.png)
+![Sign up for Github](images/sign-up.png)
 
 3. Fill out all fields and complete the puzzle, then press **Create account**
 4. Use these details when logging in after this point
@@ -51,19 +51,19 @@ There are 3 ways to create a repository:
 
 1. In the upper right corner, next to your avatar or identicon, click and then select **New repository**:
 
-![Create repository header](/planning/version-control/images/create_header.png)
+![Create repository header](images/create_header.png)
 
 2. On the panel on the left:
 
-![Create repository left panel](/planning/version-control/images/create_panel.png)
+![Create repository left panel](images/create_panel.png)
 
 3. On the start page/page content:
 
-![Create repository start page](/planning/version-control/images/create_start_page.png)
+![Create repository start page](images/create_start_page.png)
 
 Do any of these and you should see this screen:
 
-![Create the repository](/planning/version-control/images/create_repo1.PNG)
+![Create the repository](images/create_repo1.PNG)
 
 Now:
 * Name your repository
@@ -71,7 +71,7 @@ Now:
 * Select **Initialize this repository with a README**
 * Click **Create repository** when you are satisfied. You should be greeted by this screen:
 
-![Repository created](/planning/version-control/images/repo_created.PNG)
+![Repository created](images/repo_created.PNG)
 
 ## 4.2. README File
 
@@ -101,6 +101,8 @@ As well as uploading files, you can also edit the content of existing files insi
 5. Add in a small description of what you changed;
 6. Click **Commit changes**. Your file will now be updated and the time of the commit logged.
 
+For more detailed guidance on Git commit summaries, read through the guidance [here](git-commit-guidance.md)
+
 ## 7. Push and Pull
 
 Pushing and Pulling are used to upload and retrieve code from Github, usually directly through the code editor terminal, GitKraken/Github Desktop or your development environment. ‘Push’ is used to push the changes you have made to your code in the editor onto Github without needing to reupload the full file.
@@ -115,7 +117,7 @@ If you are not using GitKraken, there are two options available to you to retrie
 2. Click the green **Code** button just above your file structure;
 3. Click **Download ZIP**. Your project will then download and you will be free to use it as you please;
 
-Cloning is another way to retrieve your files from Github, this is done through your IDE and avoids the need to download the files each time. In the [tools](/planning/version-control/tools/level_4_git_tools.md) guidance, we have showed an example with screenshots of how to do this:
+Cloning is another way to retrieve your files from Github, this is done through your IDE and avoids the need to download the files each time. In the [tools](tools/level_4_git_tools.md) guidance, we have showed an example with screenshots of how to do this:
 
 1. Launch your IDE (Visual Studio 2019);
 2. Navigate to the section where you create or open a project (on the right in VS 2019), there should be a section saying Clone or check out code;
