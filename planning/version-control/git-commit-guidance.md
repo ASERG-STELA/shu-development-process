@@ -19,7 +19,7 @@ You can see how to integrate Git with the tools you will likely be using; Visual
 
 Git commit messages are structured like the following:
 
-![Git commit structure](/planning/version-control/images/structure1.png)
+![Git commit structure](images/structure1.PNG)
 
 The top field is where the main commit summary should go. As seen in the image above, it will defaul to 'Update...'. You should change this as this is just a vague description of what you have done.
 You will need to put more than this. You should describe briefly what changes you have made, such as 'Added login functionality' or 'Added comments to code'. 
@@ -27,12 +27,12 @@ You will need to put more than this. You should describe briefly what changes yo
 In this field, there is a 50 character limit. You can go over this limit, but it is not advised, as a good commit summary should be concise, and within the 50 character limit.
 If you go over this limit, Github will truncate the summary at the 50th character, then add the rest in the description box below it:
 
-![Github summary truncated](/planning/version-control/images/truncate.png)
+![Github summary truncated](images/truncate.PNG)
 
 As well as the summary, if you feel more detail is needed to explain the changes you have made, you can write them in the description box. This field does not have a character limit, so you can write as much as you need (but try to keep it as concise as possible).
 If you follow this, your Git commit summary should look something like this:
 
-![Complete Git commit structure](/planning/version-control/images/structure2.png)
+![Complete Git commit structure](images/structure2.PNG)
 
 ## 4. Committing the Changes
 
