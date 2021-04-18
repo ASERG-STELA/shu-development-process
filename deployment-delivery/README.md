@@ -17,7 +17,7 @@ This phase is dedicated to the delivery of the product to the end user. It inclu
 At this level you are expected to ...
 
 [L4 Delivery Guidelines](/deployment-delivery/level-4/level-4-delivery-guidelines.md)
-- Manual. Complete and submit the README file located [here](README_Template.md)
+- Manual. Complete and submit the README file located [here](L4-README_Template.md)
 
 ### Level 5
 
