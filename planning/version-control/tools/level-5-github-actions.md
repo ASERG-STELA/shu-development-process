@@ -2,15 +2,17 @@
 
 ## 1. Abstract
 
-This document will walk you through how to set up a Github Action for use in a DevOps environment. At Level 5, having some flavour of DevOps in your GSDP module would be a nice addition, at this level, we are not expecting a full DevOps pipeline, but having some form of Continuous Intgration would be nice to see.
+This document will walk you through how to set up a Github Action for use in a DevOps environment.
+At Level 5, having some flavour of DevOps in your GSDP module would be a nice addition, at this level, we are not expecting a full DevOps pipeline, but having some form of Continuous Integration would be nice to see.
 
 ## 2. Table of Contents
 
-- [1. Abstract](#1-abstract)
-- [2. Table of Contents](#2-table-of-contents)
-- [3. What is a Github Action](#3-what-is-a-github-action)
-  - [3.1. Setting up a CI Pipeline with Github Actions](#31-setting-up-a-CI-pipeline-with-github-actions)
-- [4. References](#4-references)
+- [Level 5 Github Actions](#level-5-github-actions)
+  - [1. Abstract](#1-abstract)
+  - [2. Table of Contents](#2-table-of-contents)
+  - [3. What is a Github Action](#3-what-is-a-github-action)
+  - [3.1. Setting up a CI Pipeline with Github Actions](#31-setting-up-a-ci-pipeline-with-github-actions)
+  - [4. References](#4-references)
 
 ## 3. What is a Github Action
 

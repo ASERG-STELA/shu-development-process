@@ -4,7 +4,7 @@
 
 This document will outline how you should be structuring your Git commit messages when pushing changes to your repositories. It is important that you do not simply leave the default message as this does not let your team know what changes you have made.
 
-You can see how to integrate Git with the tools you will likely be using; Visual Studio 2019, IntelliJ IDEA and Eclipse in the tools guidelines [here](/planning/version-control/tools/level_4_git_tools.md).
+You can see how to integrate Git with the tools you will likely be using; Visual Studio 2019, IntelliJ IDEA and Eclipse in the tools guidelines [here](tools/level_4_git_tools.md).
 
 ## 2. Table of Contents
 
@@ -22,7 +22,7 @@ Git commit messages are structured like the following:
 ![Git commit structure](images/structure1.PNG)
 
 The top field is where the main commit summary should go. As seen in the image above, it will defaul to 'Update...'. You should change this as this is just a vague description of what you have done.
-You will need to put more than this. You should describe briefly what changes you have made, such as 'Added login functionality' or 'Added comments to code'. 
+You should describe briefly what changes you have made, such as 'Added login functionality' or 'Added comments to code'.
 
 In this field, there is a 50 character limit. You can go over this limit, but it is not advised, as a good commit summary should be concise, and within the 50 character limit.
 If you go over this limit, Github will truncate the summary at the 50th character, then add the rest in the description box below it:
