@@ -1,4 +1,4 @@
-# Level-6 Submission Template
+# Level-6 Submission Template <!-- omit in toc -->
 
 ## 1. Table of Contents
 
@@ -14,7 +14,7 @@
   - [3.3. Installation](#33-installation)
 - [4. Usage](#4-usage)
 - [5. Roadmap](#5-roadmap)
-- [6. Acknowledgements](#6-Acknowledgements)
+- [6. Acknowledgements](#6-acknowledgements)
 
 ## 2. About The Project
 
@@ -34,11 +34,11 @@ In this section, briefly describe what the submission is. E.g. "This is group 10
 
 This section should be dedicated to what you used to make your project. All major frameworks should be listed, for example:
 
-* ASP.NET
-* C#
-* HTML/CSS
-* JavaScript
-* SQL Server
+- ASP.NET
+- C#
+- HTML/CSS
+- JavaScript
+- SQL Server
 
 ## 3. Getting Setup
 
@@ -48,21 +48,21 @@ In this section, you should explain how to get your project setup to run locally
 
 List all contents of your submission here, such as:
 
-* HTML/CSS/JS for all pages
-* AccountController.cs
-* Quote.cs
-* Login.cs
-* Unit-Testing.docx
-* etc...
+- HTML/CSS/JS for all pages
+- AccountController.cs
+- Quote.cs
+- Login.cs
+- Unit-Testing.docx
+- etc...
 
 ### 3.2. Prerequisites
 
 In this section, outline any prerequisites for running the software, such as:
 
-* ASP.NET Core
-* Visual Studio 2019
-* Microsoft.Data.SqlClient
-* etc...
+- ASP.NET Core
+- Visual Studio 2019
+- Microsoft.Data.SqlClient
+- etc...
 
 ### 3.3. Installation
 
@@ -82,6 +82,6 @@ Explain your roadmap. What have you developed so far? What would be developed in
 
 Use this final section for listing links to any resources you have used, frameworks, information sources etc...
 
-* [ASP.NET Core documentation](https://docs.microsoft.com/en-us/aspnet/core/?view=aspnetcore-5.0)
-* [Microsoft.Data.SqlClient documentation](https://www.nuget.org/packages/Microsoft.Data.SqlClient/)
-* [Procure to Pay system](https://kissflow.com/procurement/procure-to-pay-process-guide/)
+- [ASP.NET Core documentation](https://docs.microsoft.com/en-us/aspnet/core/?view=aspnetcore-5.0)
+- [Microsoft.Data.SqlClient documentation](https://www.nuget.org/packages/Microsoft.Data.SqlClient/)
+- [Procure to Pay system](https://kissflow.com/procurement/procure-to-pay-process-guide/)

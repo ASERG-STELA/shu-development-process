@@ -1,4 +1,4 @@
-# Level-5 Submission Template
+# Level-5 Submission Template <!-- omit in toc -->
 
 ## 1. Table of Contents
 
