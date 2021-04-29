@@ -89,6 +89,8 @@ A description of each phase is presented below.
   - [UML Class Diagrams]()
 - Construction - Code
   - [Code Commenting](construction-code/level5/level5-code-commenting.md)
+- Deployment - Delivery
+  - [Delivery](deployment-delivery/level-5/level-5-delivery-guidelines.md)
 
 ### 3.3. Level 6
 
@@ -102,6 +104,8 @@ A description of each phase is presented below.
   - [UML Class Diagrams]()
 - Construction - Code
   - [Code Commenting](construction-code/level6/level6-code-commenting.md)
+- Deployment - Delivery
+  - [Delivery](deployment-delivery/level-6/level-6-delivery-guidelines.md)
 
 ## 4. Process-based view
 
