@@ -8,15 +8,16 @@ This document will provide Level 4 students with the knowledge to conduct good q
 
 - [1. Abstract](#1-abstract)
 - [2. Table of Contents](#2-table-of-contents)
-- [3. What Is Code Reviewing](#3-what-is-project-management)
+- [3. What Is Code Reviewing](#3-what-is-code-reviewing)
   - [3.1. Why is it Important](#31-why-is-it-important)
 - [4. Types of Code Review](#4-types-of-code-review)
   - [4.1. The Email Thread](#41-the-email-thread)
   - [4.2. Pair Programming](#42-pair-programming)
   - [4.3. Over-the-Shoulder](#43-over-the-shoulder)
   - [4.4. Tool-Assisted](#44-tool-assisted)
-- [5. What is Expected](#5-what-is-expected)
-- [6. References](#6-references)
+- [5. How to Conduct a Good Code Review](#5-how-to-conduct-a-good-code-review)
+- [6. What is Expected](#6-what-is-expected)
+- [7. References](#7-references)
 
 ## 3. What Is Code Reviewing
 
@@ -48,10 +49,60 @@ This approach can be more flexible than the other techniques, an email thread of
 
 ## 4.2. Pair Programming
 
+Pair programming is a key part of the Extreme Programming (XP) methodology. It involves two developers working side-by-side on a piece of code together, checking each others work as they go. This technique essentially integrates code reviews directly into development as it is ongoing, which will save time over waiting for someone to review the code after you have completed its development.
+
+However, as both developers will be too 'close' to their code (and may be more bias), other code review methods might provide more objectivity. It can also use more resources and personnel than other techniques.
+
 ## 4.3. Over-the-Shoulder
+
+This is a more comfortable form of pair programming. This technique involves a colleague shadowing a developer while they review the code for you, whilst at the same time, you explain what the code does, and why it is needed. This is possibly the easiest and most intuitive way to perform code reviews, as it is lightweight and often quite informal. However, this lightweightness can be too light if it lacks proper documentation (so make sure to write comments or notes on something!). 
 
 ## 4.4. Tool-Assisted
 
-## 5. What is Expected
+Tool assisted is arguably the most efficient of the four techniques. In this method, code is reviewed using software-based code review tools, with some of the most popular being:
 
-## 6. References
+* [SonarQube](https://www.sonarqube.org/)
+* [Review Board](https://www.reviewboard.org/)
+* [Github](https://github.com/features/code-review/)
+* [Crucible](https://www.atlassian.com/software/crucible)
+* [UpSource](https://www.jetbrains.com/upsource/)
+
+There is no 'best tool', so try some out, and use whatever is most comfortable for you. Using a tool will assist with the following tasks:
+
+* Organising and displaying the updated files in a change.
+* Facilitate a conversation between reviewers and developers.
+* Assess the efficacy of the code review process with metrics.
+
+## 5. How to Conduct a Good Code Review
+
+Here are 9 code review best practices, that you should try to use when undertaking your code reviews:
+
+1. Know What to Look for in a Code Review (e.g. structure, style, logic, performance, test coverage, design, readability (and maintainability), functionality)
+
+2. Build and Test — Before Review (make sure the code compiles before review)
+
+3. Don't Review Code for Longer Than 60 Minutes
+
+4. Check No More Than 400 Lines at a Time
+
+5. Give Feedback That Helps (Not Hurts)
+
+6. Communicate Goals and Expectations
+
+7. Include Everyone in the Code Review Process
+
+8. Foster a Positive Culture
+
+9. Automate to Save Time (not essential, would be nice to see at Level 6)
+
+## 6. What is Expected
+
+At Level 4, you are not expected to use a code review tool. Instead, you should focus on manual code reviews, using one or more of the other three techniques listed above. Then end goal is to ensure there are no bugs in your code, minimise your chances of having issues, confirm the code adhears to guidelines and increase the efficiency of it. It is also important to make sure the new code is actually an improvement over the old code base. 
+
+For more information on how to conduct code reviews, look at references [1] and [2].
+
+## 7. References
+
+[1] SmartBear. What is Code Review?. <https://smartbear.com/learn/code-review/what-is-code-review/>.
+
+[2] Kinsta. 12 Best Code Review Tools for Developers (2021 Edition). <https://kinsta.com/blog/code-review-tools/>.
