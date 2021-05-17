@@ -25,4 +25,4 @@ The code step concerns the implementation of the structures modeled in the desig
 ### [Level 6](level6/level6-code-commenting.md)
 
 - Should follow proper coding standards. Need to be consistent with design. Code should be properly documented and should have generated documentation like API doc (e.g., swagger) or Javadoc.
-- A tool should be used, code soverage would be nice.
+- A tool should be used, code coverage would be nice.
