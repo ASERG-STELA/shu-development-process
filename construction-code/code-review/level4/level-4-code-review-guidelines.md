@@ -75,7 +75,7 @@ There is no 'best tool', so try some out, and use whatever is most comfortable f
 
 ## 5. How to Conduct a Good Code Review
 
-Here are 9 code review best practices, that you should try to use when undertaking your code reviews:
+Here are 9 code review best practices, that you should try to use when undertaking your code reviews (reference [3]):
 
 1. Know What to Look for in a Code Review (e.g. structure, style, logic, performance, test coverage, design, readability (and maintainability), functionality)
 
@@ -106,3 +106,5 @@ For more information on how to conduct code reviews, look at references [1] and 
 [1] SmartBear. What is Code Review?. <https://smartbear.com/learn/code-review/what-is-code-review/>.
 
 [2] Kinsta. 12 Best Code Review Tools for Developers (2021 Edition). <https://kinsta.com/blog/code-review-tools/>.
+
+[3] Perforce. 9 Code Review Best Practices. <https://www.perforce.com/blog/qac/9-best-practices-for-code-review>.
