@@ -8,7 +8,7 @@ This document will provide Level 4 students with more specific guidance on what 
 
 - [1. Abstract](#1-abstract)
 - [2. Table of Contents](#2-table-of-contents)
-- [3. What is expected](#3-what-is-expected)
+- [3. What is Expected](#3-what-is-expected)
 - [4. References](#4-references)
 
 ## 3. What is Expected
