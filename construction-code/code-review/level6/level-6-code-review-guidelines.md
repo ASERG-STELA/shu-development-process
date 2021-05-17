@@ -63,7 +63,7 @@ Gathered from reference [4].
 
 A screenshot of how to use Visual Studio 2019 for code coverage can be seen here:
 
-![Visual Studio 2019 code coverage](code-review/images/VS-code-coverage.PNG)*by ndepend: https://blog.ndepend.com/guide-code-coverage-tools/*
+![Visual Studio 2019 code coverage](../images/VS-code-coverage.PNG)*by ndepend: https://blog.ndepend.com/guide-code-coverage-tools/*
 
 Code coverage will help you improve the efficiency of your programs. As previously mentioned, it is not essential, but would be nice to see at Level 6.
 
