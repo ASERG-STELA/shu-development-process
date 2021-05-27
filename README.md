@@ -69,6 +69,7 @@ A description of each phase is presented below.
   - [Class, Entity Relationship and Sequence Diagrams](modelling-design/level4/level4-design.md)
 - Construction - Code
   - [Code Commenting](construction-code/level4/level4-code-commenting.md)
+  - [Code Review](construction-code/code-review/level4/level-4-code-review-guidelines.md)
 - Deployment - Delivery
   - [Delivery Guidelines](deployment-delivery/level-4/level_4_delivery_guidelines.md)
 - Deployment - Support - Feedback
@@ -89,6 +90,7 @@ A description of each phase is presented below.
   - [UML Class Diagrams]()
 - Construction - Code
   - [Code Commenting](construction-code/level5/level5-code-commenting.md)
+  - [Code Review](construction-code/code-review/level5/level-5-code-review-guidelines.md)
 - Deployment - Delivery
   - [Delivery](deployment-delivery/level-5/level-5-delivery-guidelines.md)
 - Deployment - Support - Feedback
@@ -106,6 +108,7 @@ A description of each phase is presented below.
   - [UML Class Diagrams]()
 - Construction - Code
   - [Code Commenting](construction-code/level6/level6-code-commenting.md)
+  - [Code Review](construction-code/code-review/level6/level-6-code-review-guidelines.md)
 - Deployment - Delivery
   - [Delivery](deployment-delivery/level-6/level-6-delivery-guidelines.md)
 - Deployment - Support - Feedback
