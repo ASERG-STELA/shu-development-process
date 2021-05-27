@@ -64,11 +64,16 @@ A description of each phase is presented below.
   - [Team Communication](planning/team-communication/level-4/level_4_team_communication_guidelines.md)
 - Modelling - Analysis
   - [User Stories](modelling-analysis/level4/level-4-user-stories.md)
-  - [Use Case Diagrams](modelling-analysis/level4/level_4_use_case_guidance.md)
+  - [Use Case Models](modelling-analysis/level4/level_4_use_case_guidance.md)
 - Modelling - Design
   - [Class, Entity Relationship and Sequence Diagrams](modelling-design/level4/level4-design.md)
 - Construction - Code
   - [Code Commenting](construction-code/level4/level4-code-commenting.md)
+  - [Code Review](construction-code/code-review/level4/level-4-code-review-guidelines.md)
+- Deployment - Delivery
+  - [Delivery Guidelines](deployment-delivery/level-4/level_4_delivery_guidelines.md)
+- Deployment - Support - Feedback
+  - [Presenting, Reporting and Demonstrating](deployment-support-feedback/level-4/level-4-feedback-guidelines.md)
   
 ### 3.2. Level 5
 
@@ -78,11 +83,18 @@ A description of each phase is presented below.
   - [Team Communication](planning/team-communication/level-5/level_5_team_communication_guidelines.md)
 - Modelling - Analysis
   - [User Stories](modelling-analysis/level5/level-5-user-stories.md)
+  - [Use Case Models](modelling-analysis/level5/level_5_use_case_guidance.md)
+  - [Personas and Scenarios](modelling-analysis/level5/personas_and_scenarios.md)
   - [MoSCoW Prioritisation Method](modelling-analysis/level5/moscow_prioritisation_method.md)
 - Modelling - Design
   - [UML Class Diagrams]()
 - Construction - Code
   - [Code Commenting](construction-code/level5/level5-code-commenting.md)
+  - [Code Review](construction-code/code-review/level5/level-5-code-review-guidelines.md)
+- Deployment - Delivery
+  - [Delivery](deployment-delivery/level-5/level-5-delivery-guidelines.md)
+- Deployment - Support - Feedback
+  - [Presenting, Reporting and Demonstrating](deployment-support-feedback/level-5/level-5-feedback-guidelines.md)
 
 ### 3.3. Level 6
 
@@ -96,6 +108,11 @@ A description of each phase is presented below.
   - [UML Class Diagrams]()
 - Construction - Code
   - [Code Commenting](construction-code/level6/level6-code-commenting.md)
+  - [Code Review](construction-code/code-review/level6/level-6-code-review-guidelines.md)
+- Deployment - Delivery
+  - [Delivery](deployment-delivery/level-6/level-6-delivery-guidelines.md)
+- Deployment - Support - Feedback
+  - [Presenting, Reporting and Demonstrating](deployment-support-feedback/level-6/level-6-feedback-guidelines.md)
 
 ## 4. Process-based view
 
