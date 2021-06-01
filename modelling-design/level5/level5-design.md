@@ -173,7 +173,8 @@ In UML 2, the frame is an element that is used as a basis for many other diagram
 *Figure 10: the Frame *  
   
 #### Lifelines  
-A lifeline represents an individual participant in the interaction. Lifeline notation elements are placed across the top of the diagram. They represent either roles or object instances that participate in the sequence being modeled. Lifelines are drawn with a dashed line descending from the centre of the bottom edge. The name of the lifeline is placed inside the box. 
+A lifeline represents an individual participant in the interaction. Lifeline notation elements are placed across the top of the diagram. They represent either roles or object instances that participate in the sequence being modeled. Lifelines are drawn with a dashed line descending from the centre of the bottom edge. The name of the lifeline is placed inside the box.  
+
 ![](https://developer.ibm.com/developer/default/articles/the-sequence-diagram/images/figure3.jpg)  
 *Figure 11: the Lifeline *  
 
