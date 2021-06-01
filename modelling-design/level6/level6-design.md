@@ -1,47 +1,26 @@
-# Design <!-- omit in toc -->
-
-- [1. Introduction](#1-introduction)
-- [Level Specific Guidance](#level-specific-guidance)
-  - [Level 4 (TBD)](#level-4-tbd)
-  - [Level 5 (TBD)](#level-5-tbd)
-  - [Level 6 (TBD)](#level-6-tbd)
+# Design - Level 6 - requires adjustments to match level 6  
 
 ## 1. Introduction
+The design step is focused on the modelling of the solution. It usually involves decisions around architecture, data structure, user-interface, classes, algorithms, etc. At Level 5, it is expected that you create diagrams for the architectural structure if those are required by your module, as well as detailed software model diagrams that link together well and are in sync. Previous description of what these diagrams are can be found [here](../level4/level4-design.md). The three diagrams you need to create are.
 
-The design step is focused on the modelling of the solution.
-It usually involves decision around architecture, data structure, user-interface, classes, algorithms, etc.
+* UML Class Diagram
+* Entity Relationship Diagram
+* Sequence Diagram
 
-- Techniques
-  - Formal Diagrams
-    - Class
-    - Interaction/Sequence
-  - Wireframes
-  - Ad Hoc Drawing
-  - Mindmaps
-  - Lists  
-- Finding what works for you
-  - Capturing Ideas
-  - Communicating
-  - Revising
-  - Tracking History
-- Designing the
-  - Architecture
-  - Database
-  - User Interface (UI)  
+This document is a follow-up to the previous document and will provide examples of some more high level concepts you will need to consider when creating these diagrams.
 
-## Level Specific Guidance
+## 2. Table of Contents
+- [3. Software Model Diagrams](#3-software-model-diagrams)
+  - [3.1. UML Class Diagram](#31-uml-class-diagram)
+    - [3.1.1. The Technical Details](#311-the-technical-details)
+    - [3.1.2. GUI Class Diagram Example GUI](#312-gui-class-diagram-example)
+  - [3.2. Entity Relationship Diagram](#32-entity-relationship-diagram)
+    - [3.2.1. Entity Notations and Attributes](#321-entity-notations-and-attributes)
+    - [3.2.2. Data Models](#322-data-models)
+  - [3.3 Sequence Diagram](#33-sequence-diagram)
+    - [3.3.1. Sequence Diagram Basic Notation](#331-sequence-diagram-basic-notation)
+    - [3.3.2. More Advanced Notation](#332-more-advanced-notation)
+- [4. References](#4-references)  
 
-### Level 4 (TBD)
-
-- Software models: Basic class diagram, entity relationship diagram, sequence diagram. Class diagram and sequence diagram should be linked well.
-
-### Level 5 (TBD)
-
-- Software architecture: Nice to have based on the nature of the module. For example, GSDP can have Architecture Overview, NSD need not.
-- Software models: Detailed class diagram, entity relationship diagram, sequence diagram with proper annotation. All diagrams should be in sync.
-
-### Level 6 (TBD)
-
-- Software architecture: System context and architecture overview.
-- Software models: Static model, dynamic model with proper documentation. Models should be fully consistent.
-- End to end traceability (Requirement Traceability Verification Matrix) need to be maintained.
+## 3. Software Model Diagrams 
+### 3.1. UML Class Diagram
