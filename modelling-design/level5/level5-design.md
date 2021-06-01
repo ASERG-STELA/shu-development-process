@@ -18,10 +18,9 @@ This document is a follow-up to the previous document and will provide examples 
     - [3.2.1. Entity Notations and Attributes](#321-entity-notations-and-attributes)
     - [3.2.2. Data Models](#322-data-models)
   - [3.3 Sequence Diagram](#33-sequence-diagram)
-    - [3.3.1. Sequence Diagram Notation](#331-sequence-diagram-notation)
-    - [3.3.2. Message and Focus of Control](#332-message-and-focus-of-control)
-    - [3.3.3. Sequence Fragments](#333-sequence-fragments)
-- [4. References](#5-references)  
+    - [3.3.1. Sequence Diagram Basic Notation](#331-sequence-diagram-basic-notation)
+    - [3.3.2. More Advanced Notation](#332-more-advanced-notation)
+- [4. References](#4-references)  
 
 ## 3. Software Model Diagrams 
 ### 3.1. UML Class Diagram
@@ -147,7 +146,7 @@ This is the definition that defines the numerical attributes between two entitie
 There are three types of conceptual models when we think about ERDs. They differ in the purposes they are created for and for the audiences they are intended for. The different models is not something that will be covered here, as we will be focusing on the **Physical Model**, but more information regarding the other models not covered can be found at [[3]](#5-references). 
 
 #### Physical Model
-The pysical model represents the *actual design of a relational database*. A physical data model elaborates on the logical data model by assigning each column with type, length, nullable etc. Since this kind of model represents how data should be structured and related in a specific DBMS (DataBase Management System), it is importnat to consider the convention and restriction of the actual database system in which the database will be created. It is important to make sure that the column types are supported by your DBMS and reserved words are not used in naming entities and columms.
+The physical model represents the *actual design of a relational database*. A physical data model elaborates on the logical data model by assigning each column with type, length, nullable etc. Since this kind of model represents how data should be structured and related in a specific DBMS (DataBase Management System), it is importnat to consider the convention and restriction of the actual database system in which the database will be created. It is important to make sure that the column types are supported by your DBMS and reserved words are not used in naming entities and columms.
   
 ![](https://cdn-images.visual-paradigm.com/guide/data-modeling/what-is-erd/12-physical-data-model-example.png)  
 *Figure 7: Physical Data Model example*  
@@ -164,7 +163,7 @@ The main purpose of a sequence diagram, is to define event sequences that result
 
 Notice in figure 9 that that the diagram starts with 'sd' which is normally used to indicate that this is a sequence diagram.
 
-#### 3.3.1. Sequence Diagram Notation
+#### 3.3.1. Sequence Diagram Basic Notation
 This section will go into more detail over different notations for a Sequence Diagram. Please refer back to [Level 4](../level4/level4-design.md) for the basic notations mentioned earlier, as not all the same notations are discussed here.
 
 #### Frame 
@@ -183,32 +182,58 @@ The lifeline in figure 11 represents an instance of the class Student, whose ins
 Figure 11 shows a named object, but not all lifelines represent named objects. A lifeline can be used to represent an anonymous or unnamed instance. When modeling an unnamed instance on a sequence diagram, the lifeline’s name follows the same pattern as a named instance; but instead of providing an instance name, that portion of the lifeline’s name is left blank. if the lifeline is representing an anonymous instance of the Student class, the lifeline would be: ” Student.” Also, because sequence diagrams are used during the design phase of projects, it is completely legitimate to have an object whose type is unspecified: for example, “freshman.”
 
 #### Messages  
+Your first message of a sequence diagram always starts at the top, and is typically located in the left side of the diagram for readability. Subsequent messages are then added to the diagram slightly lower than the previous message. If you want to show an object (e.g. lifeline) sending a message to another object, you draw a line to the recieving object with a solid arrowhead, or with a stick, dependant on the signal. This depends on the signal and type of message, which can be seen in figure 12 below.
+
+![](https://developer.ibm.com/developer/default/articles/the-sequence-diagram/images/3101_figure6.jpg)  
+*Figure 12: the Message *  
+  
+The message / method name is placed above the arroved line. The message that is being sent to the recieving object represents an operation / method that the recieving object's class implements. In figure 13, the analyst object makes a call to the system object which is an instance of the ReportingSystem class. The analyst object is calling the system object’s getAvailableReports method. The system object then calls the getSecurityClearance method with the argument of userId on the secSystem object, which is of the class type SecuritySystem. (Note: When reading this sequence diagram, assume that the analyst has already logged into the system.)
 
 ![](https://developer.ibm.com/developer/default/articles/the-sequence-diagram/images/figure4.jpg)  
-*Figure 12: the Message *  
+*Figure 13: an example message, with return messages present *  
+  
+#### Guards  
+When modeling object interactions, there will be times when a condition must be met for a message to be sent to the object. Guards are used throughout UML diagrams to control flow. In figure 14, the guard is the text "[pastDueBalance = 0]". By having the guard on this message, the addStudent message will only be sent if the accounts recievable system returns a past due balance of zero. The notation for this in UML is pretty simple.
 
+```UML2
+[pastDueBalance = 0]
+```
+![](https://developer.ibm.com/developer/default/articles/the-sequence-diagram/images/3101_figure7.jpg)  
+*Figure 14: the Guard *  
 
-* **Actor**: This is a type of role by an entity that interacts with the subject. It represents roles as human users, external hardware or other subjects. It is important to note that an actor doesn't necessarily represent a specific physical entity but merely a particular role of some entity
-* **Lifeline**: A lifeline represents an individual participant in the interaction
-* **Call Message**: Call message is a kind of message that represents an invocation of operation of target lifeline
-* **Return Message**: Return message is a kind of message that represents the pass of information back to the caller of a corresponded former message
-* **Self Message**: Self message is a kind of message that represents the invocation of message of the same lifeline
-* **Recursive Message**: Recursive message is a kind of message that represents the invocation of message of the same lifeline. It's target points to an activation on top of the activation where the message was invoked from
-* **Create Message**: Create message is a kind of message that represents the instantiation of (target) lifeline
-* **Destroy Message**: Destroy message is a kind of message that represents the request of destroying the lifecycle of target lifeline
-* **Duration Message**: Duration message shows the distance between two time instants for a message invocation
+#### Alternatives
+We use alternatives to designate a mutually exclusive choice between two or more message sequences. While it is possible for two or more guard conditions attached to different alternative operands to be true at the same time, but at most only one operand will actually occur at run time. Alternatives allow the modelling of the classic "if then else" logic we have come to know (and maybe even love). 
+  
+An alternative **combination fragment** eleemnt is drawn using a frame. The word "alt" is placed inside the frame's namebox.  The larger rectangle is then divided into what UML 2 calls operands. (Note: Although operands look a lot like lanes on a highway, I specifically did not call them lanes. Swim lanes are a UML notation used on activity diagrams.) Operands are separated by a dashed line. Each operand is given a guard to test against, and this guard is placed towards the top left section of the operand on top of a lifeline. (Note: Usually, the lifeline to which the guard is attached is the lifeline that owns the variable that is included in the guard expression.) If an operand’s guard equates to “true,” then that operand is the operand to follow.  
 
-#### 3.3.2. Message and Focus of Control __
-An event is any point in an interaction where something occurs. Focus of control, also called execution occurrence, is shown as a tall, thin rectangle on a lifeline. It represents the period during which an element is performing an operation. The top and the bottom of the rectangle are aligned with the initiation and the completion time respectively.
+Alternative combination fragments are not limited to simple "if then else" tests. There can be as many alternatives path as are needed (or as you want). If you need more alternatvies, then all you need to do is add an operand to the rectangle with that sequence's guard and messages.
 
-![](https://cdn-images.visual-paradigm.com/guide/uml/what-is-sequence-diagram/13-message-and-focus-of-control.png)  
-*Figure 10: Visual example of message and focus of control*  
+![](https://developer.ibm.com/developer/default/articles/the-sequence-diagram/images/3101_figure8.jpg)  
+*Figure 15: the Alternative *  
 
-#### 3.3.3. Sequence Fragments __
-UML 2.0 has helped to introduce sequence fragments, which make it easier to create and maintain accurate sequence diagrams. A sequence fragment is represented as a box, called a combined fragment, which encloses a portion of the interactions with a sequence diagram. TThe fragment operator indicates the type of fragment. More information on these types can be found at [[3]](#4-references).
+#### Option
+The option cobination fragment is used to model a sequence that, given a certain condition, will occur; otherwsie the sequence does not occur. An option is used to model the "if then" logic statement. It is similar to the alternative fragment notation, except that it only has one operand and there can never be an "else" guard. To draw an option, you first draw a frame. The text "opt" is placed inside the frame's namebox and in the frame's content areas the option's guard is placed towards the top left corner on top of a lifeline.
 
-![](https://cdn-images.visual-paradigm.com/guide/uml/what-is-sequence-diagram/14-fragment.png)  
-*Figure 11: A sequence fragment*  
+![](https://developer.ibm.com/developer/default/articles/the-sequence-diagram/images/3101_figure9.jpg)  
+*Figure 16: the Option *  
+
+#### Loops
+Sometimes you will need to model a repetitive sequence, which can be done by making use of a loop. The loop combination fragment is very similar in appearance to the option combination fragment. You draw a frame, and in the frame’s namebox the text “loop” is placed. Inside the frame’s content area the loop’s guard is placed towards the top left corner, on top of a lifeline.  
+The loop shown in Figure 17 executes until the reportsEnu object’s hasAnotherReport message returns false. The loop in this sequence diagram uses a Boolean test to verify if the loop sequence should be run. To read this diagram, you start at the top, as normal. When you get to the loop combination fragment a test is done to see if the value hasAnotherReport equals true. If the hasAnotherReport value equals true, then the sequence goes into the loop fragment. You can then follow the messages in the loop as you would normally in a sequence diagram
+
+![](https://developer.ibm.com/developer/default/articles/the-sequence-diagram/images/figure10.png)  
+*Figure 17: the Loop *  
+
+#### 3.3.2. More Advanced Notation
+
+#### Gates
+
+#### Break
+
+#### Parallel
+
+#### Referencing another Diagram
+
 
 ## 4. References
 - [1] Creatly UML Class Diagrams Explained wih Examples <https://creately.com/blog/diagrams/class-diagram-relationships/> 
