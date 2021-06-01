@@ -226,15 +226,30 @@ The loop shown in Figure 17 executes until the reportsEnu object’s hasAnotherR
 *Figure 17: the Loop *  
 
 #### 3.3.2. More Advanced Notation
+This section goes more into some more advanced notations that you can take advantage of, which will allow you to model most of the interactions that will take place in a common system, but also model some more complex interactions if you want to.
 
 #### Gates
+Gates can be an easy way to model the passing of information to another sequence diagram. A gate itself is merely a message that is illustrated with one end connected to the sequence diagram's frame edge and other end connected to a lifeline. The example diagram in Figure 18 has an entry gate called getBalance that takes the parameter of accountNumber. The getBalance message is an entry gate, because it is the arrowed line that is connected to the diagram’s frame with the arrowhead connected to a lifeline. The sequence diagram also has an exit gate that returns the balance variable. The exit gate is known, because it’s a return message that is connected from a lifeline to the diagram’s frame with the arrowhead connected to the frame.
+
+![](https://developer.ibm.com/developer/default/articles/the-sequence-diagram/images/3101_figure15.jpg)  
+*Figure 18: the Gate * 
 
 #### Break
+The break combined fragment is almost identical in every way to the **option combined fragment**, with two exceptions.
+* 1 - A break's frame has a namebox with the text "break" instead of "option"
+* 2 - When a break's message is to be executed, the enclosing interaction's remainder messages will not be executed because the sequence breaks out of the enclosing interaction  
+In this way, the break is much like the break keyword in a language such as C++ or Java. Breaks are commonly used to model exception handling in a sequence diagram.
+
+![](https://developer.ibm.com/developer/default/articles/the-sequence-diagram/images/3101_figure16.jpg)  
+*Figure 19: the Break *
 
 #### Parallel
+The parallel combination fragment is drawn using a frame, and you place the text “par” in the frame’s namebox. You then break up the frame’s content section into horizontal operands separated by a dashed line. Each operand in the frame represents a thread of execution done in parallel. Figure 20 is not the best example of Parallel in use, but it offers an easy to understand example of a sequence with parallel activities.
 
-#### Referencing another Diagram
+![](https://developer.ibm.com/developer/default/articles/the-sequence-diagram/images/3101_figure17.jpg)  
+*Figure 20: the Parallel *
 
+All information can be found in further detail at the References below.
 
 ## 4. References
 - [1] Creatly UML Class Diagrams Explained wih Examples <https://creately.com/blog/diagrams/class-diagram-relationships/> 
