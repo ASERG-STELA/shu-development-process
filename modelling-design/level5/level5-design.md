@@ -22,8 +22,7 @@ This document is a follow-up to the previous document and will provide examples 
     - [3.3.2. Message and Focus of Control](#332-message-and-focus-of-control)
     - [3.3.3. Sequence Fragments](#333-sequence-fragments)
   - [3.4. Linking You Diagrams](#34-linking-your-diagrams)
-- [4. Architecture Design](#4-architecture-design)
-- [5. References](#5-references)  
+- [4. References](#5-references)  
 
 ## 3. Software Model Diagrams 
 ### 3.1. UML Class Diagram
@@ -191,9 +190,7 @@ UML 2.0 has helped to introduce sequence fragments, which make it easier to crea
 ### 3.4. Linking your Diagrams __
 When we use our class diagrams and sequence diagrams together, it allows for an extremely effective communication mechanism. We use a class diagram to illustrate relationships, and a sequence diagram to illustrate interactions between these classes. When an object is senidng information to another, this implies a relationship between the two classes. When thinking about how to link these together, if you've already created them beforehand, you can put them side-by-side and use this to help you understand what elements to take from each of them and then combine them into a single image. Examples to do this can be found at [5](#5-references).
 
-## 4. Architecture Design
-
-## 5. References
+## 4. References
 - [1] Creatly UML Class Diagrams Explained wih Examples <https://creately.com/blog/diagrams/class-diagram-relationships/> 
 - [2] Visual Paradigm UML Class Diagram Tutorial <https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-diagram-tutorial/>
 - [3] Visual Paradigm What is Entity Relationship Diagram <https://www.visual-paradigm.com/guide/data-modeling/what-is-entity-relationship-diagram/#:~:text=Entity%20Relationship%20Diagram%2C%20also%20known,inter%2Drelationships%20among%20these%20entities.>
