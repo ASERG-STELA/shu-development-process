@@ -7,7 +7,7 @@ The design step is focused on the modelling of the solution. It usually involves
 * Entity Relationship Diagram
 * Sequence Diagram
 
-This document is a follow-up to the previous document and will provide examples of some more high level concepts you will need to consider when creating these diagrams. There will be templates provided for you if you wish to use them.
+This document is a follow-up to the previous document and will provide examples of some more high level concepts you will need to consider when creating these diagrams.
 
 ## 2. Table of Contents
 - [3. Software Model Diagrams](#3-software-model-diagrams)
@@ -21,7 +21,6 @@ This document is a follow-up to the previous document and will provide examples 
     - [3.3.1. Sequence Diagram Notation](#331-sequence-diagram-notation)
     - [3.3.2. Message and Focus of Control](#332-message-and-focus-of-control)
     - [3.3.3. Sequence Fragments](#333-sequence-fragments)
-  - [3.4. Linking You Diagrams](#34-linking-your-diagrams)
 - [4. References](#5-references)  
 
 ## 3. Software Model Diagrams 
@@ -117,19 +116,19 @@ Entities are defineable objects that can have some data stored about it. You sho
 Also known as a column, an attribute is a property or characteristic of the entity that holds it. The attribute has a name that helps to describe the property and a type that describes the kind of attribute it is, such as **varchar** for a string, or **int** for an integer.
 
 ![](https://cdn-images.visual-paradigm.com/guide/data-modeling/what-is-erd/04-an-erd-entity-with-entities.png)  
-*Figure _ Example Entity with properties*  
+*Figure 4: Example Entity with properties*  
 
 #### Primary Key
 Sometimes known as PK, the primary key is a special kind of entity attribute that is used to **uniquely define** a record in a database table . For example, if we have a unique ID for each purchase in a database, but one of the transactions has the same ID as another transaction, and this transaction ID is our PK, then this is an error and shouldn't be possible, as our PK **must** always be unique. Lets look at an visual example of this.  
 ![](https://cdn-images.visual-paradigm.com/guide/data-modeling/what-is-erd/05-concept-of-erd-primary-key.png)  
-*Figure _ Primary Key example*  
+*Figure 5: Primary Key example*  
 
 As we mentioned before, this type of ID cannot have a duplicate, so this would be an error that we would need to fix within the database.
 
 #### Foreign Key
 Sometimes known as FK, the foreign key is a **reference** to a primary key in **another table**. It is used as a way to identify the relationships between entities. Note that foreign keys don't need to be unique, unlike primary keys. Multiple records can share the same values. The example below shows an entity with some columns, showing where a reference might take place.  
 ![](https://cdn-images.visual-paradigm.com/guide/data-modeling/what-is-erd/06-concept-of-erd-foreign-key.png)  
-*Figure _ Foreign Key example*  
+*Figure 6: Foreign Key example*  
 
 #### Relationships
 Remember that relationships help to signify the connection between two entities that are associated with each other in some way. 
@@ -145,25 +144,49 @@ This is the definition that defines the numerical attributes between two entitie
 ![](https://cdn-images.visual-paradigm.com/guide/data-modeling/what-is-erd/09-erd-many-to-many-example.png)  
 
 #### 3.2.2. Data Models
-There are three types of conceptual models when we think about ERDs. They differ in the purposes they are created for and for the audiences they are intended for. The different models is not something that will be covered here, as we will be focusing on the **Physical Model**, but more information regarding the other models not covered can be found at [[3]](#5-references). __may change this__
+There are three types of conceptual models when we think about ERDs. They differ in the purposes they are created for and for the audiences they are intended for. The different models is not something that will be covered here, as we will be focusing on the **Physical Model**, but more information regarding the other models not covered can be found at [[3]](#5-references). 
 
 #### Physical Model
 The pysical model represents the *actual design of a relational database*. A physical data model elaborates on the logical data model by assigning each column with type, length, nullable etc. Since this kind of model represents how data should be structured and related in a specific DBMS (DataBase Management System), it is importnat to consider the convention and restriction of the actual database system in which the database will be created. It is important to make sure that the column types are supported by your DBMS and reserved words are not used in naming entities and columms.
   
 ![](https://cdn-images.visual-paradigm.com/guide/data-modeling/what-is-erd/12-physical-data-model-example.png)  
-*Figure _ Physical Data Model example*  
+*Figure 7: Physical Data Model example*  
 
 ![](https://cdn-images.visual-paradigm.com/guide/data-modeling/what-is-erd/13-erd-example-movie-rental-system.png)  
-*Figure _ ERD Example - Movie Rental System*
+*Figure 8: ERD Example - Movie Rental System*
 
-### 3.3. Sequence Diagram _ NEEDS ADJUSTING FOR L5
-This style of diagram describes the interactions among classes in terms of an exchange of messages over time. They are sometimes known as **event diagrams**. It is a good way to visualise and validate various runtime scenarios. These can help to predict how a system will behave and to discover responsibilities a class may need to have in the process of modeling a new system.
+### 3.3. Sequence Diagram
+Following on from the level 4 document discussing the Sequence Diagram, which can be found [here](../level4/level4-design.md), we will look more into some higher level benefits of the sequence diagram and how these should be created. Rememebr that a sequence diagram is a type of interaction diagram that describes how (and in what order) a group of objects work together.  
+The main purpose of a sequence diagram, is to define event sequences that result in some desired outcome. The focus is less on messages themselves and more on the order in which messages occur. The diagram conveys this information along the horizontal and vertical dimensions, where the vertical dimension shows, top down, the time sequence of messages/calls as they occur, and the horizontal dimension shows, left to right, the object instances that the messages are sent to.
 
-![](https://cdn-images.visual-paradigm.com/guide/uml/what-is-sequence-diagram/01-sequence-diagram-example.png)  
-*Figure 7: An example Sequence Diagram of a Hotel Reservation System*  
+![](https://developer.ibm.com/developer/default/articles/the-sequence-diagram/images/3101_figure2.jpg)  
+*Figure 9: example Sequence Diagram *  
 
-#### 3.3.1. Sequence Diagram Notation __
-Visual Representations of any notation mentioned here can be found at [[3]](#4-references).
+Notice in figure 9 that that the diagram starts with 'sd' which is normally used to indicate that this is a sequence diagram.
+
+#### 3.3.1. Sequence Diagram Notation
+This section will go into more detail over different notations for a Sequence Diagram. Please refer back to [Level 4](../level4/level4-design.md) for the basic notations mentioned earlier, as not all the same notations are discussed here.
+
+#### Frame 
+In UML 2, the frame is an element that is used as a basis for many other diagram elements in UML 2, but the first place most people will encounter a frame element is as the graphical boundary of a diagram. In addition to providing the visual border, the frame element also has an important functional use in diagrams that depict interaction, such as the sequence diagram. Incoming and outgoing messages can make use of the frame, seen in figure 9 above, which is done by connecting the messages to the border of the frame.
+
+![](https://developer.ibm.com/developer/default/articles/the-sequence-diagram/images/3101_figure1.jpg)  
+*Figure 10: the Frame *  
+  
+#### Lifelines  
+A lifeline represents an individual participant in the interaction. Lifeline notation elements are placed across the top of the diagram. They represent either roles or object instances that participate in the sequence being modeled. Lifelines are drawn with a dashed line descending from the centre of the bottom edge. The name of the lifeline is placed inside the box. 
+![](https://developer.ibm.com/developer/default/articles/the-sequence-diagram/images/figure3.jpg)  
+*Figure 11: the Lifeline *  
+
+The lifeline in figure 11 represents an instance of the class Student, whose instance name is freshman. The lifeline name here is underlined, which means that the lifeline represents a specific instance of a class in a sequence diagram, and not a particular kind of instance (a role). Sequence diagrams can include roles, even if they don't really specify who holds those roles by name. This allows diagram re-use in different contexts. Instance names are underlined, but role names are not.
+  
+Figure 11 shows a named object, but not all lifelines represent named objects. A lifeline can be used to represent an anonymous or unnamed instance. When modeling an unnamed instance on a sequence diagram, the lifeline’s name follows the same pattern as a named instance; but instead of providing an instance name, that portion of the lifeline’s name is left blank. if the lifeline is representing an anonymous instance of the Student class, the lifeline would be: ” Student.” Also, because sequence diagrams are used during the design phase of projects, it is completely legitimate to have an object whose type is unspecified: for example, “freshman.”
+
+#### Messages  
+
+![](https://developer.ibm.com/developer/default/articles/the-sequence-diagram/images/figure4.jpg)  
+*Figure 12: the Message *  
+
 
 * **Actor**: This is a type of role by an entity that interacts with the subject. It represents roles as human users, external hardware or other subjects. It is important to note that an actor doesn't necessarily represent a specific physical entity but merely a particular role of some entity
 * **Lifeline**: A lifeline represents an individual participant in the interaction
@@ -179,18 +202,18 @@ Visual Representations of any notation mentioned here can be found at [[3]](#4-r
 An event is any point in an interaction where something occurs. Focus of control, also called execution occurrence, is shown as a tall, thin rectangle on a lifeline. It represents the period during which an element is performing an operation. The top and the bottom of the rectangle are aligned with the initiation and the completion time respectively.
 
 ![](https://cdn-images.visual-paradigm.com/guide/uml/what-is-sequence-diagram/13-message-and-focus-of-control.png)  
-*Figure 8: Visual example of message and focus of control*  
+*Figure 10: Visual example of message and focus of control*  
 
 #### 3.3.3. Sequence Fragments __
 UML 2.0 has helped to introduce sequence fragments, which make it easier to create and maintain accurate sequence diagrams. A sequence fragment is represented as a box, called a combined fragment, which encloses a portion of the interactions with a sequence diagram. TThe fragment operator indicates the type of fragment. More information on these types can be found at [[3]](#4-references).
 
 ![](https://cdn-images.visual-paradigm.com/guide/uml/what-is-sequence-diagram/14-fragment.png)  
-*Figure 9: A sequence fragment*  
-
-### 3.4. Linking your Diagrams __
-When we use our class diagrams and sequence diagrams together, it allows for an extremely effective communication mechanism. We use a class diagram to illustrate relationships, and a sequence diagram to illustrate interactions between these classes. When an object is senidng information to another, this implies a relationship between the two classes. When thinking about how to link these together, if you've already created them beforehand, you can put them side-by-side and use this to help you understand what elements to take from each of them and then combine them into a single image. Examples to do this can be found at [5](#5-references).
+*Figure 11: A sequence fragment*  
 
 ## 4. References
 - [1] Creatly UML Class Diagrams Explained wih Examples <https://creately.com/blog/diagrams/class-diagram-relationships/> 
 - [2] Visual Paradigm UML Class Diagram Tutorial <https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-diagram-tutorial/>
 - [3] Visual Paradigm What is Entity Relationship Diagram <https://www.visual-paradigm.com/guide/data-modeling/what-is-entity-relationship-diagram/#:~:text=Entity%20Relationship%20Diagram%2C%20also%20known,inter%2Drelationships%20among%20these%20entities.>
+- [4] Visual Paradigm: What is Sequence Diagram <https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-sequence-diagram/>  
+- [5] The sequence diagram - IBM Developer <https://developer.ibm.com/technologies/web-development/articles/the-sequence-diagram/>
+ 
