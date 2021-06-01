@@ -4,7 +4,7 @@
 - [Level Specific Guidance](#level-specific-guidance)
   - [Level 4](#level-4)
   - [Level 5](#level-5)
-  - [Level 6 (TBD)](#level-6-tbd)
+  - [Level 6](#level-6-wip)
 
 ## 1. Introduction
 
@@ -40,7 +40,7 @@ It usually involves decision around architecture, data structure, user-interface
 - Software architecture: Nice to have based on the nature of the module. For example, GSDP can have Architecture Overview, NSD need not.
 - Software models: Detailed class diagram, entity relationship diagram, sequence diagram with proper annotation. All diagrams should be in sync.
 
-### Level 6 (TBD)
+### [Level 6 (WIP)](..modelling-design/level6/level6-design.md)
 
 - Software architecture: System context and architecture overview.
 - Software models: Static model, dynamic model with proper documentation. Models should be fully consistent.
