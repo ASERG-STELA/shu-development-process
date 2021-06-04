@@ -159,7 +159,7 @@ Following on from the level 4 document discussing the Sequence Diagram, which ca
 The main purpose of a sequence diagram, is to define event sequences that result in some desired outcome. The focus is less on messages themselves and more on the order in which messages occur. The diagram conveys this information along the horizontal and vertical dimensions, where the vertical dimension shows, top down, the time sequence of messages/calls as they occur, and the horizontal dimension shows, left to right, the object instances that the messages are sent to.
 
 ![](https://developer.ibm.com/developer/default/articles/the-sequence-diagram/images/3101_figure2.jpg)  
-*Figure 9: example Sequence Diagram *  
+*Figure 9: example Sequence Diagram*  
 
 Notice in figure 9 that that the diagram starts with 'sd' which is normally used to indicate that this is a sequence diagram.
 
@@ -170,13 +170,13 @@ This section will go into more detail over different notations for a Sequence Di
 In UML 2, the frame is an element that is used as a basis for many other diagram elements in UML 2, but the first place most people will encounter a frame element is as the graphical boundary of a diagram. In addition to providing the visual border, the frame element also has an important functional use in diagrams that depict interaction, such as the sequence diagram. Incoming and outgoing messages can make use of the frame, seen in figure 9 above, which is done by connecting the messages to the border of the frame.
 
 ![](https://developer.ibm.com/developer/default/articles/the-sequence-diagram/images/3101_figure1.jpg)  
-*Figure 10: the Frame *  
+*Figure 10: the Frame*  
   
 #### Lifelines  
 A lifeline represents an individual participant in the interaction. Lifeline notation elements are placed across the top of the diagram. They represent either roles or object instances that participate in the sequence being modeled. Lifelines are drawn with a dashed line descending from the centre of the bottom edge. The name of the lifeline is placed inside the box.  
 
 ![](https://developer.ibm.com/developer/default/articles/the-sequence-diagram/images/figure3.jpg)  
-*Figure 11: the Lifeline *  
+*Figure 11: the Lifeline*  
 
 The lifeline in figure 11 represents an instance of the class Student, whose instance name is freshman. The lifeline name here is underlined, which means that the lifeline represents a specific instance of a class in a sequence diagram, and not a particular kind of instance (a role). Sequence diagrams can include roles, even if they don't really specify who holds those roles by name. This allows diagram re-use in different contexts. Instance names are underlined, but role names are not.
   
@@ -186,12 +186,12 @@ Figure 11 shows a named object, but not all lifelines represent named objects. A
 Your first message of a sequence diagram always starts at the top, and is typically located in the left side of the diagram for readability. Subsequent messages are then added to the diagram slightly lower than the previous message. If you want to show an object (e.g. lifeline) sending a message to another object, you draw a line to the recieving object with a solid arrowhead, or with a stick, dependant on the signal. This depends on the signal and type of message, which can be seen in figure 12 below.
 
 ![](https://developer.ibm.com/developer/default/articles/the-sequence-diagram/images/3101_figure6.jpg)  
-*Figure 12: the Message *  
+*Figure 12: the Message*  
   
 The message / method name is placed above the arroved line. The message that is being sent to the recieving object represents an operation / method that the recieving object's class implements. In figure 13, the analyst object makes a call to the system object which is an instance of the ReportingSystem class. The analyst object is calling the system object’s getAvailableReports method. The system object then calls the getSecurityClearance method with the argument of userId on the secSystem object, which is of the class type SecuritySystem. (Note: When reading this sequence diagram, assume that the analyst has already logged into the system.)
 
 ![](https://developer.ibm.com/developer/default/articles/the-sequence-diagram/images/figure4.jpg)  
-*Figure 13: an example message, with return messages present *  
+*Figure 13: an example message, with return messages present*  
   
 #### Guards  
 When modeling object interactions, there will be times when a condition must be met for a message to be sent to the object. Guards are used throughout UML diagrams to control flow. In figure 14, the guard is the text "[pastDueBalance = 0]". By having the guard on this message, the addStudent message will only be sent if the accounts recievable system returns a past due balance of zero. The notation for this in UML is pretty simple.
@@ -200,7 +200,7 @@ When modeling object interactions, there will be times when a condition must be 
 [pastDueBalance = 0]
 ```
 ![](https://developer.ibm.com/developer/default/articles/the-sequence-diagram/images/3101_figure7.jpg)  
-*Figure 14: the Guard *  
+*Figure 14: the Guard*  
 
 #### Alternatives
 We use alternatives to designate a mutually exclusive choice between two or more message sequences. While it is possible for two or more guard conditions attached to different alternative operands to be true at the same time, but at most only one operand will actually occur at run time. Alternatives allow the modelling of the classic "if then else" logic we have come to know (and maybe even love). 
@@ -210,20 +210,20 @@ An alternative **combination fragment** eleemnt is drawn using a frame. The word
 Alternative combination fragments are not limited to simple "if then else" tests. There can be as many alternatives path as are needed (or as you want). If you need more alternatvies, then all you need to do is add an operand to the rectangle with that sequence's guard and messages.
 
 ![](https://developer.ibm.com/developer/default/articles/the-sequence-diagram/images/3101_figure8.jpg)  
-*Figure 15: the Alternative *  
+*Figure 15: the Alternative*  
 
 #### Option
 The option cobination fragment is used to model a sequence that, given a certain condition, will occur; otherwsie the sequence does not occur. An option is used to model the "if then" logic statement. It is similar to the alternative fragment notation, except that it only has one operand and there can never be an "else" guard. To draw an option, you first draw a frame. The text "opt" is placed inside the frame's namebox and in the frame's content areas the option's guard is placed towards the top left corner on top of a lifeline.
 
 ![](https://developer.ibm.com/developer/default/articles/the-sequence-diagram/images/3101_figure9.jpg)  
-*Figure 16: the Option *  
+*Figure 16: the Option*  
 
 #### Loops
 Sometimes you will need to model a repetitive sequence, which can be done by making use of a loop. The loop combination fragment is very similar in appearance to the option combination fragment. You draw a frame, and in the frame’s namebox the text “loop” is placed. Inside the frame’s content area the loop’s guard is placed towards the top left corner, on top of a lifeline.  
 The loop shown in Figure 17 executes until the reportsEnu object’s hasAnotherReport message returns false. The loop in this sequence diagram uses a Boolean test to verify if the loop sequence should be run. To read this diagram, you start at the top, as normal. When you get to the loop combination fragment a test is done to see if the value hasAnotherReport equals true. If the hasAnotherReport value equals true, then the sequence goes into the loop fragment. You can then follow the messages in the loop as you would normally in a sequence diagram
 
 ![](https://developer.ibm.com/developer/default/articles/the-sequence-diagram/images/figure10.png)  
-*Figure 17: the Loop *  
+*Figure 17: the Loop*  
 
 #### 3.3.2. More Advanced Notation
 This section goes more into some more advanced notations that you can take advantage of, which will allow you to model most of the interactions that will take place in a common system, but also model some more complex interactions if you want to.
@@ -232,7 +232,7 @@ This section goes more into some more advanced notations that you can take advan
 Gates can be an easy way to model the passing of information to another sequence diagram. A gate itself is merely a message that is illustrated with one end connected to the sequence diagram's frame edge and other end connected to a lifeline. The example diagram in Figure 18 has an entry gate called getBalance that takes the parameter of accountNumber. The getBalance message is an entry gate, because it is the arrowed line that is connected to the diagram’s frame with the arrowhead connected to a lifeline. The sequence diagram also has an exit gate that returns the balance variable. The exit gate is known, because it’s a return message that is connected from a lifeline to the diagram’s frame with the arrowhead connected to the frame.
 
 ![](https://developer.ibm.com/developer/default/articles/the-sequence-diagram/images/3101_figure15.jpg)  
-*Figure 18: the Gate * 
+*Figure 18: the Gate* 
 
 #### Break
 The break combined fragment is almost identical in every way to the **option combined fragment**, with two exceptions.
@@ -241,13 +241,13 @@ The break combined fragment is almost identical in every way to the **option com
 In this way, the break is much like the break keyword in a language such as C++ or Java. Breaks are commonly used to model exception handling in a sequence diagram.
 
 ![](https://developer.ibm.com/developer/default/articles/the-sequence-diagram/images/3101_figure16.jpg)  
-*Figure 19: the Break *
+*Figure 19: the Break*
 
 #### Parallel
 The parallel combination fragment is drawn using a frame, and you place the text “par” in the frame’s namebox. You then break up the frame’s content section into horizontal operands separated by a dashed line. Each operand in the frame represents a thread of execution done in parallel. Figure 20 is not the best example of Parallel in use, but it offers an easy to understand example of a sequence with parallel activities.
 
 ![](https://developer.ibm.com/developer/default/articles/the-sequence-diagram/images/3101_figure17.jpg)  
-*Figure 20: the Parallel *
+*Figure 20: the Parallel*
 
 All information can be found in further detail at the References below.
 
