@@ -16,10 +16,9 @@ This document is a follow-up to the previous document and will provide examples 
     - [3.1.2. GUI Class Diagram Example GUI](#312-gui-class-diagram-example)
   - [3.2. Entity Relationship Diagram](#32-entity-relationship-diagram)
     - [3.2.1. Entity Notations and Attributes](#321-entity-notations-and-attributes)
-    - [3.2.2. Data Models](#322-data-models)
+    - [3.2.2. Example ER Diagram](#322-example-er-diagram)
   - [3.3 Sequence Diagram](#33-sequence-diagram)
     - [3.3.1. Sequence Diagram Basic Notation](#331-sequence-diagram-basic-notation)
-    - [3.3.2. More Advanced Notation](#332-more-advanced-notation)
 - [4. References](#4-references)  
 
 ## 3. Software Model Diagrams 
@@ -118,7 +117,7 @@ Also known as a column, an attribute is a property or characteristic of the enti
 *Figure 4: Example Entity with properties*  
 
 #### Primary Key
-Sometimes known as PK, the primary key is a special kind of entity attribute that is used to **uniquely define** a record in a database table . For example, if we have a unique ID for each purchase in a database, but one of the transactions has the same ID as another transaction, and this transaction ID is our PK, then this is an error and shouldn't be possible, as our PK **must** always be unique. Lets look at an visual example of this.  
+Sometimes known as PK, the primary key is a special kind of entity attribute that is used to **uniquely define** a record in a database table . For example, if we have a unique ID for each purchase in a database, but one of the transactions has the same ID as another transaction, and this transaction ID is our PK, then this is an error and shouldn't be possible, as our PK **must** always be unique. Lets look at a visual example of this.  
 ![](https://cdn-images.visual-paradigm.com/guide/data-modeling/what-is-erd/05-concept-of-erd-primary-key.png)  
 *Figure 5: Primary Key example*  
 
@@ -142,56 +141,50 @@ This is the definition that defines the numerical attributes between two entitie
 * **Many-to-many**: Many-to-many refers to the relationship between two entities X and Y in which X may be linked to many instances of Y and vice versa. Note that a many-to-many relationship is split into a pair of one-to-many relationships in a physical ERD.  
 ![](https://cdn-images.visual-paradigm.com/guide/data-modeling/what-is-erd/09-erd-many-to-many-example.png)  
 
-#### 3.2.2. Data Models
-There are three types of conceptual models when we think about ERDs. They differ in the purposes they are created for and for the audiences they are intended for. The different models is not something that will be covered here, as we will be focusing on the **Physical Model**, but more information regarding the other models not covered can be found at [[3]](#5-references). 
+#### 3.2.2. Example ER Diagram
 
-#### Physical Model
-The physical model represents the *actual design of a relational database*. A physical data model elaborates on the logical data model by assigning each column with type, length, nullable etc. Since this kind of model represents how data should be structured and related in a specific DBMS (DataBase Management System), it is importnat to consider the convention and restriction of the actual database system in which the database will be created. It is important to make sure that the column types are supported by your DBMS and reserved words are not used in naming entities and columms.
+The diagram below shows an example of a good, simple ER diagram showing the *Physical Data Model*. The Physical Data Model represents the *actual design of a relational database*. At Level 5, we are expecting you to create good quality ER diagrams, similar to the one below:
   
 ![](https://cdn-images.visual-paradigm.com/guide/data-modeling/what-is-erd/12-physical-data-model-example.png)  
-*Figure 7: Physical Data Model example*  
-
-![](https://cdn-images.visual-paradigm.com/guide/data-modeling/what-is-erd/13-erd-example-movie-rental-system.png)  
-*Figure 8: ERD Example - Movie Rental System*
+*Figure 7: Physical Data Model example ER Diagram*  
 
 ### 3.3. Sequence Diagram
-Following on from the level 4 document discussing the Sequence Diagram, which can be found [here](../level4/level4-design.md), we will look more into some higher level benefits of the sequence diagram and how these should be created. Rememebr that a sequence diagram is a type of interaction diagram that describes how (and in what order) a group of objects work together.  
+Following on from the level 4 document discussing the Sequence Diagram, which can be found [here](../level4/level4-design.md), we will look more into some higher level benefits of the sequence diagram and how these should be created. Remember that a sequence diagram is a type of interaction diagram that describes how (and in what order) a group of objects work together.  
+
 The main purpose of a sequence diagram, is to define event sequences that result in some desired outcome. The focus is less on messages themselves and more on the order in which messages occur. The diagram conveys this information along the horizontal and vertical dimensions, where the vertical dimension shows, top down, the time sequence of messages/calls as they occur, and the horizontal dimension shows, left to right, the object instances that the messages are sent to.
 
 ![](https://developer.ibm.com/developer/default/articles/the-sequence-diagram/images/3101_figure2.jpg)  
-*Figure 9: example Sequence Diagram*  
+*Figure 8: example Sequence Diagram*  
 
-Notice in figure 9 that that the diagram starts with 'sd' which is normally used to indicate that this is a sequence diagram.
+Notice in figure 8 that that the diagram starts with 'sd' which is normally used to indicate that this is a sequence diagram.
 
 #### 3.3.1. Sequence Diagram Basic Notation
 This section will go into more detail over different notations for a Sequence Diagram. Please refer back to [Level 4](../level4/level4-design.md) for the basic notations mentioned earlier, as not all the same notations are discussed here.
 
 #### Frame 
-In UML 2, the frame is an element that is used as a basis for many other diagram elements in UML 2, but the first place most people will encounter a frame element is as the graphical boundary of a diagram. In addition to providing the visual border, the frame element also has an important functional use in diagrams that depict interaction, such as the sequence diagram. Incoming and outgoing messages can make use of the frame, seen in figure 9 above, which is done by connecting the messages to the border of the frame.
+In UML 2, the frame is an element that is used as a basis for many other diagram elements in UML 2, but the first place most people will encounter a frame element is as the graphical boundary of a diagram. In addition to providing the visual border, the frame element also has an important functional use in diagrams that depict interaction, such as the sequence diagram. Incoming and outgoing messages can make use of the frame, seen in figure 8 above, which is done by connecting the messages to the border of the frame.
 
 ![](https://developer.ibm.com/developer/default/articles/the-sequence-diagram/images/3101_figure1.jpg)  
-*Figure 10: the Frame*  
+*Figure 9: the Frame*  
   
 #### Lifelines  
 A lifeline represents an individual participant in the interaction. Lifeline notation elements are placed across the top of the diagram. They represent either roles or object instances that participate in the sequence being modeled. Lifelines are drawn with a dashed line descending from the centre of the bottom edge. The name of the lifeline is placed inside the box.  
 
 ![](https://developer.ibm.com/developer/default/articles/the-sequence-diagram/images/figure3.jpg)  
-*Figure 11: the Lifeline*  
+*Figure 10: the Lifeline*  
 
-The lifeline in figure 11 represents an instance of the class Student, whose instance name is freshman. The lifeline name here is underlined, which means that the lifeline represents a specific instance of a class in a sequence diagram, and not a particular kind of instance (a role). Sequence diagrams can include roles, even if they don't really specify who holds those roles by name. This allows diagram re-use in different contexts. Instance names are underlined, but role names are not.
-  
-Figure 11 shows a named object, but not all lifelines represent named objects. A lifeline can be used to represent an anonymous or unnamed instance. When modeling an unnamed instance on a sequence diagram, the lifeline’s name follows the same pattern as a named instance; but instead of providing an instance name, that portion of the lifeline’s name is left blank. if the lifeline is representing an anonymous instance of the Student class, the lifeline would be: ” Student.” Also, because sequence diagrams are used during the design phase of projects, it is completely legitimate to have an object whose type is unspecified: for example, “freshman.”
+The lifeline in figure 10 represents an instance of the class Student, whose instance name is freshman. The lifeline name here is underlined, which means that the lifeline represents a specific instance of a class in a sequence diagram, and not a particular kind of instance (a role). Sequence diagrams can include roles, even if they don't really specify who holds those roles by name. This allows diagram re-use in different contexts. Instance names are underlined, but role names are not.
 
 #### Messages  
 Your first message of a sequence diagram always starts at the top, and is typically located in the left side of the diagram for readability. Subsequent messages are then added to the diagram slightly lower than the previous message. If you want to show an object (e.g. lifeline) sending a message to another object, you draw a line to the recieving object with a solid arrowhead, or with a stick, dependant on the signal. This depends on the signal and type of message, which can be seen in figure 12 below.
 
 ![](https://developer.ibm.com/developer/default/articles/the-sequence-diagram/images/3101_figure6.jpg)  
-*Figure 12: the Message*  
+*Figure 11: the Message*  
   
-The message / method name is placed above the arroved line. The message that is being sent to the recieving object represents an operation / method that the recieving object's class implements. In figure 13, the analyst object makes a call to the system object which is an instance of the ReportingSystem class. The analyst object is calling the system object’s getAvailableReports method. The system object then calls the getSecurityClearance method with the argument of userId on the secSystem object, which is of the class type SecuritySystem. (Note: When reading this sequence diagram, assume that the analyst has already logged into the system.)
+The message / method name is placed above the arroved line. The message that is being sent to the recieving object represents an operation / method that the recieving object's class implements. In figure 12, the analyst object makes a call to the system object which is an instance of the ReportingSystem class. The analyst object is calling the system object’s getAvailableReports method. The system object then calls the getSecurityClearance method with the argument of userId on the secSystem object, which is of the class type SecuritySystem. (Note: When reading this sequence diagram, assume that the analyst has already logged into the system.)
 
 ![](https://developer.ibm.com/developer/default/articles/the-sequence-diagram/images/figure4.jpg)  
-*Figure 13: an example message, with return messages present*  
+*Figure 12: an example message, with return messages present*  
   
 #### Guards  
 When modeling object interactions, there will be times when a condition must be met for a message to be sent to the object. Guards are used throughout UML diagrams to control flow. In figure 14, the guard is the text "[pastDueBalance = 0]". By having the guard on this message, the addStudent message will only be sent if the accounts recievable system returns a past due balance of zero. The notation for this in UML is pretty simple.
@@ -200,7 +193,7 @@ When modeling object interactions, there will be times when a condition must be 
 [pastDueBalance = 0]
 ```
 ![](https://developer.ibm.com/developer/default/articles/the-sequence-diagram/images/3101_figure7.jpg)  
-*Figure 14: the Guard*  
+*Figure 13: the Guard*  
 
 #### Alternatives
 We use alternatives to designate a mutually exclusive choice between two or more message sequences. While it is possible for two or more guard conditions attached to different alternative operands to be true at the same time, but at most only one operand will actually occur at run time. Alternatives allow the modelling of the classic "if then else" logic we have come to know (and maybe even love). 
@@ -210,44 +203,7 @@ An alternative **combination fragment** eleemnt is drawn using a frame. The word
 Alternative combination fragments are not limited to simple "if then else" tests. There can be as many alternatives path as are needed (or as you want). If you need more alternatvies, then all you need to do is add an operand to the rectangle with that sequence's guard and messages.
 
 ![](https://developer.ibm.com/developer/default/articles/the-sequence-diagram/images/3101_figure8.jpg)  
-*Figure 15: the Alternative*  
-
-#### Option
-The option cobination fragment is used to model a sequence that, given a certain condition, will occur; otherwsie the sequence does not occur. An option is used to model the "if then" logic statement. It is similar to the alternative fragment notation, except that it only has one operand and there can never be an "else" guard. To draw an option, you first draw a frame. The text "opt" is placed inside the frame's namebox and in the frame's content areas the option's guard is placed towards the top left corner on top of a lifeline.
-
-![](https://developer.ibm.com/developer/default/articles/the-sequence-diagram/images/3101_figure9.jpg)  
-*Figure 16: the Option*  
-
-#### Loops
-Sometimes you will need to model a repetitive sequence, which can be done by making use of a loop. The loop combination fragment is very similar in appearance to the option combination fragment. You draw a frame, and in the frame’s namebox the text “loop” is placed. Inside the frame’s content area the loop’s guard is placed towards the top left corner, on top of a lifeline.  
-The loop shown in Figure 17 executes until the reportsEnu object’s hasAnotherReport message returns false. The loop in this sequence diagram uses a Boolean test to verify if the loop sequence should be run. To read this diagram, you start at the top, as normal. When you get to the loop combination fragment a test is done to see if the value hasAnotherReport equals true. If the hasAnotherReport value equals true, then the sequence goes into the loop fragment. You can then follow the messages in the loop as you would normally in a sequence diagram
-
-![](https://developer.ibm.com/developer/default/articles/the-sequence-diagram/images/figure10.png)  
-*Figure 17: the Loop*  
-
-#### 3.3.2. More Advanced Notation
-This section goes more into some more advanced notations that you can take advantage of, which will allow you to model most of the interactions that will take place in a common system, but also model some more complex interactions if you want to.
-
-#### Gates
-Gates can be an easy way to model the passing of information to another sequence diagram. A gate itself is merely a message that is illustrated with one end connected to the sequence diagram's frame edge and other end connected to a lifeline. The example diagram in Figure 18 has an entry gate called getBalance that takes the parameter of accountNumber. The getBalance message is an entry gate, because it is the arrowed line that is connected to the diagram’s frame with the arrowhead connected to a lifeline. The sequence diagram also has an exit gate that returns the balance variable. The exit gate is known, because it’s a return message that is connected from a lifeline to the diagram’s frame with the arrowhead connected to the frame.
-
-![](https://developer.ibm.com/developer/default/articles/the-sequence-diagram/images/3101_figure15.jpg)  
-*Figure 18: the Gate* 
-
-#### Break
-The break combined fragment is almost identical in every way to the **option combined fragment**, with two exceptions.
-* 1 - A break's frame has a namebox with the text "break" instead of "option"
-* 2 - When a break's message is to be executed, the enclosing interaction's remainder messages will not be executed because the sequence breaks out of the enclosing interaction  
-In this way, the break is much like the break keyword in a language such as C++ or Java. Breaks are commonly used to model exception handling in a sequence diagram.
-
-![](https://developer.ibm.com/developer/default/articles/the-sequence-diagram/images/3101_figure16.jpg)  
-*Figure 19: the Break*
-
-#### Parallel
-The parallel combination fragment is drawn using a frame, and you place the text “par” in the frame’s namebox. You then break up the frame’s content section into horizontal operands separated by a dashed line. Each operand in the frame represents a thread of execution done in parallel. Figure 20 is not the best example of Parallel in use, but it offers an easy to understand example of a sequence with parallel activities.
-
-![](https://developer.ibm.com/developer/default/articles/the-sequence-diagram/images/3101_figure17.jpg)  
-*Figure 20: the Parallel*
+*Figure 14: the Alternative*  
 
 All information can be found in further detail at the References below.
 
