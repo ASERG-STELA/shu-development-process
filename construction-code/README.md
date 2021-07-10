@@ -25,7 +25,7 @@ The code step concerns the implementation of the structures modeled in the desig
 - Code should have basic comments.
 - Code reviews should be manual.
 
-#### [Code Review](level-4/level-4-code-review-guidelines.md)
+#### [Code Review](code-review/level-4/level-4-code-review-guidelines.md)
 
 - Manual
 
@@ -36,7 +36,7 @@ The code step concerns the implementation of the structures modeled in the desig
 - Code should follow a coding standard and have basic documentation.
 - Code reviews should be manual, using a tool would be nice.
 
-#### [Code Review](level-5/level-5-code-review-guidelines.md)
+#### [Code Review](code-review/level-5/level-5-code-review-guidelines.md)
 
 - Using a tool would be nice.
 
@@ -47,6 +47,6 @@ The code step concerns the implementation of the structures modeled in the desig
 - Should follow proper coding standards. Need to be consistent with design. Code should be properly documented and should have generated documentation like API doc (e.g., swagger) or Javadoc.
 - A tool should be used, code coverage would be nice.
 
-#### [Code Review](level-6/level-6-code-review-guidelines.md)
+#### [Code Review](code-review/level-6/level-6-code-review-guidelines.md)
 
 - A tool should be used
