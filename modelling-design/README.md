@@ -31,7 +31,7 @@ It usually involves decision around architecture, data structure, user-interface
 
 ## Level Specific Guidance
 
-### [Level 4](../modelling-design/level4/level4-design.md)
+### [Level 4](../modelling-design/level-4/level4-design.md)
 
 - Software models: Basic class diagram, entity relationship diagram, sequence diagram. Class diagram and sequence diagram should be linked well.
 

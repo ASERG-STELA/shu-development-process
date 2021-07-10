@@ -71,7 +71,7 @@ This is the most important section, and where most of the marks are. You should:
 - Identify area in which there is in sufficient/inappropriate execution of the process model.
 - Identify areas in which there is insufficient emphasis on the choice of appropriate notations to document the requirements and design, or in which the choice is exercised inefficiently.
 - Identify areas in which there is insufficient emphasis on software quality, or in which the notion of quality is deemphasised.
-- Identify areas in which there are insufficient validation and/or verification or in which validation and/or verification are insufficient. 
+- Identify areas in which there are insufficient validation and/or verification or in which validation and/or verification are insufficient.
 - Explain how future changes to your project might be implemented and clearly identify benefits that might arise from those changes.
 
 This section is all about evaluating your performance and identifying areas for improvement. You should also discuss the Methodology used and its performance in the project.

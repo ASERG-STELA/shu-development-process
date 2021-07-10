@@ -21,7 +21,7 @@
 
 ## Level Specific Guidance
 
-### [Level 4](../construction-test/level4/level4-testing.md)
+### [Level 4](level-4/level4-testing.md)
 
 - Unit testing: Manual testing is acceptable.
 

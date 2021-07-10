@@ -31,8 +31,8 @@ In this section, briefly describe what the submission is. E.g. "This is group 10
 
 This section should be dedicated to what you used to make your project. All major frameworks should be listed, for example:
 
-* Java
-* Spring Boot
+- Java
+- Spring Boot
 
 ## 3. Getting Setup
 
@@ -42,19 +42,19 @@ In this section, you should explain how to get your project setup to run locally
 
 List all contents of your submission here, such as:
 
-* Books.csv
-* Collection.java
-* HashMap.java
-* Report.docx
+- Books.csv
+- Collection.java
+- HashMap.java
+- Report.docx
 
 ### 3.2. Prerequisites
 
 In this section, outline any prerequisites for running the software, such as:
 
-* Java 8+
-* IntelliJ IDEA
-* JDK 8+
-* Spring Boot 2.4.5
+- Java 8+
+- IntelliJ IDEA
+- JDK 8+
+- Spring Boot 2.4.5
 
 ### 3.3. Installation
 

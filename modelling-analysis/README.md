@@ -17,32 +17,32 @@ These are also used to help organise, prioritise and divide the workload.
 
 ### Level 4
 
-[Level 4 User Stories Templates](level4/level-4-user-stories.md)
+[Level 4 User Stories Templates](level-4/level-4-user-stories.md)
 
 - Basic user stories identifying “the actor”, “the narrative”, and “the goal”.
 
-[Level 4 Use Case Guidance](level4/level_4_use_case_guidance.md)
+[Level 4 Use Case Guidance](level-4/level_4_use_case_guidance.md)
 
 - Basic use case diagram and use case descriptions. Use cases identified from user stories.
 
 ### Level 5
 
-[Level 5 User Stories Templates](level5/level-5-user-stories.md)
+[Level 5 User Stories Templates](level-5/level-5-user-stories.md)
 
-[Level 5 Use Case Guidance](level5/level_5_use_case_guidance.md)
+[Level 5 Use Case Guidance](level-5/level-5-use-case-guidance.md)
 
-[Level 5 Personas and User Scenarios](level5/personas_and_scanarios.md)
+[Level 5 Personas and User Scenarios](level-5/personas-and-scanarios.md)
 
 - User stories should include basic indications of acceptance criteria.
 - Use Case or User Story or Requirement Specification.
 - Persona and User scenario.
 - Requirements should be SMART.
 
-[MoSCoW Prioritisation Method](level5/moscow_prioritisation_method.md)
+[MoSCoW Prioritisation Method](level-5/moscow-prioritisation-method.md)
 
 ### Level 6
 
-[Level 6 User Stories Template](level6/level-6-user-stories.md)
+[Level 6 User Stories Template](level-6/level-6-user-stories.md)
 
 - Well defined user stories with clear acceptance criteria, and evidence of traceability.
 - end to end traceability (Requirement Traceability Verification Matrix) need to be maintained.

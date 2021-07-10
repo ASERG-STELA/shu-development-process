@@ -24,11 +24,12 @@ Communication phase is dedicated to understanding the objectives of stakeholders
 ## Level Specific Guidance
 
 ### [Level 4](../initiation/level4/level4-initiation.md)
-* Understand the Specification
-* Meet with your client
-* Understand and Create Requirements  
-* Make use of the Socratic Questioning Technique
-* Write Meeting Minutes
+
+- Understand the Specification
+- Meet with your client
+- Understand and Create Requirements  
+- Make use of the Socratic Questioning Technique
+- Write Meeting Minutes
 
 <!-- ### [Level 5](../communication/level5/communication.md) -->
 ### Level 5

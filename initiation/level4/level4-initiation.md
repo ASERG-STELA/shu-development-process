@@ -1,19 +1,18 @@
-# Initiation - Level 4
+# Initiation - Level 4 <!-- omit in toc -->
 
 ## 1. Table of Contents
 
-- [Initiation - Level 4](#initiation---level-4)
-  - [1. Table of Contents](#1-table-of-contents)
-  - [2. Introduction](#2-introduction)
-  - [3. Understand the Requirements](#3-understand-the-requirements)
-    - [3.1. Meeting the Client](#31-meeting-the-client)
-    - [3.2. Software Specification](#32-software-specification)
-	- [3.3. Identification Stage](#33-identification-stage)
-  - [4. Socratic Questioning Technique](#4-socratic-questioning-technique)
-    - [4.1. Six Types of Socratic Questions](#41-six-types-of-socratic-questions)
-  - [5. Meeting Minutes](#5-meeting-minutes)
-    - [5.1. How to Write Meeting Minutes](#51-how-to-write-meeting-minutes)
-  - [6. References](#7-references)
+- [1. Table of Contents](#1-table-of-contents)
+- [2. Introduction](#2-introduction)
+- [3. Understand the Requirements](#3-understand-the-requirements)
+  - [3.1. Meeting the Client](#31-meeting-the-client)
+  - [3.2. Software Specification](#32-software-specification)
+  - [3.3. Identification Stage](#33-identification-stage)
+- [4. Socratic Questioning Technique](#4-socratic-questioning-technique)
+  - [4.1. Six Types of Socratic Questions](#41-six-types-of-socratic-questions)
+- [5. Meeting Minutes](#5-meeting-minutes)
+  - [5.1. How to Write Meeting Minutes](#51-how-to-write-meeting-minutes)
+- [6. References](#6-references)
 
 ## 2. Introduction
 
@@ -46,12 +45,11 @@ With this, you will be able to understand what you need to get clarity on and wh
 
 When you have to ask questions about something, there is a technique that you can consider when thinking about how to format the questions you ask, so you can get as much information as possible. The key to extracting relevant information is all about how you structure your questions. This section will cover a technique known as Socratic Questioning which will help give you a guide as to how you can go about formatting your questions.  
 
-The socratic approach to questioning is based on the practice of disciplined, thoughtful dialogue. 
-The Intel Teach Program ([1]), teaches that disciplined practice and thoughtful questioning enable you to examine ideas logically and to determine the validity of those ideas. 
-This technique is an effective way to explore ideas in depth. 
-By using this technique, it promotes independant thinking and gives ownership of what you are learning. 
-Higher level thinking is present when you are thinking, evaluating, debating, discussing, and analysing content using your 
-own thinking process. These types of questions take practice since in some cases the structure promotes an entirely new approach.   
+The socratic approach to questioning is based on the practice of disciplined, thoughtful dialogue.
+The Intel Teach Program ([1]), teaches that disciplined practice and thoughtful questioning enable you to examine ideas logically and to determine the validity of those ideas.
+This technique is an effective way to explore ideas in depth.
+By using this technique, it promotes independant thinking and gives ownership of what you are learning.
+Higher level thinking is present when you are thinking, evaluating, debating, discussing, and analysing content using your own thinking process. These types of questions take practice since in some cases the structure promotes an entirely new approach.
 
 Some tips:
 
