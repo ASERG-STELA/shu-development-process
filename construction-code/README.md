@@ -14,7 +14,14 @@
 
 ## 1. Introduction
 
-The code step concerns the implementation of the structures modeled in the design phase.
+The code step concerns the implementation of the structures modeled in the design phase. This phase is where development begins, and probably the main reason why you are on this course. Tutorials on how to code e.g. syntax of languages is not greatly covered in here, instead, good coding practices, good code comments, and how to do good code reviews are outlined and explained.
+
+For guidance on coding standards on some languages you will likely encounter on the course (which should be adhered to in your projects as much as possible), visit either:
+
+- [C#/C++ Coding Standards](coding-standards/c.md)
+- [Java Coding Standards](coding-standards/java.md)
+- [Python Coding Standards](coding-standards/python.md)
+- [Web Development Coding Standards](coding-standards/webdev.md)
 
 ## Level Specific Guidance
 

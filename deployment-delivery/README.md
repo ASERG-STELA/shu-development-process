@@ -17,7 +17,7 @@ This phase is dedicated to the delivery of the product to the end user. It inclu
 
 ### 3.1. Level 4
 
-At this level you are expected to use manual delivery. Automated delivery and deployment to a service such as Azure is not expected at Level 4. You should complete and submit the README file located [here](L4-README-Template.md) and submit it along with your projects. More specific guidance on delivery at Level 4 can be seen here:
+At this level you are expected to use manual delivery. Automated delivery and deployment to a service such as Azure is not expected at Level 4. You should complete the README file located [here](L4-README-Template.md) and submit it along with your projects. More specific guidance on delivery at Level 4 can be seen here:
 
 [L4 Delivery Guidelines](level-4/level-4-delivery-guidelines.md)
 

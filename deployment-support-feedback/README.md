@@ -2,8 +2,7 @@
 
 ## 1. Introduction
 
-This step contains guidance regarding assessment, reports and presentations.
-We also consider evaluation, reporting and reflection as part of this last step.
+This is the final step of the software development lifecycle. This step contains guidance regarding assessment, reports and presentations which you will encounter during this course, especially at Levels 5 and 6. We also consider evaluation, reporting and reflection as part of this last step.
 
 ## 2. Table of Contents
 
@@ -24,10 +23,10 @@ We also consider evaluation, reporting and reflection as part of this last step.
 - [8. Walkthroughs](#8-walkthroughs)
   - [8.1. Preparation](#81-preparation)
   - [8.2. Hints and Tips for Walkthroughs](#82-hints-and-tips-for-walkthroughs)
-  - [The Machine](#the-machine)
-  - [Have All Infrastructure](#have-all-infrastructure)
-  - [Install and Test Your Own Code](#install-and-test-your-own-code)
-  - [Use a Lower Than Normal Resolution](#use-a-lower-than-normal-resolution)
+    - [The Machine](#the-machine)
+    - [Have All Infrastructure](#have-all-infrastructure)
+    - [Install and Test Your Own Code](#install-and-test-your-own-code)
+    - [Use a Lower Than Normal Resolution](#use-a-lower-than-normal-resolution)
 - [Level Specific Guidance](#level-specific-guidance)
   - [Level 4](#level-4)
   - [Level 5](#level-5)
@@ -218,7 +217,7 @@ The following should be considered:
 
 The following are some hints and tips for your walkthroughs; some that you may not have thought of previously.
 
-### The Machine
+#### The Machine
 
 Think about the following when chosing a machine for your walkthroughs:
 
@@ -229,7 +228,7 @@ Think about the following when chosing a machine for your walkthroughs:
 - Does it connect to SHU wifi?
 - Do **NOT** think that you can set it up during the demo
 
-### Have All Infrastructure
+#### Have All Infrastructure
 
 Make sure that you have all of the infrastructure:
 
@@ -240,12 +239,12 @@ Make sure that you have all of the infrastructure:
   - Frameworks
   - Servers
 
-### Install and Test Your Own Code
+#### Install and Test Your Own Code
 
 - The version that you submitted, even if you have updated it since (not recommended)
 - If you have developed your code on your own machines, it is not guarenteed to work on University PC's. So make sure it does in advance.
 
-### Use a Lower Than Normal Resolution
+#### Use a Lower Than Normal Resolution
 
 This is not an obvious one, however it can greatly help your tutor or client read and understand what is going on:
 
@@ -255,17 +254,16 @@ This is not an obvious one, however it can greatly help your tutor or client rea
 
 ## Level Specific Guidance
 
-### Level 4
+For a more detailed explanation on what is expected of you at each level for this phase, please visit the documents below:
 
-- [Level 4 support-feedback guidelines](level-4/level-4-feedback-guidelines.md)
-  - More specific to Software Projects module.
+### [Level 4](level-4/level-4-feedback-guidelines.md)
 
-### Level 5
+- More specific to Software Projects module.
 
-- [Level 5 support-feedback guidelines](level-5/level-5-feedback-guidelines.md)
-  - More specific to GSDP.
+### [Level 5](level-5/level-5-feedback-guidelines.md)
 
-### Level 6
+- More specific to GSDP.
 
-- [Level 6 support-feedback guidelines](level-6/level-6-feedback-guidelines.md)
-  - What is expected + tips on dissertation writing for FYP.
+### [Level 6](level-6/level-6-feedback-guidelines.md)
+
+- What is expected + tips on dissertation writing for FYP.
