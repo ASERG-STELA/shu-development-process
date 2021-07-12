@@ -160,7 +160,7 @@ A description of each phase is presented below.
 
 ## 5. Tools view
 
-- [**Project Planning:**](planning/project-management/tools/project-management-tools.md) Trello, MS Project, MS Excel
+- [**Project Management:**](planning/project-management/tools/project-management-tools.md) Trello, MS Project, MS Excel
 - **Team Communication:** Team, Slack
 - [**Version Control:**](/planning/version-control/tools/level-4-git-tools.md) Git, CVS or similar
 - **Design:** STARUML, Visio or similar
