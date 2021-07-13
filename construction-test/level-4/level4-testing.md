@@ -83,8 +83,8 @@ As you will most likely be doing your Unit Testing at this level by hand, to kee
 Here we will provide you a couple of readily available ideas. One of them is a simple requirement testing table I did for a past assignment, and another is a suitable template I found online. It is preferable you label your tests with appropriate IDs, so with this in mind, modifying the examples here can be done if you prefer. These examples can be seen below, and found [here](../level-4).
 
 <p align = "center">
-  <img src="../level4/testing-example-template.PNG" width="400" />
-  <img src="../level4/Manual-Testing-Test-Case-Template.png" width="400" />
+  <img src="testing-example-template.PNG" width="400" />
+  <img src="Manual-Testing-Test-Case-Template.png" width="400" />
 </p>  
 
 ## 4. References
