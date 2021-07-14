@@ -1,5 +1,14 @@
 # Design <!-- omit in toc -->
 
+## Table of Contents
+
+- [Table of Contents](#table-of-contents)
+- [1. Introduction](#1-introduction)
+- [2. Level Specific Guidance](#2-level-specific-guidance)
+  - [Level 4](#level-4)
+  - [Level 5](#level-5)
+  - [Level 6](#level-6)
+
 ## 1. Introduction
 
 The design step is focused on the modelling of the solution.
@@ -23,16 +32,7 @@ It usually involves decision around architecture, data structure, user-interface
   - Database
   - User Interface (UI)  
 
-## 2. Table of Contents
-
-- [1. Introduction](#1-introduction)
-- [2. Table of Contents](#2-table-of-contents)
-- [Level Specific Guidance](#level-specific-guidance)
-  - [Level 4](#level-4)
-  - [Level 5](#level-5)
-  - [Level 6](#level-6)
-
-## Level Specific Guidance
+## 2. Level Specific Guidance
 
 ### [Level 4](level-4/level4-design.md)
 
