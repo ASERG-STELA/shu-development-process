@@ -57,45 +57,72 @@ A description of each phase is presented below.
 ### 3.1. Level 4
 
 - Initiation
-  - [Initiation Guidelines](initiation/level4/level4-initiation.md)
+  - [Initiation Guidelines](initiation/level-4/level4-initiation.md)
 - Planning
-  - [Git Version Control](planning/version-control/level_4_git_instructions.md)
-  - [Project Management](planning/project-management/level-4/level_4_management_guidelines.md)
-  - [Team Communication](planning/team-communication/level-4/level_4_team_communication_guidelines.md)
+  - [Git Version Control](planning/version-control/level-4-git-instructions.md)
+  - [Project Management](planning/project-management/level-4/level-4-management-guidelines.md)
+  - [Team Communication](planning/team-communication/level-4/level-4-team-communication-guidelines.md)
 - Modelling - Analysis
-  - [User Stories](modelling-analysis/level4/level-4-user-stories.md)
-  - [Use Case Diagrams](modelling-analysis/level4/level_4_use_case_guidance.md)
+  - [User Stories](modelling-analysis/level-4/level-4-user-stories.md)
+  - [Use Case Models](modelling-analysis/level-4/level-4-use-case-guidance.md)
 - Modelling - Design
-  - [Class, Entity Relationship and Sequence Diagrams](modelling-design/level4/level4-design.md)
+  - [Class, Entity Relationship and Sequence Diagrams](modelling-design/level-4/level4-design.md)
 - Construction - Code
-  - [Code Commenting](construction-code/level4/level4-code-commenting.md)
+  - [Code Commenting](construction-code/level-4/level4-code-commenting.md)
+  - [Code Review](construction-code/code-review/level-4/level-4-code-review-guidelines.md)
+- Construction - Test
+  - [Testing Guidelines](construction-test/level-4/level4-testing.md)
+- Deployment - Delivery
+  - [Delivery Guidelines](deployment-delivery/level-4/level-4-delivery-guidelines.md)
+- Deployment - Support - Feedback
+  - [Presenting, Reporting and Demonstrating](deployment-support-feedback/level-4/level-4-feedback-guidelines.md)
   
 ### 3.2. Level 5
 
+- Initiation
+  - [Initiation Guidelines](initiation/level-5/level5-initiation.md)
 - Planning
-  - [Git Version Control](planning/version-control/level_5_git_instructions.md)
-  - [Project Management](planning/project-management/level-5/level_5_management_guidelines.md)
-  - [Team Communication](planning/team-communication/level-5/level_5_team_communication_guidelines.md)
+  - [Git Version Control](planning/version-control/level-5-git-instructions.md)
+  - [Project Management](planning/project-management/level-5/level-5-management-guidelines.md)
+  - [Team Communication](planning/team-communication/level-5/level-5-team-communication-guidelines.md)
 - Modelling - Analysis
-  - [User Stories](modelling-analysis/level5/level-5-user-stories.md)
-  - [MoSCoW Prioritisation Method](modelling-analysis/level5/moscow_prioritisation_method.md)
+  - [User Stories](modelling-analysis/level-5/level-5-user-stories.md)
+  - [Use Case Models](modelling-analysis/level-5/level-5-use-case-guidance.md)
+  - [Personas and Scenarios](modelling-analysis/level-5/personas-and-scenarios.md)
+  - [MoSCoW Prioritisation Method](modelling-analysis/level-5/moscow-prioritisation-method.md)
 - Modelling - Design
-  - [UML Class Diagrams]()
+  - [Class, Entity Relationship and Sequence Diagrams](modelling-design/level-5/level5-design.md)
 - Construction - Code
-  - [Code Commenting](construction-code/level5/level5-code-commenting.md)
+  - [Code Commenting](construction-code/level-5/level5-code-commenting.md)
+  - [Code Review](construction-code/code-review/level-5/level-5-code-review-guidelines.md)
+- Construction - Test
+  - [Testing Guidelines](construction-test/level-5/level5-testing.md)
+- Deployment - Delivery
+  - [Delivery Guidelines](deployment-delivery/level-5/level-5-delivery-guidelines.md)
+- Deployment - Support - Feedback
+  - [Presenting, Reporting and Demonstrating](deployment-support-feedback/level-5/level-5-feedback-guidelines.md)
 
 ### 3.3. Level 6
 
+- Initiation
+  - [Initiation Guidelines](initiation/level-6/level6-initiation.md)
 - Planning
-  - [Git Version Control](planning/version-control/level_6_git_instructions.md)
-  - [Project Management](planning/project-management/level-6/level_6_management_guidelines.md)
-  - [Team Communication](planning/team-communication/level-6/level_6_team_communication_guidelines.md)
+  - [Git Version Control](planning/version-control/level-6-git-instructions.md)
+  - [Project Management](planning/project-management/level-6/level-6-management-guidelines.md)
+  - [Team Communication](planning/team-communication/level-6/level-6-team-communication-guidelines.md)
 - Modelling - Analysis
-  - [User Stories](modelling-analysis/level6/level-6-user-stories.md)
+  - [User Stories](modelling-analysis/level-6/level-6-user-stories.md)
 - Modelling - Design
-  - [UML Class Diagrams]()
+  - [Class, Entity Relationship and Sequence Diagrams](modelling-design/level-6/level6-design.md)
 - Construction - Code
-  - [Code Commenting](construction-code/level6/level6-code-commenting.md)
+  - [Code Commenting](construction-code/level-6/level6-code-commenting.md)
+  - [Code Review](construction-code/code-review/level-6/level-6-code-review-guidelines.md)
+- Construction - Test
+  - [Testing Guidelines](construction-test/level-6/level6-testing.md)
+- Deployment - Delivery
+  - [Delivery Guidelines](deployment-delivery/level-6/level-6-delivery-guidelines.md)
+- Deployment - Support - Feedback
+  - [Presenting, Reporting and Demonstrating](deployment-support-feedback/level-6/level-6-feedback-guidelines.md)
 
 ## 4. Process-based view
 
@@ -133,9 +160,9 @@ A description of each phase is presented below.
 
 ## 5. Tools view
 
-- [**Project Planning:**](planning/project-management/tools/project_management_tools.md) Trello, MS Project, MS Excel
+- [**Project Management:**](planning/project-management/tools/project-management-tools.md) Trello, MS Project, MS Excel
 - **Team Communication:** Team, Slack
-- **Version Control ([L4](/planning/version-control/tools/level_4_git_tools.md)):** Git, CVS or similar
+- [**Version Control:**](/planning/version-control/tools/level-4-git-tools.md) Git, CVS or similar
 - **Design:** STARUML, Visio or similar
 - **Coding:** Visual Studio/ Intelli J  or similar
 - **Unit Testing:** Junit/Nunit or similar. Coverage tools
