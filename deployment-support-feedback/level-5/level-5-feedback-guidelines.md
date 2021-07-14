@@ -26,7 +26,7 @@ In a module like GSDP a typical assessment would consider three areas:
 - Scrum week performance and deliverable.
 - Post Scrum week reflective report and screencast.
 
-Two of the three aspects above involve writing a report. 
+Two of the three aspects above involve writing a report.
 We will be focussing on these two over the next few sections.
 
 ## 4. Preparation report

@@ -1,4 +1,4 @@
-# Level 6 Support-Feedback Guidelines
+# Level 6 Support-Feedback Guidelines <!-- omit in toc -->
 
 ## 1. Abstract
 
@@ -6,11 +6,10 @@ This document will go into detail about what is expected of Level 6 students for
 
 ## 2. Table of Contents
 
-- [Level 6 Support-Feedback Guidelines](#level-6-support-feedback-guidelines)
-  - [1. Abstract](#1-abstract)
-  - [2. Table of Contents](#2-table-of-contents)
-  - [3. What is Expected](#3-what-is-expected)
-  - [4. Tips for Writing Your Dissertation](#4-tips-for-writing-your-dissertation)
+- [1. Abstract](#1-abstract)
+- [2. Table of Contents](#2-table-of-contents)
+- [3. What is Expected](#3-what-is-expected)
+- [4. Tips for Writing Your Dissertation](#4-tips-for-writing-your-dissertation)
 
 ## 3. What is Expected
 
