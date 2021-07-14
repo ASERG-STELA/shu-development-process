@@ -58,12 +58,12 @@ With this, you will be able to understand what you need to get clarity on and wh
 
 When you have to ask questions about something, there is a technique that you can consider when thinking about how to format the questions you ask, so you can get as much information as possible. The key to extracting relevant information is all about how you structure your questions. This section will cover a technique known as Socratic Questioning which will help give you a guide as to how you can go about formatting your questions.  
 
-The socratic approach to questioning is based on the practice of disciplined, thoughtful dialogue. 
-The Intel Teach Program ([1]), teaches that disciplined practice and thoughtful questioning enable you to examine ideas logically and to determine the validity of those ideas. 
-This technique is an effective way to explore ideas in depth. 
-By using this technique, it promotes independant thinking and gives ownership of what you are learning. 
-Higher level thinking is present when you are thinking, evaluating, debating, discussing, and analysing content using your 
-own thinking process. These types of questions take practice since in some cases the structure promotes an entirely new approach.   
+The socratic approach to questioning is based on the practice of disciplined, thoughtful dialogue.
+The Intel Teach Program ([1]), teaches that disciplined practice and thoughtful questioning enable you to examine ideas logically and to determine the validity of those ideas.
+This technique is an effective way to explore ideas in depth.
+By using this technique, it promotes independant thinking and gives ownership of what you are learning.
+Higher level thinking is present when you are thinking, evaluating, debating, discussing, and analysing content using your
+own thinking process. These types of questions take practice since in some cases the structure promotes an entirely new approach.
 
 Some tips:
 
@@ -133,7 +133,7 @@ When writing the meeting minutes, here are a few tips to help you create your no
 - Use acronyms where you can without sacrifcing clarity
 - Using sentence fragments is fine as long as it still makes sense.  
 
-A template to help you get started can be found [here](../level4/Project%20Check-In%20Meeting%20Template.docx).
+A template to help you get started can be found [here](../level-4/Project%20Check-In%20Meeting%20Template.docx).
 
 ## 6. References
 

@@ -4,9 +4,9 @@
 
 The design step is focused on the modelling of the solution. It usually involves decisions around architecture, data structure, user-interface, classes, algorithms, etc. At Level 4 it is not expected that you will create overly complex diagrams, more you will just need to create feasible basic diagrams that link well where necessary. The three most common diagrams you will expect to be creating are.
 
-* UML Class Diagram
-* Entity Relationship Diagram
-* Sequence Diagram
+- UML Class Diagram
+- Entity Relationship Diagram
+- Sequence Diagram
 
 This document will go through what these documents are and provide examples as we go through that you can look at to give you an idea what your document should look like. There will also be some blank templates you can use to get started. At Level 4 you only need to worry about **Inheritance** in your class diagrams. More on this later.
 
@@ -38,10 +38,10 @@ This document will go through what these documents are and provide examples as w
 
 When designing a system, before you start to implement a bunch of classes, it is good to have a conceptual understanding of the system that you will be creating. The questions you need to think about are.
 
-* What classes do I need?
-* What functionality and information will these classes have?
-* How will they interact with each other
-* Who can see these classes? (`public`?, `protected`?, `private`?)  
+- What classes do I need?
+- What functionality and information will these classes have?
+- How will they interact with each other
+- Who can see these classes? (`public`?, `protected`?, `private`?)  
 
 This is where class diagrams come in. They are a neat way of vizualising the classes in your system *before* you actually start coding them up. They're a static representation of your system structure.  
 
@@ -64,8 +64,8 @@ We represent classes in a Class Diagram as a box with three compartments. The up
 
 The convention is.
 
-* attribute name: type
-* method name: (parameter:type)  
+- attribute name: type
+- method name: (parameter:type)  
 
 If you want to set a default, you can do so, just like in figure 2, where **balance: Double = 0.0**, which indicates a default is present, otherwise this would be **balance: Double**. If your method parameters don't take in a value, then you can leave them empty, for e.g. **checkBalance()**.  
 
@@ -115,14 +115,14 @@ ER Diagrams are composed of **entities**, **relationships** and **attributes**. 
 
 This is a defineable thing, like a person, object, concept or event - that can have some data stored about it. You should think about entities as nouns. The shape of an entity is typically shown as a **rectangle**. The characteristics you need to know about Entities are.  
   
-* **Entity Type:** A group of defineable things, such as athletes or students, whereas the entity would be the specific athlete or student.
-* **Entity Set:** This is the same as an entity type, except it is defined at a particular point in time, such as students who enroll into a class. A related term is instance, in which the specific person or car would be an instance of the entity set.  
-* **Entity Categories:** Entities are categorised as strong, weak or associative. A **strong entity** can be defined solely by it's own attributes, while a **weak entity** can't. An **associative entity** associates entities (or elements) within an entity set.  
-* **Entity Keys:** This refers to an attribute that uniquely defines an entity in an entity set. Entity keys can be **Super**, **Candidate**, or **Primary**.
-  * **Super Key:** A set of attributes (one or more) that together define an entity in an entity set
-  * **Candidate Key:** A minimal key super key, meaning that it has the least possible number of attributes to still be a super key
-  * **Primary Key:** A candidate key chosen by the database designer to uniquely identify the entity set
-  * **Foreign Key:** Identifies the relationship between entities
+- **Entity Type:** A group of defineable things, such as athletes or students, whereas the entity would be the specific athlete or student.
+- **Entity Set:** This is the same as an entity type, except it is defined at a particular point in time, such as students who enroll into a class. A related term is instance, in which the specific person or car would be an instance of the entity set.  
+- **Entity Categories:** Entities are categorised as strong, weak or associative. A **strong entity** can be defined solely by it's own attributes, while a **weak entity** can't. An **associative entity** associates entities (or elements) within an entity set.  
+- **Entity Keys:** This refers to an attribute that uniquely defines an entity in an entity set. Entity keys can be **Super**, **Candidate**, or **Primary**.
+  - **Super Key:** A set of attributes (one or more) that together define an entity in an entity set
+  - **Candidate Key:** A minimal key super key, meaning that it has the least possible number of attributes to still be a super key
+  - **Primary Key:** A candidate key chosen by the database designer to uniquely identify the entity set
+  - **Foreign Key:** Identifies the relationship between entities
 
 #### **Relationship**
 
@@ -144,9 +144,9 @@ This defines how entities act upon each other or how they are associated with on
 
 An Attribute is defined as a property or characteristic of an entity. This is often shown as an **oval** or **circle**. A **Descriptive Attribute** is a property or characteristic of a relationship (versus of an entity). The categories of an attribute are.
 
-* **Simple:** This means the attribute value is atomic (constant) and can't be further divided, such as a phone number
-* **Composite:** Sub-attributes spring from an attribute
-* **Derived:** Attributed is calculated or otherwsie derived from another sub attribute, such as age from a birthdate
+- **Simple:** This means the attribute value is atomic (constant) and can't be further divided, such as a phone number
+- **Composite:** Sub-attributes spring from an attribute
+- **Derived:** Attributed is calculated or otherwsie derived from another sub attribute, such as age from a birthdate
 
 #### **Cardinality**
 
@@ -159,9 +159,9 @@ An Attribute is defined as a property or characteristic of an entity. This is of
 
 This defines the numerical attributes  of the relationship between two entities or entity sets. The three main cardinal relationships are.
 
-* **one-to-one**: e.g. a student associated with one mailing list
-* **one-to-many**: e.g. One student registers for multiple courses, but all those courses have a single line back to that one student
-* **many-to-many**: e.g. Students as a group are associated with multiple faculty members, and faculty members in turn are associated with multiple students
+- **one-to-one**: e.g. a student associated with one mailing list
+- **one-to-many**: e.g. One student registers for multiple courses, but all those courses have a single line back to that one student
+- **many-to-many**: e.g. Students as a group are associated with multiple faculty members, and faculty members in turn are associated with multiple students
 
 Cardinality can be shown as look-across or same-side, depending on where the symbols are shown. The minimum or maximum numbers that apply to a relationship. More information on ER diagrams can be found at [[2]](#4-references).
 
@@ -176,15 +176,15 @@ This style of diagram describes the interactions among classes in terms of an ex
 
 Visual Representations of any notation mentioned here can be found at [[3]](#4-references).
 
-* **Actor**: This is a type of role by an entity that interacts with the subject. It represents roles as human users, external hardware or other subjects. It is important to note that an actor doesn't necessarily represent a specific physical entity but merely a particular role of some entity
-* **Lifeline**: A lifeline represents an individual participant in the interaction
-* **Call Message**: Call message is a kind of message that represents an invocation of operation of target lifeline
-* **Return Message**: Return message is a kind of message that represents the pass of information back to the caller of a corresponded former message
-* **Self Message**: Self message is a kind of message that represents the invocation of message of the same lifeline
-* **Recursive Message**: Recursive message is a kind of message that represents the invocation of message of the same lifeline. It's target points to an activation on top of the activation where the message was invoked from
-* **Create Message**: Create message is a kind of message that represents the instantiation of (target) lifeline
-* **Destroy Message**: Destroy message is a kind of message that represents the request of destroying the lifecycle of target lifeline
-* **Duration Message**: Duration message shows the distance between two time instants for a message invocation
+- **Actor**: This is a type of role by an entity that interacts with the subject. It represents roles as human users, external hardware or other subjects. It is important to note that an actor doesn't necessarily represent a specific physical entity but merely a particular role of some entity
+- **Lifeline**: A lifeline represents an individual participant in the interaction
+- **Call Message**: Call message is a kind of message that represents an invocation of operation of target lifeline
+- **Return Message**: Return message is a kind of message that represents the pass of information back to the caller of a corresponded former message
+- **Self Message**: Self message is a kind of message that represents the invocation of message of the same lifeline
+- **Recursive Message**: Recursive message is a kind of message that represents the invocation of message of the same lifeline. It's target points to an activation on top of the activation where the message was invoked from
+- **Create Message**: Create message is a kind of message that represents the instantiation of (target) lifeline
+- **Destroy Message**: Destroy message is a kind of message that represents the request of destroying the lifecycle of target lifeline
+- **Duration Message**: Duration message shows the distance between two time instants for a message invocation
 
 #### 3.3.2. Message and Focus of Control
 
@@ -206,7 +206,7 @@ When we use our class diagrams and sequence diagrams together, it allows for an 
 
 ## 4. References
 
-* [1] Medium.com: UML Class Diagrams Step by Step <https://medium.com/@smagid_allThings/uml-class-diagrams-tutorial-step-by-step-520fd83b300b>
-* [2] Lucidchart: What is an Entity Relationship Diagram? <https://www.lucidchart.com/pages/er-diagrams>
-* [3] Visual Paradigm: What is Sequence Diagram <https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-sequence-diagram/>  
-* [4] Tech Republic: Class and Sequence diagrams work together to allow for precise modelling <https://www.techrepublic.com/article/class-and-sequence-diagrams-work-together-to-allow-precise-modeling/>
+- [1] Medium.com: UML Class Diagrams Step by Step <https://medium.com/@smagid_allThings/uml-class-diagrams-tutorial-step-by-step-520fd83b300b>
+- [2] Lucidchart: What is an Entity Relationship Diagram? <https://www.lucidchart.com/pages/er-diagrams>
+- [3] Visual Paradigm: What is Sequence Diagram <https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-sequence-diagram/>  
+- [4] Tech Republic: Class and Sequence diagrams work together to allow for precise modelling <https://www.techrepublic.com/article/class-and-sequence-diagrams-work-together-to-allow-precise-modeling/>

@@ -37,20 +37,20 @@ It is a Kanban board (Agile development) allowing users to track the status of t
 
 I will now walkthrough an example of how to set up Trello for project management, you should follow a similar structure to the example in your own projects:
 
-1. Go to <https://trello.com/en> and create an account
-2. If you navigate to **Boards**, you should see a screen similar to this (my Trello has a few boards already set up):
+1 - Go to <https://trello.com/en> and create an account
+2 - If you navigate to **Boards**, you should see a screen similar to this (my Trello has a few boards already set up):
 
 ![Trello starting page](../images/trello_start_page.PNG)
 *Fig. 1: Trello Starting Page.*
 
-3. Click **Create a new board** or click the **+** button in the top right corner of the screen and then **Create board**
-4. Fill in the fields with appropriate information and click **Create Board**. You should see something similar to this:
+3 - Click **Create a new board** or click the **+** button in the top right corner of the screen and then **Create board**
+4 - Fill in the fields with appropriate information and click **Create Board**. You should see something similar to this:
 
 ![Trello starting board](../images/start_board.PNG)
 *Fig. 2: Trello starting board.*
 
-5. We will now set up our lists. Click **Add a list** and set the title to **To Do** then press Enter or click **Add list**
-6. Repeat step 5 but set the titles of the lists to **Doing**, **Needs Review** and **Done** along with any other lists you deem appropriate. You should now have something that looks like this:
+5 - We will now set up our lists. Click **Add a list** and set the title to **To Do** then press Enter or click **Add list**
+6 - Repeat step 5 but set the titles of the lists to **Doing**, **Needs Review** and **Done** along with any other lists you deem appropriate. You should now have something that looks like this:
 
 ![Trello board with lists added](../images/cards.PNG)
 *Fig. 3: Trello board with lists added.*
@@ -102,14 +102,14 @@ I will now walkthrough how to set up Github Projects for your own projects in yo
 
 ### 4.1. Setting Up The Board
 
-1. Navigate to your repository and click **Projects** on the navigation bar at the top
-2. On the right, you should see a green button that says **Create a project**, clisk it and fill in the fields
-3. At the bottom, you should see a **Template** option, this will save you time by creating the lists for you. We recommend you select:
+1 - Navigate to your repository and click **Projects** on the navigation bar at the top
+2 - On the right, you should see a green button that says **Create a project**, clisk it and fill in the fields
+3 - At the bottom, you should see a **Template** option, this will save you time by creating the lists for you. We recommend you select:
 
 - **Basic kanban** for Level 4
 - **Automated kanban with reviews** for Levels 5 and 6
 
-4. Click **Create project** when you are satisfied. You should see something similar to this, you can add cards such as **Done** if you wish:
+4 - Click **Create project** when you are satisfied. You should see something similar to this, you can add cards such as **Done** if you wish:
 
 ![Github Projects board](../images/github_projects_start.PNG)
 *Fig. 6: Example Github Projects board.*

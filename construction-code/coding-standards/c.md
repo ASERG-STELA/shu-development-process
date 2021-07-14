@@ -33,7 +33,7 @@ Coding Standards (Coding Conventions) serve the following purposes:
 - [3. C++](#3-c)
 - [4. References](#4-references)
 
-## 2. C#
+## 2. C #
 
 ### 2.1. Naming Conventions
 
@@ -46,8 +46,8 @@ There are 3 casings generally accepted by C# standards.
 - `camelCase` - This is used for member names that are not publically accessible.
 - `UPPER_CASE` - You might also think of this as "upper snake case", this is only used for constants.  
   
-There are some exceptions though, which are known as "Pascal_snake_case" or "snake_case" which are sometimes used in "Unit Testing". A descriptive method name such as <b>Should_return_2_when_adding_1_and_1</b> is much easier to read, which is why it is generally preferred to use snake casing when doing unit tests.  
-<b>Event Handlers</b> (a type of method) often include an underscore to seperate the target from the action. A classic example is <b>Page_Load</b> in ASP.NET, but this is *not* Pascal_snake_case. E.g. in <b>InputControl_Init</b>, the <b>InputControl</b> is the target andf <b>Init</b> is the event.  
+There are some exceptions though, which are known as "Pascal_snake_case" or "snake_case" which are sometimes used in "Unit Testing". A descriptive method name such as **Should_return_2_when_adding_1_and_1** is much easier to read, which is why it is generally preferred to use snake casing when doing unit tests.
+**Event Handlers** (a type of method) often include an underscore to seperate the target from the action. A classic example is **Page_Load** in ASP.NET, but this is *not* Pascal_snake_case. E.g. in **InputControl_Init**, the **InputControl** is the target and **Init** is the event.  
   
 When casing your `private` member variables, it is best practice to use camelCase for this, as this always refers to the class scope. An example is provided below.
 
@@ -63,7 +63,7 @@ public class Person
 }
 ```
 
-Here the <b>Person</b> class has a private member variable <b>firstName</b>, which is only accessible from inside the class. The <b>SayHello</b> method is available to any consumer of this class. It accesses the <b>firstName</b> variable through `this` which refers to the *current* instance of the class <b>Person</b>.  
+Here the **Person** class has a private member variable **firstName**, which is only accessible from inside the class. The **SayHello** method is available to any consumer of this class. It accesses the **firstName** variable through `this` which refers to the *current* instance of the class **Person**.  
 Another common approach is to prepend the member name with an underscore(_). Here is the same example again using this convention.
 
 ```csharp

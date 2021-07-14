@@ -42,5 +42,5 @@ Each of these will be covered in the relevant documents. The following will also
 ### [Level 6](level-6/level6-testing.md)
 
 - Unit testing: Programmed and integrated with build.
-- Should be programmed and integrated with build. CI practice is recommended.
+- Integration testing: Should be programmed and integrated with build. CI practice is recommended.
 - User acceptance testing: Nice to be automated.
