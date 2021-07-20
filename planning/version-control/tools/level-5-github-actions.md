@@ -1,4 +1,4 @@
-# Level 5 Github Actions
+# Level 5 Github Actions <!-- omit in toc -->
 
 ## 1. Abstract
 
@@ -7,12 +7,11 @@ At Level 5, having some flavour of DevOps in your GSDP module would be a nice ad
 
 ## 2. Table of Contents
 
-- [Level 5 Github Actions](#level-5-github-actions)
-  - [1. Abstract](#1-abstract)
-  - [2. Table of Contents](#2-table-of-contents)
-  - [3. What is a Github Action](#3-what-is-a-github-action)
+- [1. Abstract](#1-abstract)
+- [2. Table of Contents](#2-table-of-contents)
+- [3. What is a Github Action](#3-what-is-a-github-action)
   - [3.1. Setting up a CI Pipeline with Github Actions](#31-setting-up-a-ci-pipeline-with-github-actions)
-  - [4. References](#4-references)
+- [4. References](#4-references)
 
 ## 3. What is a Github Action
 
@@ -21,9 +20,9 @@ Actions offers world-class CI/CD, and is relatively simple to set up. For more i
 
 As previously mentioned, having some flavour of DevOps in your GSDP module will be nice to see and will impress your clients and tutors. Even setting up a basic CI pipeline will be beneficial to you not only for impressing stakeholders, but it will allow you to create good quality code which can be released rapidly.
 
-If you wish to see more information on DevOps before reading further (recommended), follow this [link](/deployment-delivery/level-5/level-5-delivery-guidelines.md) to our documentation on it. It is a very valuable aspect of software development to learn early on in your career and is expected at Level 6 as well.
+If you wish to see more information on DevOps before reading further (recommended), follow this [link](../../../deployment-delivery/level-5/level-5-delivery-guidelines.md) to our documentation on it. It is a very valuable aspect of software development to learn early on in your career and is expected at Level 6 as well.
 
-## 3.1. Setting up a CI Pipeline with Github Actions
+### 3.1. Setting up a CI Pipeline with Github Actions
 
 I will now show a simple example of how to set up a CI pipeline using **Github Actions**, this example is a basic repository with a 'Hello World' C++ project in it. We will set up a CI pipeline that runs some basic automated tests when merging the **develop** branch with **master**. The CI workflow should be set up **before** you start development:
 
@@ -35,7 +34,7 @@ I will now show a simple example of how to set up a CI pipeline using **Github A
 
 ![Choose a workflow](../images/Actions-2.PNG)
 
-This might look confusing. The only parts you should pay attention to at this stage is **on: push** and **on: pull_request**. The **jobs** section can be edited to include more tests, the basic version will be enough for us in this example and you shouldn't worry too much about changing this at Level 5. The **on:** section shows when the automated unit tests will run, in our example, they will run when pushing and merging on the master branch. 
+This might look confusing. The only parts you should pay attention to at this stage is **on: push** and **on: pull_request**. The **jobs** section can be edited to include more tests, the basic version will be enough for us in this example and you shouldn't worry too much about changing this at Level 5. The **on:** section shows when the automated unit tests will run, in our example, they will run when pushing and merging on the master branch.
 
 3. Select the green **Start commit** button at the top, when you are ready. Fill in the fields then select **Commit new file**. The workflow should now be set up and a new .yml file created. You may need to navigate back to **Actions** to click **Enable actions**.
 
@@ -55,7 +54,7 @@ Now lets add an extra output, and commit the changes:
 
 ![Workflow checks passed](../images/Actions-6.PNG)
 
-7. If everything is in order, click **Merge pull request**. You can still merge if a test fails, but this is discouraged, and you should check the error to see what test failed and fix it before merging. If a test fails, it should output something similar to this: 
+7. If everything is in order, click **Merge pull request**. You can still merge if a test fails, but this is discouraged, and you should check the error to see what test failed and fix it before merging. If a test fails, it should output something similar to this:
 
 ![Workflow checks failed](../images/Actions-7.PNG)
 

@@ -1,4 +1,4 @@
-# Initiation <!-- omit in toc -->
+# Initiation - Level 4 <!-- omit in toc -->
 
 ## 1. Table of Contents
 
@@ -16,20 +16,7 @@
 
 ## 2. Introduction
 
-The Initiation phase (sometimes referred to as the Initial Communication phase), is dedicated to understanding the objectives of stakeholders, and for the design and collection of requirements that help identify the expected software functionalities and quality attributes. The aim of this document is to give you an overview of how you go about understanding your requirements, what sort of requirements you need to think about and how meeting minutes are created for any meetings you undertake. There will also be some guidance on a questioning style known as Socratic questioning which can be found in section [4](#4-socratic-questioning-technique).
-
-The following areas will be covered, and these are what you need to do during the initiation phase:
-
-- Understand the initial set of requirements in terms of desired functionality/attributes.
-  - Meet the client
-  - Read the specification
-- Understanding the problem.
-  - Define an initial set of requirements for the solution.
-  - Identify what you understand
-  - Identify things on which you need clarity  
-    - What is the problem
-    - Form it as a useful question - Socratic questioning?  
-- The expected outputs are the initial set of functions/attributes of the system.
+The Initiation phase (sometimes referred to as the Initial Communication phase) is dedicated to understanding the objectives of stakeholders, and for the design and collection of requirements that help identify the expected software functionalities and quality attributes. The aim of this document is to give you an overview of how you go about understanding your requirements, what sort of requirements you need to think about and how meeting minutes are created for any meetings you undertake. There will also be some guidance on a questioning style known as Socratic questioning which can be found in section [4](#4-socratic-questioning-technique).
 
 ## 3. Understand the Requirements
 
@@ -62,8 +49,7 @@ The socratic approach to questioning is based on the practice of disciplined, th
 The Intel Teach Program ([1]), teaches that disciplined practice and thoughtful questioning enable you to examine ideas logically and to determine the validity of those ideas.
 This technique is an effective way to explore ideas in depth.
 By using this technique, it promotes independant thinking and gives ownership of what you are learning.
-Higher level thinking is present when you are thinking, evaluating, debating, discussing, and analysing content using your
-own thinking process. These types of questions take practice since in some cases the structure promotes an entirely new approach.
+Higher level thinking is present when you are thinking, evaluating, debating, discussing, and analysing content using your own thinking process. These types of questions take practice since in some cases the structure promotes an entirely new approach.
 
 Some tips:
 
@@ -108,9 +94,9 @@ It is important to know what you want to find out so you can ask the right quest
 
 ## 5. Meeting Minutes
 
-Meeting Minutes, also sometimes referred to as **minutes of a meeting** are the official summary of what happened during a meeting. Any correspondence you have with a client needs to be recorded so that you can look back at them and use them to form your agenda, deliverables and aims to meet before you need to have another meeting. The importance of these is not as key at Level 4, but it is good to get good practice in with these as they are a key artefact for further Levels. At Levels 5 and 6, you are expected to produce meeting minutes for any meetings you have with your clients. This is especially important during your GSDP and CSSD modules in Level 5 and 6 respectively.  
+Meeting Minutes, also sometimes referred to as **minutes of a meeting** are the official summary of what happened during a meeting. Any correspondence you have with a client needs to be recorded so that you can look back at them and use them to form your agenda, deliverables and aims to meet before you need to have another meeting. The importance of these is not as key at Level 4, but it is good to get good practice in with these as they are a key artefact for further Levels, especially when you begin to work more in groups with your peers.  
 
-This section will give you a brief look at meeting minutes and include tips to help you write good minutes. A template will also be included for you to make use of which you can find in the level-4 folder, but if you prefer, there are plenty of other templates online you can make use of. For the most part, the minutes you will write for your meeting in university will be **informal**, but there might be times you need more **formal** minutes (possibly in GSDP and CSSD). This won't be covered here but, there is another template [here](Formal-meeting-minutes-template.docx) that you could use to do this which shows what to note down. Informal meeting minutes mainly form a meeting summary, which is mainly what you require at Level 4.  
+This section will give you a brief look at meeting minutes and include tips to help you write good minutes. A template will also be included for you to make use of, but if you prefer, there are plenty of other templates online you can make use of. For the most part, the minutes you will write for your meeting in University will be **informal**, but there might be times you need more **formal** minutes, but that won't be covered here. Informal meeting minutes mainly form a meeting summary, which is mainly what you require at Level 4.  
 
 ### 5.1. How to Write Meeting Minutes
 
@@ -133,7 +119,7 @@ When writing the meeting minutes, here are a few tips to help you create your no
 - Use acronyms where you can without sacrifcing clarity
 - Using sentence fragments is fine as long as it still makes sense.  
 
-A template to help you get started can be found [here](../level-4/Project%20Check-In%20Meeting%20Template.docx).
+A template to help you get started can be found [here](../level4/Project%20Check-In%20Meeting%20Template.docx).
 
 ## 6. References
 

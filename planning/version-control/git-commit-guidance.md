@@ -4,7 +4,7 @@
 
 This document will outline how you should be structuring your Git commit messages when pushing changes to your repositories. It is important that you do not simply leave the default message as this does not let your team know what changes you have made.
 
-You can see how to integrate Git with the tools you will likely be using; Visual Studio 2019, IntelliJ IDEA and Eclipse in the tools guidelines [here](tools/level_4_git_tools.md).
+You can see how to integrate Git with the tools you will likely be using; Visual Studio 2019, IntelliJ IDEA and Eclipse in the tools guidelines [here](tools/level-4-git-tools.md).
 
 ## 2. Table of Contents
 
